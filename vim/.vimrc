@@ -1,4 +1,4 @@
-"set viminfo=fnamemodify(expand("$MYVIMRC"), ":p:h") . "/.viminfo"
+"set viminfo=' . fnamemodify(expand("$MYVIMRC"), ":p:h") . "/.viminfo"
 execute 'set runtimepath^=' . expand('~/dotfiles/vim/.vim')
 execute 'set runtimepath+=' . expand('~/dotfiles/vim')
 set autoindent    " always set autoindenting on
@@ -35,6 +35,7 @@ set smarttab      " insert tabs on the start of a line according to "    shiftwi
 set tabstop=2     " a tab is four spaces
 set undolevels=5000
 set verbose=0 "stop making me press return
+set viminfo+=n~/dotfiles/vim/.viminfo
 set visualbell " visual, rather than audio bell
 set wildignore=*.swp,*.bak,*.pyc,*.class
 let mapleader="," " change the mapleader from \ to ,
