@@ -1,6 +1,37 @@
 "set viminfo=' . fnamemodify(expand("$MYVIMRC"), ":p:h") . "/.viminfo"
 execute 'set runtimepath^=' . expand('~/dotfiles/vim/.vim')
 execute 'set runtimepath+=' . expand('~/dotfiles/vim')
+set nocompatible "Vundle requires it be first line
+filetype off "required by Vundle
+" set the runtime path to include Vundle
+set runtimepath+=~/dotfiles/vim/.vim/bundle/Vundle.vim
+if has('win64') || has('win32')
+  call vundle#begin('~/vimfiles/bundle')
+else
+  call vundle#begin('~/.vim/bundle')
+endif
+" Keep Plugin commands between vundle#begin/end.
+" let Vundle manage Vundle, required
+Plugin 'VundleVim/Vundle.vim'
+
+" The following are examples of different formats supported.
+" plugin on GitHub repo
+Plugin 'endel/vim-github-colorscheme'
+
+" All of your Plugins must be added before the following line
+call vundle#end()            " required
+filetype plugin indent on "required by Vundle
+" To ignore plugin indent changes, instead use:
+"filetype plugin on
+"
+" Brief help
+" :PluginList       - lists configured plugins
+" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append `!` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+"
+" see :h vundle for more details or wiki for FAQ
+" Put your non-Plugin stuff after this line
 set autoindent    " always set autoindenting on
 set background=dark
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
@@ -18,7 +49,6 @@ set history=5000
 set hlsearch      " highlight search terms
 set ignorecase    " ignore case when searching
 set incsearch     " show search matches as you type
-set nocompatible
 set noerrorbells " do not beep
 set nowrap        " don't wrap lines
 set number        " always show line numbers
@@ -41,8 +71,6 @@ set wildignore=*.swp,*.bak,*.pyc,*.class
 let mapleader="," " change the mapleader from \ to ,
 filetype indent on
 filetype on
-filetype plugin indent on
-filetype plugin on
 syntax on
 syntax enable
 " Quickly edit/reload the vimrc file
@@ -59,7 +87,8 @@ if !exists("autocommands_loaded")
     augroup END
   endif
 endif
-colorscheme emacs
+colorscheme github
+" colorscheme emacs
 " colorscheme MickeySoft
 " colorscheme buttercream
 " colorscheme eclipse

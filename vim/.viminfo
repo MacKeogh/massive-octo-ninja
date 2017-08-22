@@ -11,15 +11,55 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/hi
+~MSle0~/, 
 
 # Last Substitute Search Pattern:
-~MSle0~&hi
+~MSle0&hi
 
 # Last Substitute String:
-$there
+$
 
 # Command Line History (newest to oldest):
+:w!
+|2,0,1503442288,,"w!"
+:bn
+|2,0,1503442178,,"bn"
+:set wrap
+|2,0,1503440787,,"set wrap"
+:bp
+|2,0,1503440641,,"bp"
+:0
+|2,0,1503440564,,"0"
+:vsp
+|2,0,1503440252,,"vsp"
+:set syn=vb
+|2,0,1503431613,,"set syn=vb"
+:enew
+|2,0,1503431559,,"enew"
+:set syn=ruby
+|2,0,1503421366,,"set syn=ruby"
+:colorscheme github
+|2,0,1503421341,,"colorscheme github"
+:BundleInstall
+|2,0,1503421255,,"BundleInstall"
+:PluginInstall
+|2,0,1503421093,,"PluginInstall"
+:Bundle
+|2,0,1503420895,,"Bundle"
+:set
+|2,0,1503418095,,"set"
+:colorscheme
+|2,0,1503417672,,"colorscheme"
+:set syn=ps1
+|2,0,1503417215,,"set syn=ps1"
+:set syn=
+|2,0,1503417197,,"set syn="
+:scriptnames
+|2,0,1503416586,,"scriptnames"
+:bd
+|2,0,1503415614,,"bd"
+:s!
+|2,0,1503415585,,"s!"
 :%s/hi/there/
 |2,0,1503360497,,"%s/hi/there/"
 :%s/
@@ -28,6 +68,10 @@ $there
 |2,0,1503360432,,"%s/hi/there"
 
 # Search String History (newest to oldest):
+?/, 
+|2,1,1503442316,47,", "
+?/pgix
+|2,1,1503440271,47,"pgix"
 ? hi
 |2,1,1503360497,,"hi"
 
@@ -38,30 +82,365 @@ $there
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+	LastPath=\\pgix010p\mdseplan\Prospace\Space Automation\JASON
+|3,0,0,1,1,0,1503440238,"LastPath=\\\\pgix010p\\mdseplan\\Prospace\\Space Automation\\JASON"
+""1	LINE	0
+	
+|3,1,1,1,1,0,1503442286,""
+"2	LINE	0
+	
+|3,0,2,1,1,0,1503440240,""
+"3	LINE	0
+	    Dim boolDirExists As Boolean
+	    Dim strIniVal As String
+	    Dim strTmp As String
+	    Dim intTmp As Integer
+|3,0,3,1,4,0,1503431652,"    Dim boolDirExists As Boolean","    Dim strIniVal As String","    Dim strTmp As String","    Dim intTmp As Integer"
+"4	LINE	0
+	
+|3,0,4,1,1,0,1503415549,""
+"5	LINE	0
+	mstsc /v:nwc00941.cp.ad.kohls.com
+|3,0,5,1,1,0,1503415547,"mstsc /v:nwc00941.cp.ad.kohls.com"
+"6	LINE	0
+	mstsc /v:nwc00940.cp.ad.kohls.com
+|3,0,6,1,1,0,1503415488,"mstsc /v:nwc00940.cp.ad.kohls.com"
+"-	CHAR	0
+	,
+|3,0,36,0,1,0,1503442265,","
 
 # File marks:
-'0  1  0  ~\Documents\test.1.txt
-|4,48,1,0,1503360510,"~\\Documents\\test.1.txt"
+'0  13  35  E:\dev\PG_Planogram\root\source\VB\SPEnforcer\Enforcer.ini
+|4,48,13,35,1503442384,"E:\\dev\\PG_Planogram\\root\\source\\VB\\SPEnforcer\\Enforcer.ini"
 '1  1  0  ~\documents\scratch.txt
-|4,49,1,0,1503360461,"~\\documents\\scratch.txt"
+|4,49,1,0,1503421419,"~\\documents\\scratch.txt"
+'2  1  0  ~\documents\scratch.txt
+|4,50,1,0,1503421419,"~\\documents\\scratch.txt"
+'3  1  0  c:\temp\VIA8385.tmp
+|4,51,1,0,1503421225,"c:\\temp\\VIA8385.tmp"
+'4  1  0  ~\documents\scratch.txt
+|4,52,1,0,1503421038,"~\\documents\\scratch.txt"
+'5  1  0  ~\documents\scratch.txt
+|4,53,1,0,1503421038,"~\\documents\\scratch.txt"
+'6  1  0  ~\documents\scratch.txt
+|4,54,1,0,1503421038,"~\\documents\\scratch.txt"
+'7  1  0  ~\documents\scratch.txt
+|4,55,1,0,1503421038,"~\\documents\\scratch.txt"
+'8  1  0  ~\documents\scratch.txt
+|4,56,1,0,1503421038,"~\\documents\\scratch.txt"
+'9  1  0  ~\documents\scratch.txt
+|4,57,1,0,1503421038,"~\\documents\\scratch.txt"
 
 # Jumplist (newest first):
--'  1  0  ~\Documents\test.1.txt
-|4,39,1,0,1503360510,"~\\Documents\\test.1.txt"
+-'  13  35  E:\dev\PG_Planogram\root\source\VB\SPEnforcer\Enforcer.ini
+|4,39,13,35,1503442384,"E:\\dev\\PG_Planogram\\root\\source\\VB\\SPEnforcer\\Enforcer.ini"
+-'  1  0  E:\dev\PG_Planogram\root\source\VB\SPEnforcer\Enforcer.ini
+|4,39,1,0,1503442146,"E:\\dev\\PG_Planogram\\root\\source\\VB\\SPEnforcer\\Enforcer.ini"
+-'  11  0  \\pgix010p\mdseplan\Prospace\enforcer\Enforcer.ini
+|4,39,11,0,1503442146,"\\\\pgix010p\\mdseplan\\Prospace\\enforcer\\Enforcer.ini"
+-'  1  0  \\pgix010p\mdseplan\Prospace\enforcer\Enforcer.ini
+|4,39,1,0,1503442017,"\\\\pgix010p\\mdseplan\\Prospace\\enforcer\\Enforcer.ini"
+-'  6  37  \\pgix010p\Mdseplan\FloorPln\enforcer\FPEnforcer.ini
+|4,39,6,37,1503442017,"\\\\pgix010p\\Mdseplan\\FloorPln\\enforcer\\FPEnforcer.ini"
+-'  8  0  \\pgix010p\Mdseplan\FloorPln\enforcer\FPEnforcer.ini
+|4,39,8,0,1503440778,"\\\\pgix010p\\Mdseplan\\FloorPln\\enforcer\\FPEnforcer.ini"
+-'  329  0  C:\Program Files (x86)\JDA\Intactix\Space Planning\ProSpace.ini
+|4,39,329,0,1503440778,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Planning\\ProSpace.ini"
+-'  27  0  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
+|4,39,27,0,1503440699,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
+-'  111  0  C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGAdmin.INI
+|4,39,111,0,1503440669,"C:\\Program Files (x86)\\JDA\\Intactix\\Intactix Knowledge Base\\Data\\PGAdmin.INI"
+-'  6  9  C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGPrep.INI
+|4,39,6,9,1503440641,"C:\\Program Files (x86)\\JDA\\Intactix\\Intactix Knowledge Base\\Data\\PGPrep.INI"
+-'  1  0  C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGPrep.INI
+|4,39,1,0,1503440634,"C:\\Program Files (x86)\\JDA\\Intactix\\Intactix Knowledge Base\\Data\\PGPrep.INI"
+-'  1  0  C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGAdmin.INI
+|4,39,1,0,1503440634,"C:\\Program Files (x86)\\JDA\\Intactix\\Intactix Knowledge Base\\Data\\PGAdmin.INI"
+-'  445  0  C:\Program Files (x86)\JDA\Intactix\Floor Planning\ProFloor.ini
+|4,39,445,0,1503440629,"C:\\Program Files (x86)\\JDA\\Intactix\\Floor Planning\\ProFloor.ini"
+-'  443  0  C:\Program Files (x86)\JDA\Intactix\Floor Planning\ProFloor.ini
+|4,39,443,0,1503440555,"C:\\Program Files (x86)\\JDA\\Intactix\\Floor Planning\\ProFloor.ini"
+-'  1  0  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
+|4,39,1,0,1503440072,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
+-'  1  0  C:\Program Files (x86)\JDA\Intactix\Space Planning\ProSpace.ini
+|4,39,1,0,1503439935,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Planning\\ProSpace.ini"
+-'  1  0  C:\Program Files (x86)\JDA\Intactix\Floor Planning\ProFloor.ini
+|4,39,1,0,1503432644,"C:\\Program Files (x86)\\JDA\\Intactix\\Floor Planning\\ProFloor.ini"
+-'  1  0  C:\Program Files (x86)\JDA\Intactix\Enforcer\Enforcer.ini
+|4,39,1,0,1503432644,"C:\\Program Files (x86)\\JDA\\Intactix\\Enforcer\\Enforcer.ini"
+-'  7  0  \\pgix010p\Mdseplan\FloorPln\enforcer\FPEnforcer.ini
+|4,39,7,0,1503432402,"\\\\pgix010p\\Mdseplan\\FloorPln\\enforcer\\FPEnforcer.ini"
+-'  4  0  \\pgix010p\Mdseplan\FloorPln\enforcer\FPEnforcer.ini
+|4,39,4,0,1503431795,"\\\\pgix010p\\Mdseplan\\FloorPln\\enforcer\\FPEnforcer.ini"
 -'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1503360461,"~\\documents\\scratch.txt"
+|4,39,1,0,1503431787,"~\\documents\\scratch.txt"
+-'  1  0  \\pgix010p\Mdseplan\FloorPln\enforcer\FPEnforcer.ini
+|4,39,1,0,1503431559,"\\\\pgix010p\\Mdseplan\\FloorPln\\enforcer\\FPEnforcer.ini"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1503421419,"~\\documents\\scratch.txt"
+-'  1  0  c:\temp\VIA8385.tmp
+|4,39,1,0,1503421225,"c:\\temp\\VIA8385.tmp"
+-'  1  0  c:\temp\VIA8385.tmp
+|4,39,1,0,1503421225,"c:\\temp\\VIA8385.tmp"
+-'  1  0  c:\temp\VIA8385.tmp
+|4,39,1,0,1503421225,"c:\\temp\\VIA8385.tmp"
+-'  1  0  c:\temp\VIA8385.tmp
+|4,39,1,0,1503421225,"c:\\temp\\VIA8385.tmp"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1503421093,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1503421038,"~\\documents\\scratch.txt"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  16  ~\dotfiles\vim\.gvimrc
+|4,39,3,16,1503420859,"~\\dotfiles\\vim\\.gvimrc"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1503417627,"~\\documents\\scratch.txt"
+-'  2  0  ~\documents\scratch.txt
+|4,39,2,0,1503417235,"~\\documents\\scratch.txt"
+-'  2  0  ~\documents\scratch.txt
+|4,39,2,0,1503417235,"~\\documents\\scratch.txt"
+-'  2  0  ~\documents\scratch.txt
+|4,39,2,0,1503417235,"~\\documents\\scratch.txt"
+-'  2  0  ~\documents\scratch.txt
+|4,39,2,0,1503417235,"~\\documents\\scratch.txt"
+-'  2  0  ~\documents\scratch.txt
+|4,39,2,0,1503417235,"~\\documents\\scratch.txt"
+-'  2  0  ~\documents\scratch.txt
+|4,39,2,0,1503417235,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1503417135,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1503417125,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1503417007,"~\\documents\\scratch.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
+-'  13  6  ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+|4,39,13,6,1503416668,"~\\work\\2017-08-22_list_programs-to-be-added-to-path.txt"
 
 # History of marks within files (newest to oldest):
 
-> ~\Documents\test.1.txt
-	*	1503360508	0
+> E:\dev\PG_Planogram\root\source\VB\SPEnforcer\Enforcer.ini
+	*	1503442380	0
+	"	13	35
+
+> \\pgix010p\mdseplan\Prospace\enforcer\Enforcer.ini
+	*	1503442361	0
+	"	13	24
+	.	14	0
+	+	3	32
+	+	14	0
+
+> C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGPrep.INI
+	*	1503442177	0
+	"	6	0
+
+> C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGAdmin.INI
+	*	1503442175	0
+	"	111	0
+
+> C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
+	*	1503442173	0
+	"	11	0
+	^	27	61
+	.	27	60
+	+	28	0
+	+	27	0
+	+	28	0
+	+	26	0
+	+	27	60
+
+> C:\Program Files (x86)\JDA\Intactix\Space Planning\ProSpace.ini
+	*	1503442166	0
+	"	330	4
+
+> \\pgix010p\Mdseplan\FloorPln\enforcer\FPEnforcer.ini
+	*	1503442017	0
+	"	6	37
+	^	6	38
+	.	6	37
+	+	5	0
+	+	6	29
+	+	2	816
+	+	6	37
+
+> C:\Program Files (x86)\JDA\Intactix\Floor Planning\ProFloor.ini
+	*	1503440628	0
+	"	445	0
+
+> C:\Program Files (x86)\JDA\Intactix\Enforcer\Enforcer.ini
+	*	1503432642	0
 	"	1	0
-	^	1	2
+
+> ~\documents\scratch.txt
+	*	1503431786	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	21
+	+	2	0
+	+	1	0
+
+> c:\temp\VIA235D.tmp
+	*	1503421318	0
+	"	1	0
+
+> c:\temp\VIA8385.tmp
+	*	1503421223	0
+	"	1	0
+
+> ~\dotfiles\vim\.gvimrc
+	*	1503420857	0
+	"	3	16
+
+> ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
+	*	1503416621	0
+	"	13	6
+	^	13	7
 	.	1	0
 	+	1	0
 
-> ~\documents\scratch.txt
-	*	1503360435	0
+> C:\Scripts\StartAyehuVDI-1.ps1
+	*	1503415612	0
+	"	3	0
+	^	3	0
+	.	3	0
+	+	1	0
+	+	5	0
+	+	2	19
+	+	3	0
+
+> C:\Scripts\StartAyehuVDI-2.ps1
+	*	1503415607	0
+	"	2	36
+	^	3	0
+	.	3	0
+	+	5	16
+	+	1	7
+	+	4	19
+	+	2	6
+	+	1	8
+	+	2	36
+	+	4	39
+	+	1	7
+	+	4	21
+	+	5	0
+	+	3	0
+
+> C:\Scripts\StartGVIM.ps1
+	*	1503413633	0
+	"	5	0
+	^	5	1
+	.	5	0
+	+	4	0
+	+	5	0
+
+> ~\Documents\test.1.txt
+	*	1503360508	0
 	"	1	0
 	^	1	2
 	.	1	0
