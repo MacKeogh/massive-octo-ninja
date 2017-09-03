@@ -40,24 +40,24 @@ values."
       ;ansible ;; Tools
       ;asciidoc ;; Programming and markup languages
       ;asm ;; Programming and markup languages
-      auto-completion ;; Completion
-      autohotkey ;; Programming and markup languages
-      better-defaults ;; Emacs
+     auto-completion ;; Completion
+     autohotkey ;; Programming and markup languages
+     better-defaults ;; Emacs
       ;bibtex ;; Programming and markup languages
       ;c-c++ ;; Programming and markup languages
       ;cfengine ;; Tools
       ;chinese ;; International support
       ;chrome ;; Tools
-      clojure ;; Programming and markup languages
-      colors ;; Themes
-      ;(colors :variables colors-colorize-identifiers 'all)
-      ;command-log ;; Tools
+     clojure ;; Programming and markup languages
+     colors ;; Themes
+     (colors :variables colors-colorize-identifiers 'all)
+     command-log ;; Tools
       ;common-lisp ;; Programming and markup languages
       ;cscope ;; Tags
       ;csharp ;; Programming and markup languages
-      csv ;; Programming and markup languages
+     csv ;; Programming and markup languages
       ;d ;; Programming and markup languages
-      dash ;; Tools
+     dash ;; Tools
       ;deft ;; Tools
       ;django ;; Frameworks
       ;docker ;; Tools
@@ -81,8 +81,8 @@ values."
       ;fsharp ;; Programming and markup languages
       ;games ;; Fun
       ;geolocation ;; Tools
-      ;git ;; Source control
-      ;github ;; Source control
+      git ;; Source control
+      github ;; Source control
       ;gnus ;; E-mail
       ;go ;; Programming and markup languages
       ;graphviz ;; Programming and markup languages
@@ -135,8 +135,8 @@ values."
       ;selectric ;; Fun
       ;semantic ;; Emacs
       ;shaders ;; Programming and markup languages
-      shell ;; Tools
-      shell-scripts ;; Programming and markup languages
+     shell ;; Tools
+     shell-scripts ;; Programming and markup languages
       ;slack ;; Chat
       ;smex ;; Emacs
       ;sml ;; Programming and markup languages
@@ -154,15 +154,15 @@ values."
       ;spacemacs-ui ;; Spacemacs distribution layers
       ;spacemacs-ui-visual ;; Spacemacs distribution layers
       ;speed-reading ;; Tools
-      spell-checking ;; Checkers
+     spell-checking ;; Checkers
       ;spotify ;; Web services
-      sql ;; Programming and markup languages
+     sql ;; Programming and markup languages
       ;swift ;; Programming and markup languages
-      syntax-checking ;; Checkers
+     syntax-checking ;; Checkers
       ;systemd ;; Tools
       ;terraform ;; Tools
       ;themes-megapack ;; Themes
-      ;theming ;; Themes
+     theming ;; Themes
       ;tmux ;; Tools
       ;twitter ;; Web services
       ;typescript ;; Programming and markup languages
@@ -171,10 +171,10 @@ values."
       ;version-control ;; Source control
       ;vim-empty-lines ;; Vim
       ;vim-powerline ;; Vim
-      vimscript ;; Programming and markup languages
+     vimscript ;; Programming and markup languages
       ;vinegar ;; Vim
       ;wakatime ;; Web services
-      windows-scripts ;; Programming and markup languages
+     windows-scripts ;; Programming and markup languages
       ;xkcd ;; Fun
       ;yaml ;; Programming and markup languages
       ;ycmd ;; Tools
@@ -238,8 +238,8 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(github-modern)
-   ;dotspacemacs-themes '(default
+   dotspacemacs-themes '(github)
+   ;dotspacemacs-themes '(default)
    ;                      leuven
    ;                      adwaita
                          ;afternoon
@@ -284,6 +284,7 @@ values."
                          ;flatui
                          ;fogus
                          ;gandalf
+                         ;github
                          ;github-modern
                          ;gotham
                          ;graham
@@ -578,16 +579,47 @@ you should place your code here."
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(ansi-color-names-vector
-   ["#d2ceda" "#f2241f" "#67b11d" "#b1951d" "#3a81c3" "#a31db1" "#21b8c7" "#655370"])
  '(evil-want-Y-yank-to-eol nil)
  '(package-selected-packages
    (quote
-    (vimrc-mode dactyl-mode cobol-mode insert-shebang fish-mode company-shell fuzzy clojure-snippets madhat2r-theme autothemer darkokai-theme csv-mode winum unfill diminish solarized-theme org powershell uuidgen pug-mode org-projectile org-download mwim livid-mode skewer-mode simple-httpd link-hint hide-comnt github-search flyspell-correct-helm flyspell-correct eyebrowse evil-visual-mark-mode evil-unimpaired evil-ediff eshell-z dumb-jump column-enforce-mode color-identifiers-mode yaml-mode wolfram-mode web-mode web-beautify tagedit stan-mode sql-indent slim-mode scss-mode scad-mode sass-mode ruby-end rainbow-mode rainbow-identifiers qml-mode matlab-mode magit-gh-pulls less-css-mode julia-mode json-mode json-snatcher json-reformat js2-refactor js2-mode js-doc jade-mode helm-css-scss haml-mode github-clone github-browse-file git-link gist gh marshal logito pcache ht flycheck-elm evil-snipe emmet-mode elm-mode f company-web web-completion-data company-tern dash-functional tern coffee-mode arduino-mode alchemist elixir-mode ahk-mode zeal-at-point stickyfunc-enhance srefactor helm-dash undo-tree zonokai-theme zenburn-theme zen-and-art-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme tronesque-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme stekene-theme spacegray-theme soothe-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme pastels-on-dark-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme niflheim-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme firebelly-theme farmhouse-theme espresso-theme emoji-cheat-sheet-plus dracula-theme django-theme darktooth-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme company-emoji colorsarenice-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme clj-refactor inflections edn multiple-cursors paredit peg cider-eval-sexp-fu cider queue clojure-mode ejc-sql xterm-color toc-org shell-pop org-repo-todo org-present org-pomodoro alert log4e gntp org-plus-contrib org-bullets multi-term mmm-mode markdown-toc markdown-mode htmlize helm-flyspell helm-company helm-c-yasnippet gnuplot git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-gutter gh-md flycheck-pos-tip flycheck eshell-prompt-extras esh-help diff-hl company-statistics company-quickhelp pos-tip company auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete smeargle orgit magit-gitflow helm-gitignore request gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger evil-magit magit magit-popup git-commit with-editor ws-butler window-numbering volatile-highlights vi-tilde-fringe spaceline s powerline smooth-scrolling restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox hydra spinner page-break-lines open-junk-file neotree move-text macrostep lorem-ipsum linum-relative leuven-theme info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make projectile pkg-info epl helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery expand-region exec-path-from-shell evil-visualstar evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-args evil-anzu anzu eval-sexp-fu highlight elisp-slime-nav define-word clean-aindent-mode buffer-move bracketed-paste auto-highlight-symbol auto-compile packed dash aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core popup async quelpa package-build use-package which-key bind-key bind-map evil spacemacs-theme))))
+    (github-modern-theme github-theme vimrc-mode dactyl-mode cobol-mode insert-shebang fish-mode company-shell fuzzy clojure-snippets madhat2r-theme autothemer darkokai-theme csv-mode winum unfill diminish solarized-theme org powershell uuidgen pug-mode org-projectile org-download mwim livid-mode skewer-mode simple-httpd link-hint hide-comnt github-search flyspell-correct-helm flyspell-correct eyebrowse evil-visual-mark-mode evil-unimpaired evil-ediff eshell-z dumb-jump column-enforce-mode color-identifiers-mode yaml-mode wolfram-mode web-mode web-beautify tagedit stan-mode sql-indent slim-mode scss-mode scad-mode sass-mode ruby-end rainbow-mode rainbow-identifiers qml-mode matlab-mode magit-gh-pulls less-css-mode julia-mode json-mode json-snatcher json-reformat js2-refactor js2-mode js-doc jade-mode helm-css-scss haml-mode github-clone github-browse-file git-link gist gh marshal logito pcache ht flycheck-elm evil-snipe emmet-mode elm-mode f company-web web-completion-data company-tern dash-functional tern coffee-mode arduino-mode alchemist elixir-mode ahk-mode zeal-at-point stickyfunc-enhance srefactor helm-dash undo-tree zonokai-theme zenburn-theme zen-and-art-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme tronesque-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme stekene-theme spacegray-theme soothe-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme pastels-on-dark-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme niflheim-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme firebelly-theme farmhouse-theme espresso-theme emoji-cheat-sheet-plus dracula-theme django-theme darktooth-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme company-emoji colorsarenice-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme clj-refactor inflections edn multiple-cursors paredit peg cider-eval-sexp-fu cider queue clojure-mode ejc-sql xterm-color toc-org shell-pop org-repo-todo org-present org-pomodoro alert log4e gntp org-plus-contrib org-bullets multi-term mmm-mode markdown-toc markdown-mode htmlize helm-flyspell helm-company helm-c-yasnippet gnuplot git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-gutter gh-md flycheck-pos-tip flycheck eshell-prompt-extras esh-help diff-hl company-statistics company-quickhelp pos-tip company auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete smeargle orgit magit-gitflow helm-gitignore request gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger evil-magit magit magit-popup git-commit with-editor ws-butler window-numbering volatile-highlights vi-tilde-fringe spaceline s powerline smooth-scrolling restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox hydra spinner page-break-lines open-junk-file neotree move-text macrostep lorem-ipsum linum-relative leuven-theme info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make projectile pkg-info epl helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery expand-region exec-path-from-shell evil-visualstar evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-args evil-anzu anzu eval-sexp-fu highlight elisp-slime-nav define-word clean-aindent-mode buffer-move bracketed-paste auto-highlight-symbol auto-compile packed dash aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core popup async quelpa package-build use-package which-key bind-key bind-map evil spacemacs-theme))))
+;; (custom-set-faces
+;;  ;; custom-set-faces was added by Custom.
+;;  ;; If you edit it by hand, you could mess it up, so be careful.
+;;  ;; Your init file should contain only one such instance.
+;;  ;; If there is more than one, they won't work right.
+;;  '(default ((t (:foreground "#24292e" :background "#ffffff"))))
+;;  '(ac-completion-face ((t (:background "powder blue" :foreground "#24292e"))))
+;;  '(ac-selection-face ((t (:background "powder blue" :foreground "#24292e"))))
+;;  '(ahs-plugin-bod-face ((t (:background "PowderBlue" :foreground "Black"))))
+;;  '(company-tooltip-common ((t (:inherit company-tooltip :weight bold :underline nil))))
+;;  '(company-tooltip-common-selection ((t (:inherit company-tooltip-selection :weight bold :underline nil))))
+;;  '(helm-M-x-key ((t (:foreground "DarkOrange" :underline t))))
+;;  '(helm-candidate-number ((t (:background "gray10" :foreground "gray90"))))
+;;  '(helm-candidate-number-suspended ((t (:background "gray90" :foreground "gray10"))))
+;;  '(helm-ff-dotted-directory ((t (:background "gray90" :foreground "black"))))
+;;  '(helm-ff-dotted-symlink-directory ((t (:background "DimGray" :foreground "gold"))))
+;;  '(helm-lisp-show-completion ((t (:background "DarkSlateGray" :foreground "white"))))
+;;  '(helm-locate-finish ((t (:foreground "dark green"))))
+;;  '(helm-match ((t (:background "navy" :foreground "gold1" :weight bold))))
+;;  '(helm-resume-need-update ((t (:background "light pink"))))
+;;  '(helm-source-header ((t (:background "medium blue" :foreground "yellow1" :box (:line-width -1 :style released-button) :underline nil :weight bold))))
+;;  '(minibuffer-prompt ((t (:background "powder blue" :foreground "Black"))))
+;;  '(persp-face-lighter-buffer-not-in-persp ((t (:background "#F00" :foreground "white" :weight bold))))
+;;  '(region ((t (:background "powder blue"))))
+;;  '(spacemacs-emacs-face ((t (:background "PowderBlue" :foreground "#24292e" :inherit (quote mode-line)))))
+;;  '(spacemacs-helm-navigation-ms-face ((t (:background "Red1" :foreground "white"))))
+;;  '(spacemacs-hybrid-face ((t (:background "PowderBlue" :foreground "#24292e" :inherit (quote mode-line)))))
+;;  '(spacemacs-ido-navigation-ms-face ((t (:background "Red1" :foreground "white" :weight bold)))))
+;(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+; '(default ((t (:foreground "#24292e" :background "#ffffff")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(company-tooltip-common ((t (:inherit company-tooltip :weight bold :underline nil))))
- '(company-tooltip-common-selection ((t (:inherit company-tooltip-selection :weight bold :underline nil)))))
+ )
