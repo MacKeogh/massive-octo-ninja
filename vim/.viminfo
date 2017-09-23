@@ -11,39 +11,183 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0/https
+~MSle0~/ksms1256
 
 # Last Substitute Search Pattern:
-~MSle0~&  *
+~MSle0& *$
 
 # Last Substitute String:
-$, 
+$
 
 # Command Line History (newest to oldest):
+:sort u
+|2,0,1505767412,,"sort u"
+:%s/ *$//g
+|2,0,1505767407,,"%s/ *$//g"
+:%s/\	*$//
+|2,0,1505767400,,"%s/\\	*$//"
+:sor
+|2,0,1505767393,,"sor"
+:enew
+|2,0,1505767332,,"enew"
+:vsp
+|2,0,1505767217,,"vsp"
+:%s/PG
+|2,0,1505767171,,"%s/PG"
+:set nolist
+|2,0,1505767139,,"set nolist"
+:set list
+|2,0,1505767094,,"set list"
+:set noexpandtab
+|2,0,1505767026,,"set noexpandtab"
+:set tabs
+|2,0,1505766967,,"set tabs"
+:set tabs on
+|2,0,1505766962,,"set tabs on"
+:%s/KSMS/ksms/
+|2,0,1505766837,,"%s/KSMS/ksms/"
+:%s/PLM/plm/g
+|2,0,1505766824,,"%s/PLM/plm/g"
+:%s/10\.2\.28\.16/infaprd/
+|2,0,1505766789,,"%s/10\\.2\\.28\\.16/infaprd/"
+:bd
+|2,0,1505766324,,"bd"
+:%s/\\\\Program Files (x86)\\\\Microsoft VS Code/\\\\Users\\\\tkma608\\\\scoop\\\\apps\\\\vscode\\\\current/
+|2,0,1505766233,,"%s/\\\\\\\\Program Files (x86)\\\\\\\\Microsoft VS Code/\\\\\\\\Users\\\\\\\\tkma608\\\\\\\\scoop\\\\\\\\apps\\\\\\\\vscode\\\\\\\\current/"
+:nohl
+|2,0,1505766209,,"nohl"
+:%s/\\\\Program Files (x86)\\\\Microsoft VS Code/\\\\Users\\tkma608\\scoop\\apps\\vscode\\current/
+|2,0,1505766171,,"%s/\\\\\\\\Program Files (x86)\\\\\\\\Microsoft VS Code/\\\\\\\\Users\\\\tkma608\\\\scoop\\\\apps\\\\vscode\\\\current/"
+:sp
+|2,0,1505765996,,"sp"
+:w!
+|2,0,1505758073,,"w!"
+:w
+|2,0,1505754126,,"w"
+:g/^$/d
+|2,0,1505754050,,"g/^$/d"
+:0
+|2,0,1505754028,,"0"
+:close
+|2,0,1505442470,,"close"
+:Kwbd
+|2,0,1505258817,,"Kwbd"
+:$
+|2,0,1505258779,,"$"
+:edit $MYVIMRC
+|2,0,1505258008,,"edit $MYVIMRC"
+:echo
+|2,0,1505257969,,"echo"
+:set
+|2,0,1505257958,,"set"
+:echo $MYVIMRC
+|2,0,1505257955,,"echo $MYVIMRC"
+:bunload
+|2,0,1505256809,,"bunload"
+:vnew
+|2,0,1505256737,,"vnew"
+:v/JDA/d
+|2,0,1505244827,,"v/JDA/d"
+:%s/ *$//
+|2,0,1505243284,,"%s/ *$//"
+:set wrap
+|2,0,1505241887,,"set wrap"
+:bd!
+|2,0,1505149691,,"bd!"
+:%s/H/h/g
+|2,0,1505148736,,"%s/H/h/g"
+:%s/ //g
+|2,0,1505148731,,"%s/ //g"
+:%
+|2,0,1505148719,,"%"
+:%s/ //
+|2,0,1505148706,,"%s/ //"
+:g/^a/d
+|2,0,1505144374,,"g/^a/d"
+:%s/
+|2,0,1505144366,,"%s/"
+:%s/^.*\	//
+|2,0,1505144226,,"%s/^.*\\	//"
+:%s/\	$//
+|2,0,1505144222,,"%s/\\	$//"
+:%s/\	.*$//
+|2,0,1505144036,,"%s/\\	.*$//"
+:set ignorecase
+|2,0,1504912364,,"set ignorecase"
+:Resume
+|2,0,1504912356,,"Resume"
+:163,166s/^/    /
+|2,0,1504909428,,"163,166s/^/    /"
+:%s/@@/\r/g
+|2,0,1504908075,,"%s/@@/\\r/g"
+:87,$s/^\(.*\)$/\1@@If Err\.Number <> 0 Then@@  Logger\.LogError(Err.Number \&  ": " \& Err\.Description)@@  Err\.Clear@@End If/
+|2,0,1504908048,,"87,$s/^\\(.*\\)$/\\1@@If Err\\.Number <> 0 Then@@  Logger\\.LogError(Err.Number \\&  \": \" \\& Err\\.Description)@@  Err\\.Clear@@End If/"
+:87,$s/^\(.*\)$/\1@@If Err.Number <> 0 Then@@  Logger.LogError(Err.Number \&  " " \& Err.Description  /
+|2,0,1504907964,,"87,$s/^\\(.*\\)$/\\1@@If Err.Number <> 0 Then@@  Logger.LogError(Err.Number \\&  \" \" \\& Err.Description  /"
+:87,$s/^\(.*\)$/\1@@Logger.LogError  /
+|2,0,1504907854,,"87,$s/^\\(.*\\)$/\\1@@Logger.LogError  /"
+:87,$s/^/  /
+|2,0,1504907800,,"87,$s/^/  /"
+:87,s/^/  /
+|2,0,1504907571,,"87,s/^/  /"
+:83
+|2,0,1504907187,,"83"
+:bn
+|2,0,1504898142,,"bn"
+:b n
+|2,0,1504898139,,"b n"
+:set syn=lisp
+|2,0,1504892970,,"set syn=lisp"
+:s
+|2,0,1504892666,,"s"
+:bp
+|2,0,1504891077,,"bp"
+:CLOSE
+|2,0,1504890405,,"CLOSE"
+:set nohl
+|2,0,1504890256,,"set nohl"
+:%s/^  //
+|2,0,1504889576,,"%s/^  //"
+:close!
+|2,0,1504888788,,"close!"
+:247
+|2,0,1504655678,,"247"
+:240
+|2,0,1504655177,,"240"
+:249
+|2,0,1504654731,,"249"
+:500
+|2,0,1504654704,,"500"
+:%s/  shl/  call shl/
+|2,0,1504654692,,"%s/  shl/  call shl/"
+:181
+|2,0,1504654676,,"181"
+:75
+|2,0,1504654523,,"75"
+:%s/^shl/call shl/
+|2,0,1504654278,,"%s/^shl/call shl/"
+:%s/shl\.LogEvent(4, "\(.*\)")\(.*\)$/sh1\.LogEvent 4, "\1"\2/
+|2,0,1504654150,,"%s/shl\\.LogEvent(4, \"\\(.*\\)\")\\(.*\\)$/sh1\\.LogEvent 4, \"\\1\"\\2/"
+:%s/shl\.LogEvent(4, "\(.*\)")$/sh1\.LogEvents 4, "\1"/
+|2,0,1504654103,,"%s/shl\\.LogEvent(4, \"\\(.*\\)\")$/sh1\\.LogEvents 4, \"\\1\"/"
+:%s/sh\./shl\./
+|2,0,1504652354,,"%s/sh\\./shl\\./"
+:250
+|2,0,1504643833,,"250"
+:%s/>,*$//
+|2,0,1504629164,,"%s/>,*$//"
+:%s/^.*<//
+|2,0,1504629143,,"%s/^.*<//"
 :%s/  */, /g
 |2,0,1504365593,,"%s/  */, /g"
 :%s/ */, /g
 |2,0,1504365585,,"%s/ */, /g"
-:w!
-|2,0,1504218327,,"w!"
-:w
-|2,0,1504218210,,"w"
-:set syn=lisp
-|2,0,1504215607,,"set syn=lisp"
-:0
-|2,0,1504215584,,"0"
-:vsp
-|2,0,1504213194,,"vsp"
 :set syn=
 |2,0,1504211188,,"set syn="
-:$
-|2,0,1504191272,,"$"
 :!echo %SHELL%
 |2,0,1504026337,,"!echo %SHELL%"
 :echo $SHELL
 |2,0,1504026284,,"echo $SHELL"
-:set
-|2,0,1504025246,,"set"
 :env
 |2,0,1504025244,,"env"
 :!echo %VIMRUNTIME%
@@ -56,30 +200,16 @@ $,
 |2,0,1504024084,,"e f:\\2017-08-29_edit-with-vim-dll.reg"
 :%!xxd
 |2,0,1503955442,,"%!xxd"
-:set ignorecase
-|2,0,1503948401,,"set ignorecase"
-:enew
-|2,0,1503947939,,"enew"
 :%s/;/;\r/g
 |2,0,1503787314,,"%s/;/;\\r/g"
-:bn
-|2,0,1503785160,,"bn"
-:bp
-|2,0,1503785149,,"bp"
 :197
 |2,0,1503784940,,"197"
-:bd!
-|2,0,1503780177,,"bd!"
-:bd
-|2,0,1503780170,,"bd"
 :%s/vim74/current/g
 |2,0,1503780136,,"%s/vim74/current/g"
 :$s/vim74/current/g
 |2,0,1503779698,,"$s/vim74/current/g"
 :%s/"//g
 |2,0,1503778354,,"%s/\"//g"
-:set wrap
-|2,0,1503777694,,"set wrap"
 :133
 |2,0,1503750142,,"133"
 :colorscheme
@@ -100,8 +230,6 @@ $,
 |2,0,0,,"%s/\\\\$//"
 :sort i
 |2,0,0,,"sort i"
-:sort u
-|2,0,0,,"sort u"
 :cd c:\users
 |2,0,0,,"cd c:\\users"
 :cd c:/users
@@ -112,12 +240,8 @@ $,
 |2,0,0,,"<S-Down>"
 :sort ui
 |2,0,0,,"sort ui"
-:%s/\	.*$//
-|2,0,0,,"%s/\\	.*$//"
 :q
 |2,0,0,,"q"
-:close
-|2,0,0,,"close"
 :sort
 |2,0,0,,"sort"
 :source
@@ -204,6 +328,228 @@ $,
 |2,0,0,,"set guifont"
 
 # Search String History (newest to oldest):
+?/ksms1256
+|2,1,1505768103,47,"ksms1256"
+?/200b
+|2,1,1505767779,47,"200b"
+?/0105
+|2,1,1505767768,47,"0105"
+?/910
+|2,1,1505767668,47,"910"
+?  *$
+|2,1,1505767407,," *$"
+? \	*$
+|2,1,1505767400,,"\\	*$"
+? KSMS
+|2,1,1505766837,,"KSMS"
+? PLM
+|2,1,1505766824,,"PLM"
+? 10\.2\.28\.16
+|2,1,1505766789,,"10\\.2\\.28\\.16"
+? \\\\Program Files (x86)\\\\Microsoft VS Code
+|2,1,1505766233,,"\\\\\\\\Program Files (x86)\\\\\\\\Microsoft VS Code"
+? ^$
+|2,1,1505754050,,"^$"
+?/Verbose logging stopped
+|2,1,1505258984,47,"Verbose logging stopped"
+?/Error
+|2,1,1505255276,47,"Error"
+?/PDFWriter
+|2,1,1505255255,47,"PDFWriter"
+?/available
+|2,1,1505255236,47,"available"
+?/Common
+|2,1,1505255153,47,"Common"
+? JDA
+|2,1,1505244827,,"JDA"
+?/{841F16D2-9105-4D2F-B1B8-24CDA940503F}
+|2,1,1505244816,47,"{841F16D2-9105-4D2F-B1B8-24CDA940503F}"
+?/{F585440D-036E-4FDE-ABDC-9C72F682D113}
+|2,1,1505244743,47,"{F585440D-036E-4FDE-ABDC-9C72F682D113}"
+?/{B2078407-C076-4F92-99C5-878E8EB4901D}
+|2,1,1505244669,47,"{B2078407-C076-4F92-99C5-878E8EB4901D}"
+?/Space Planning
+|2,1,1505244661,47,"Space Planning"
+?/{75733C87-F7C3-450C-818E-48D18C0F8A6A}
+|2,1,1505244433,47,"{75733C87-F7C3-450C-818E-48D18C0F8A6A}"
+?/JDA Space Automation
+|2,1,1505243923,47,"JDA Space Automation"
+?/Floor Planning
+|2,1,1505243705,47,"Floor Planning"
+?/{ADBD30F6-2994-452C-9365-AAFBAD652394}
+|2,1,1505243637,47,"{ADBD30F6-2994-452C-9365-AAFBAD652394}"
+?/{BEA5FD15-C8DD-4112-B86D-B2FC53FEF7E0}
+|2,1,1505243625,47,"{BEA5FD15-C8DD-4112-B86D-B2FC53FEF7E0}"
+?/JDA Space
+|2,1,1505243331,47,"JDA Space"
+?/JDA
+|2,1,1505243229,47,"JDA"
+? H
+|2,1,1505148736,,"H"
+?  
+|2,1,1505148731,," "
+?/Pricing\|Planning\|Product
+|2,1,1505144884,47,"Pricing\\|Planning\\|Product"
+?/(Pricing\|Planning\|Product)
+|2,1,1505144843,47,"(Pricing\\|Planning\\|Product)"
+?/(Pricing|Planning|Product)
+|2,1,1505144833,47,"(Pricing|Planning|Product)"
+? ^a
+|2,1,1505144374,,"^a"
+? ^.*\	
+|2,1,1505144226,,"^.*\\	"
+? \	$
+|2,1,1505144222,,"\\	$"
+? \	.*$
+|2,1,1505144036,,"\\	.*$"
+?/LogFile
+|2,1,1504917190,47,"LogFile"
+?/Logger.LogFile
+|2,1,1504916901,47,"Logger.LogFile"
+?/Install IKB Space
+|2,1,1504916176,47,"Install IKB Space"
+?/Set folder
+|2,1,1504915680,47,"Set folder"
+?/REALLY
+|2,1,1504915660,47,"REALLY"
+?/MSI
+|2,1,1504915638,47,"MSI"
+?/MIF
+|2,1,1504915374,47,"MIF"
+?/Set folder 
+|2,1,1504914466,47,"Set folder "
+?/Set folder privileges
+|2,1,1504914306,47,"Set folder privileges"
+?/LogFile =
+|2,1,1504914187,47,"LogFile ="
+?/SystemDrive
+|2,1,1504913946,47,"SystemDrive"
+?/Quiet
+|2,1,1504913725,47,"Quiet"
+?/LogInfo
+|2,1,1504913141,47,"LogInfo"
+?/shl
+|2,1,1504913122,47,"shl"
+?/JDA =
+|2,1,1504912531,47,"JDA ="
+?/Create C:
+|2,1,1504912454,47,"Create C:"
+?/resume
+|2,1,1504912367,47,"resume"
+?/NEXT
+|2,1,1504912339,47,"NEXT"
+?/RESUME
+|2,1,1504912335,47,"RESUME"
+?/ON ERROR
+|2,1,1504912327,47,"ON ERROR"
+?/Create
+|2,1,1504912294,47,"Create"
+?/^ *For .*\nIf Err
+|2,1,1504910256,47,"^ *For .*\\nIf Err"
+?/^ *If .*\nIf Err
+|2,1,1504910158,47,"^ *If .*\\nIf Err"
+?/End Function
+|2,1,1504910037,47,"End Function"
+?/^\nIf Err
+|2,1,1504909447,47,"^\\nIf Err"
+?/^ *'.*\nIf Err
+|2,1,1504909322,47,"^ *'.*\\nIf Err"
+? ^
+|2,1,1504908353,,"^"
+? @@
+|2,1,1504908075,,"@@"
+? ^\(.*\)$
+|2,1,1504908048,,"^\\(.*\\)$"
+?/LogError
+|2,1,1504907861,47,"LogError"
+?/@@
+|2,1,1504907808,47,"@@"
+?/@
+|2,1,1504907802,47,"@"
+?/Debug
+|2,1,1504906963,47,"Debug"
+?/Public Sub
+|2,1,1504899551,47,"Public Sub"
+?/Public Function
+|2,1,1504899463,47,"Public Function"
+?/Function
+|2,1,1504899455,47,"Function"
+?/cua-mode
+|2,1,1504897605,47,"cua-mode"
+?/volatile
+|2,1,1504897595,47,"volatile"
+?/smartparens
+|2,1,1504897327,47,"smartparens"
+?/sp-
+|2,1,1504897292,47,"sp-"
+?/kbd
+|2,1,1504897087,47,"kbd"
+?/evil
+|2,1,1504897078,47,"evil"
+?/powerline
+|2,1,1504894404,47,"powerline"
+?/after
+|2,1,1504893299,47,"after"
+?/flycheck
+|2,1,1504893199,47,"flycheck"
+? \V\cafter
+|2,1,1504892828,,"\\V\\cafter"
+?/autoload
+|2,1,1504892658,47,"autoload"
+?/packages
+|2,1,1504891154,47,"packages"
+?/package
+|2,1,1504890288,47,"package"
+? ^  
+|2,1,1504889576,,"^  "
+?/number-mode
+|2,1,1504888277,47,"number-mode"
+?/line-number
+|2,1,1504888267,47,"line-number"
+?/powershell-mode
+|2,1,1504883716,47,"powershell-mode"
+?   shl
+|2,1,1504654692,,"  shl"
+?/^ *Then
+|2,1,1504654642,47,"^ *Then"
+?/ *Then
+|2,1,1504654628,47," *Then"
+?/On
+|2,1,1504654507,47,"On"
+?/ErrorHandler
+|2,1,1504654429,47,"ErrorHandler"
+?/On Error
+|2,1,1504654395,47,"On Error"
+? ^shl
+|2,1,1504654278,,"^shl"
+? shl\.LogEvent(4, "\(.*\)")\(.*\)$
+|2,1,1504654150,,"shl\\.LogEvent(4, \"\\(.*\\)\")\\(.*\\)$"
+? shl\.LogEvent(4, "\(.*\)")$
+|2,1,1504654103,,"shl\\.LogEvent(4, \"\\(.*\\)\")$"
+?/sub
+|2,1,1504653936,47,"sub"
+?/dim
+|2,1,1504652776,47,"dim"
+?/opt
+|2,1,1504652715,47,"opt"
+?/option
+|2,1,1504652710,47,"option"
+?/String
+|2,1,1504652557,47,"String"
+?/Integer
+|2,1,1504652555,47,"Integer"
+?/sh\.
+|2,1,1504652416,47,"sh\\."
+? sh\.
+|2,1,1504652354,,"sh\\."
+?/Err\.Number
+|2,1,1504647022,47,"Err\\.Number"
+?/WScript\.Quit
+|2,1,1504643740,47,"WScript\\.Quit"
+? >,*$
+|2,1,1504629164,,">,*$"
+? ^.*<
+|2,1,1504629143,,"^.*<"
 ?   *
 |2,1,1504365593,,"  *"
 ?  *
@@ -272,14 +618,10 @@ $,
 |2,1,0,,"\\\\$"
 ?  .*$
 |2,1,0,," .*$"
-? \	.*$
-|2,1,0,,"\\	.*$"
 ?/path
 |2,1,0,47,"path"
 ?/paths
 |2,1,0,47,"paths"
-?/Error
-|2,1,0,47,"Error"
 ?/Error Log
 |2,1,0,47,"Error Log"
 ?/Error 
@@ -309,336 +651,274 @@ $,
 
 # Registers:
 "0	LINE	0
-	       ("https" . "proxy.kohls.com:3128"));(getenv "HTTP_PROXY"))))
-|3,0,0,1,1,0,1504218178,"       (\"https\" . \"proxy.kohls.com:3128\"));(getenv \"HTTP_PROXY\"))))"
+	xm01-uprm07p
+	xm01-uprm08p
+	xm01-uprm07p
+	xm01-uprm08p
+|3,0,0,1,4,0,1505862964,"xm01-uprm07p","xm01-uprm08p","xm01-uprm07p","xm01-uprm08p"
 "1	LINE	0
 	
-|3,0,1,1,1,0,1504215613,""
+|3,0,1,1,1,0,1505863695,""
 "2	LINE	0
-	   ;dotspacemacs-themes '(github)
-|3,0,2,1,1,0,1504214281,"   ;dotspacemacs-themes '(github)"
+	plm00912  - PG *Nix Batch Processing Server
+|3,0,2,1,1,0,1505768404,"plm00912  - PG *Nix Batch Processing Server"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1504214253,""
+	pam00105 - Infomatica Power Server 
+|3,0,3,1,1,0,1505768066,"pam00105 - Infomatica Power Server "
 "4	LINE	0
-	defining them in this alist before loading the theme.")
-|3,0,4,1,1,0,1504214252,"defining them in this alist before loading the theme.\")"
+	ksms200b
+|3,0,4,1,1,0,1505768065,"ksms200b"
 "5	LINE	0
-	You can override a subset of the theme's default colors by
-|3,0,5,1,1,0,1504214251,"You can override a subset of the theme's default colors by"
+	plm00910 - FC Fixture Management Application Server
+	plm00912  - PG *Nix Batch Processing Server
+|3,0,5,1,2,0,1505767891,"plm00910 - FC Fixture Management Application Server","plm00912  - PG *Nix Batch Processing Server"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1504214251,""
+	pam00105 
+|3,0,6,1,1,0,1505767877,"pam00105 "
 "7	LINE	0
-	  "Place to override default theme colors.
-|3,0,7,1,1,0,1504214251,"  \"Place to override default theme colors."
+	plm00912	AIX Batch Processing Server
+|3,0,7,1,1,0,1505767617,"plm00912	AIX Batch Processing Server"
 "8	LINE	0
-	  '()
-|3,0,8,1,1,0,1504214250,"  '()"
+	ksms1257	Windows File Server
+|3,0,8,1,1,0,1505767599,"ksms1257	Windows File Server"
 "9	LINE	0
-	(setq github-override-colors-alist
-|3,0,9,1,1,0,1504214250,"(setq github-override-colors-alist"
+	ksms1256	Windows Batch Print Server
+|3,0,9,1,1,0,1505767590,"ksms1256	Windows Batch Print Server"
 "-	CHAR	0
-	,
-|3,0,36,0,1,0,1504365608,","
+	.kohls.com
+|3,0,36,0,1,0,1505863745,".kohls.com"
 
 # File marks:
-'0  1  0  ~\documents\scratch.txt
-|4,48,1,0,1504366836,"~\\documents\\scratch.txt"
-'1  1  0  ~\Dropbox\Downloads\task_ci.csv
-|4,49,1,0,1504319087,"~\\Dropbox\\Downloads\\task_ci.csv"
-'2  1  0  C:\Scripts\Shutdown.bat
-|4,50,1,0,1504272639,"C:\\Scripts\\Shutdown.bat"
-'3  10  2  ~\.spacemacs-user-init
-|4,51,10,2,1504219043,"~\\.spacemacs-user-init"
+'0  36  12  ~\documents\scratch.txt
+|4,48,36,12,1505915649,"~\\documents\\scratch.txt"
+'1  28  20  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
+|4,49,28,20,1505760139,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
+'2  73  0  ~\scoop\apps\sysinternals\current\readme.txt
+|4,50,73,0,1505755470,"~\\scoop\\apps\\sysinternals\\current\\readme.txt"
+'3  1  0  ~\documents\scratch.txt
+|4,51,1,0,1505752327,"~\\documents\\scratch.txt"
 '4  1  0  ~\documents\scratch.txt
-|4,52,1,0,1504026438,"~\\documents\\scratch.txt"
+|4,52,1,0,1505752327,"~\\documents\\scratch.txt"
 '5  1  0  ~\documents\scratch.txt
-|4,53,1,0,1504026438,"~\\documents\\scratch.txt"
+|4,53,1,0,1505752327,"~\\documents\\scratch.txt"
 '6  1  0  ~\documents\scratch.txt
-|4,54,1,0,1504026438,"~\\documents\\scratch.txt"
-'7  3  14  ~\.vim_local\vimosconfig.vim
-|4,55,3,14,1504026249,"~\\.vim_local\\vimosconfig.vim"
-'8  1  23  ~\.vim_local\vimosconfig.vim
-|4,56,1,23,1504025962,"~\\.vim_local\\vimosconfig.vim"
-'9  1  23  ~\.vim_local\vimosconfig.vim
-|4,57,1,23,1504025962,"~\\.vim_local\\vimosconfig.vim"
+|4,54,1,0,1505752327,"~\\documents\\scratch.txt"
+'7  11  70  F:\2017-09-12_product-guids.txt
+|4,55,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
+'8  1  0  ~\documents\scratch.txt
+|4,56,1,0,1505429598,"~\\documents\\scratch.txt"
+'9  1  0  ~\documents\scratch.txt
+|4,57,1,0,1505429598,"~\\documents\\scratch.txt"
 
 # Jumplist (newest first):
+-'  36  12  ~\documents\scratch.txt
+|4,39,36,12,1505915649,"~\\documents\\scratch.txt"
+-'  35  0  ~\documents\scratch.txt
+|4,39,35,0,1505863692,"~\\documents\\scratch.txt"
+-'  30  0  ~\documents\scratch.txt
+|4,39,30,0,1505863511,"~\\documents\\scratch.txt"
+-'  31  0  ~\documents\scratch.txt
+|4,39,31,0,1505863499,"~\\documents\\scratch.txt"
+-'  26  0  ~\documents\scratch.txt
+|4,39,26,0,1505862960,"~\\documents\\scratch.txt"
+-'  25  0  ~\documents\scratch.txt
+|4,39,25,0,1505862949,"~\\documents\\scratch.txt"
+-'  24  0  ~\documents\scratch.txt
+|4,39,24,0,1505862931,"~\\documents\\scratch.txt"
+-'  23  0  ~\documents\scratch.txt
+|4,39,23,0,1505862921,"~\\documents\\scratch.txt"
+-'  41  0  ~\documents\scratch.txt
+|4,39,41,0,1505832131,"~\\documents\\scratch.txt"
+-'  40  0  ~\documents\scratch.txt
+|4,39,40,0,1505832122,"~\\documents\\scratch.txt"
+-'  10  33  ~\documents\scratch.txt
+|4,39,10,33,1505768103,"~\\documents\\scratch.txt"
+-'  18  0  ~\documents\scratch.txt
+|4,39,18,0,1505767326,"~\\documents\\scratch.txt"
+-'  2  73  ~\documents\scratch.txt
+|4,39,2,73,1505767322,"~\\documents\\scratch.txt"
+-'  21  0  ~\documents\scratch.txt
+|4,39,21,0,1505767313,"~\\documents\\scratch.txt"
 -'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1504366836,"~\\documents\\scratch.txt"
--'  1  0  ~\Dropbox\Downloads\task_ci.csv
-|4,39,1,0,1504319087,"~\\Dropbox\\Downloads\\task_ci.csv"
--'  1  0  ~\Dropbox\Downloads\task_ci.csv
-|4,39,1,0,1504319087,"~\\Dropbox\\Downloads\\task_ci.csv"
--'  1  0  C:\Scripts\Shutdown.bat
-|4,39,1,0,1504272639,"C:\\Scripts\\Shutdown.bat"
--'  1  0  C:\Scripts\Shutdown.bat
-|4,39,1,0,1504272639,"C:\\Scripts\\Shutdown.bat"
--'  1  0  C:\Scripts\Shutdown.bat
-|4,39,1,0,1504272639,"C:\\Scripts\\Shutdown.bat"
--'  1  0  C:\Scripts\Shutdown.bat
-|4,39,1,0,1504272639,"C:\\Scripts\\Shutdown.bat"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  10  2  ~\.spacemacs-user-init
-|4,39,10,2,1504219043,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  13  0  ~\.spacemacs-user-init
-|4,39,13,0,1504217573,"~\\.spacemacs-user-init"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  5  39  C:\Scripts\StartSpacemacs.ps1
-|4,39,5,39,1504217476,"C:\\Scripts\\StartSpacemacs.ps1"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  7  3  ~\.spacemacs-user-config
-|4,39,7,3,1504217434,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  124  0  ~\.spacemacs-user-config
-|4,39,124,0,1504214054,"~\\.spacemacs-user-config"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  619  0  ~\dotfiles\.spacemacs.d\init.el
-|4,39,619,0,1504211199,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  8  0  ~\.spacemacs-user-init
-|4,39,8,0,1504191255,"~\\.spacemacs-user-init"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  561  45  ~\dotfiles\.spacemacs.d\init.el
-|4,39,561,45,1504191204,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  98  81  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,98,81,1504191136,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  591  59  ~\dotfiles\.spacemacs.d\init.el
-|4,39,591,59,1504190679,"~\\dotfiles\\.spacemacs.d\\init.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  53  47  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,53,47,1504190358,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  55  48  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,55,48,1504189837,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  55  48  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,55,48,1504189837,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  55  48  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,55,48,1504189837,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
--'  55  48  ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-|4,39,55,48,1504189837,"~\\.emacs.d\\elpa\\github-modern-theme-20170628.2332\\github-modern-theme.el"
+|4,39,1,0,1505767313,"~\\documents\\scratch.txt"
+-'  28  20  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
+|4,39,28,20,1505760139,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
+-'  1  0  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
+|4,39,1,0,1505757797,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
+-'  169  12  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,169,12,1505757796,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  73  0  ~\scoop\apps\sysinternals\current\readme.txt
+|4,39,73,0,1505755470,"~\\scoop\\apps\\sysinternals\\current\\readme.txt"
+-'  1  0  ~\scoop\apps\sysinternals\current\readme.txt
+|4,39,1,0,1505755447,"~\\scoop\\apps\\sysinternals\\current\\readme.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1505754119,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1505753943,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1505752327,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1505752327,"~\\documents\\scratch.txt"
+-'  11  70  F:\2017-09-12_product-guids.txt
+|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
+-'  11  70  F:\2017-09-12_product-guids.txt
+|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
+-'  11  70  F:\2017-09-12_product-guids.txt
+|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
+-'  11  70  F:\2017-09-12_product-guids.txt
+|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
+-'  11  70  F:\2017-09-12_product-guids.txt
+|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
+-'  11  70  F:\2017-09-12_product-guids.txt
+|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
+-'  1  0  F:\2017-09-12_product-guids.txt
+|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
+-'  1  0  F:\2017-09-12_product-guids.txt
+|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
+-'  1  0  F:\2017-09-12_product-guids.txt
+|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
+-'  1  0  F:\2017-09-12_product-guids.txt
+|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
+-'  1  0  F:\2017-09-12_product-guids.txt
+|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
+-'  1  0  F:\2017-09-12_product-guids.txt
+|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
+-'  3  25  ~\documents\scratch.txt
+|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
+-'  3  25  ~\documents\scratch.txt
+|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
+-'  3  25  ~\documents\scratch.txt
+|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
+-'  3  25  ~\documents\scratch.txt
+|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
+-'  3  25  ~\documents\scratch.txt
+|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1505442478,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1505442478,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1505429598,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1505429598,"~\\documents\\scratch.txt"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+-'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
 
 # History of marks within files (newest to oldest):
 
 > ~\documents\scratch.txt
-	*	1504366073	0
-	"	1	0
-	^	1	81
-	.	1	80
-	+	1	1518
-	+	1	1547
-	+	1	1518
-	+	1	1072
-	+	1	298
-	+	1	1010
-	+	1	62
-	+	1	88
-	+	1	125
-	+	1	172
-	+	1	216
-	+	1	260
-	+	1	297
-	+	1	378
-	+	1	453
-	+	1	524
-	+	1	589
-	+	1	630
-	+	1	662
-	+	1	713
-	+	1	784
-	+	1	838
-	+	1	873
-	+	1	929
-	+	1	974
-	+	1	1011
-	+	1	1071
-	+	1	1127
-	+	1	1183
-	+	1	1234
-	+	1	1308
-	+	1	1369
-	+	1	1381
-	+	1	1402
-	+	1	1428
-	+	1	1472
-	+	1	1517
-	+	1	1546
-	+	1	1573
-	+	1	1607
-	+	1	1639
-	+	1	1668
-	+	1	355
-	+	1	46
-	+	1	376
-	+	1	46
-	+	1	355
-	+	1	78
-	+	1	104
-	+	1	148
-	+	1	193
-	+	1	222
-	+	1	249
-	+	1	283
-	+	1	315
-	+	1	344
-	+	1	387
-	+	1	402
-	+	1	428
-	+	1	465
-	+	1	512
-	+	1	556
-	+	1	600
-	+	1	637
-	+	1	718
-	+	1	793
-	+	1	864
-	+	1	929
+	*	1505864022	0
+	"	36	12
+	^	36	21
+	.	36	11
 	+	1	970
 	+	1	1002
 	+	1	1053
@@ -664,65 +944,378 @@ $,
 	+	1	25
 	+	1	38
 	+	1	50
-	+	2	0
+	+	1	27
 	+	1	80
+	+	1	26
+	+	1	47
+	+	1	73
+	+	1	101
+	+	1	128
+	+	1	0
+	+	1	1
+	+	1	0
+	+	2	0
+	+	1	14
+	+	2	17
+	+	2	113
+	+	4	32
+	+	1	0
+	+	5	0
+	+	4	64
+	+	5	0
+	+	16	66
+	+	16	87
+	+	16	88
+	+	18	0
+	+	2	0
+	+	4	64
+	+	1	0
+	+	6	0
+	+	17	0
+	+	16	76
+	+	17	56
+	+	3	0
+	+	2	72
+	+	3	74
+	+	16	75
+	+	17	56
+	+	16	65
+	+	17	65
+	+	16	64
+	+	17	65
+	+	16	64
+	+	17	65
+	+	16	64
+	+	3	73
+	+	2	72
+	+	4	63
+	+	2	73
+	+	18	66
+	+	18	75
+	+	21	0
+	+	2	9
+	+	21	0
+	+	1	0
+	+	18	0
+	+	34	0
+	+	40	0
+	+	41	0
+	+	42	0
+	+	19	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	12
+	+	26	0
+	+	30	0
+	+	31	0
+	+	30	0
+	+	29	31
+	+	34	6
+	+	38	0
+	+	35	0
+	+	36	11
 
-> ~\Dropbox\Downloads\task_ci.csv
-	*	1504304672	0
+> C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
+	*	1505758180	0
+	"	28	20
+	^	27	61
+	.	65	14
+	+	28	0
+	+	27	0
+	+	28	0
+	+	26	0
+	+	27	60
+	+	65	14
+
+> F:\2017-09-18_Processes_only_after-Build9-error.txt
+	*	1505757795	0
+	"	169	12
+	.	1	0
+	+	1	0
+	+	184	0
+	+	1	0
+
+> ~\scoop\apps\sysinternals\current\readme.txt
+	*	1505755447	0
+	"	73	0
+
+> F:\2017-09-18_Processes_only_during-Build9-error.txt
+	*	1505754126	0
+	"	185	0
+	.	1	0
+	+	1	0
+	+	186	0
+	+	1	0
+
+> F:\2017-09-12_product-guids.txt
+	*	1505513478	0
+	"	11	70
+	.	6	0
+	+	1	0
+	+	5	0
+	+	6	0
+
+> ~\scoop\apps\vim\current\doc\help.txt
+	*	1505442468	0
 	"	1	0
 
-> C:\Scripts\Shutdown.bat
-	*	1504272284	0
+> ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
+	*	1505259762	0
+	"	57461	0
+
+> ~\AppData\Local\Temp\2017-09-12T18-18-52_Install_vbs.log
+	*	1505259759	0
+	"	23	37
+
+> ~\AppData\Local\Temp\MSI2017-09-12T17-49-00.log
+	*	1505258395	0
+	"	65102	0
+
+> ~\AppData\Local\Temp\2017-09-12T17-49-00_Install_vbs.log
+	*	1505258363	0
+	"	45	45
+
+> ~\AppData\Local\Temp\MSI2017-09-12T17-38-50.log
+	*	1505258021	0
+	"	19	153
+	^	8	50
+	.	8	49
+	+	8	49
+
+> ~\$MYVIMRC
+	*	1505258008	0
 	"	1	0
 
-> ~\.spacemacs-user-init
-	*	1504218664	0
-	"	10	2
-	^	10	3
-	.	10	2
-	+	12	0
-	+	13	0
-	+	9	69
-	+	11	0
-	+	9	41
-	+	50	40
-	+	51	42
-	+	10	22
-	+	10	23
-	+	11	0
-	+	10	45
-	+	50	7
-	+	51	6
-	+	50	7
-	+	51	18
-	+	50	17
-	+	51	18
-	+	52	0
-	+	51	18
-	+	50	17
-	+	10	2
+> ~\AppData\Local\Temp\2017-09-12T17-38-50_Install_vbs.log
+	*	1505256807	0
+	"	23	46
+
+> ~\AppData\Local\Temp\MSI2017-09-12T14-42-03.log
+	*	1505256009	0
+	"	4806	38
+
+> ~\AppData\Local\Temp\2017-09-12T14-42-03_Install_vbs.log
+	*	1505255964	0
+	"	30	47
+
+> ~\AppData\Local\Temp\MSI2017-09-12T13-05-04.log
+	*	1505247788	0
+	"	13212	0
+	^	13212	0
+
+> ~\AppData\Local\Temp\2017-09-12T13-05-04_Install_vbs.log
+	*	1505243213	0
+	"	26	9
+
+> ~\AppData\Local\Temp\2017-09-12T10-48-52_Install_vbs.log
+	*	1505232400	0
+	"	10	68
+
+> ~\AppData\Local\Temp\MSI2017-09-12T10-48-52.log
+	*	1505232380	0
+	"	52451	62
+
+> ~\AppData\Local\Temp\MSI000001.Log
+	*	1505231457	0
+	"	82577	0
+
+> ~\AppData\Local\Temp\2017-09-12T10-24-43_Install_vbs.log
+	*	1505230537	0
+	"	3	0
+
+> ~\AppData\Local\Temp\2017-09-12T10-21-26_Install_vbs.log
+	*	1505229941	0
+	"	5	0
+
+> ~\AppData\Local\Temp\2017-09-12T10-16-31_Install_vbs.log
+	*	1505229705	0
+	"	21	52
+
+> ~\AppData\Local\Temp\2017-09-12T10-15-04_Install_vbs.log
+	*	1505229407	0
+	"	12	0
+
+> ~\AppData\Local\Temp\2017-09-12T10-10-45_Install_vbs.log
+	*	1505229326	0
+	"	21	52
+
+> ~\AppData\Local\Temp\2017-09-12T09-46-42_Install_vbs.log
+	*	1505229063	0
+	"	18	62
+
+> ~\2017-09-08T19-34-18_install_vbs_Space-Planning.log
+	*	1504917383	0
+	"	15	0
+
+> ~\2017-09-08T19-30-27_install_vbs_Space-Planning.log
+	*	1504917265	0
+	"	3	0
+
+> ~\Documents\Downloads\installJDA\Install.vbs
+	*	1504917265	0
+	"	72	7
+	^	1201	65
+	.	1201	65
+	+	61	0
+	+	887	0
+	+	918	16
+	+	1013	0
+	+	1012	13
+	+	989	80
+	+	990	20
+	+	989	82
+	+	990	0
+	+	989	22
+	+	990	0
+	+	989	0
+	+	990	34
+	+	1108	0
+	+	1107	0
+	+	1108	34
+	+	1156	0
+	+	1158	0
+	+	1158	34
+	+	1202	0
+	+	1200	0
+	+	1202	34
+	+	1064	0
+	+	1063	0
+	+	1064	34
+	+	886	45
+	+	961	44
+	+	1025	22
+	+	961	44
+	+	964	0
+	+	962	0
+	+	963	54
+	+	969	51
+	+	963	36
+	+	969	36
+	+	982	0
+	+	975	0
+	+	976	46
+	+	988	0
+	+	988	81
+	+	995	0
+	+	996	0
+	+	995	0
+	+	997	0
+	+	998	0
+	+	999	0
+	+	1000	0
+	+	1011	57
+	+	982	63
+	+	1017	71
+	+	1027	0
+	+	1025	2
+	+	1027	51
+	+	1029	0
+	+	1026	0
+	+	1029	50
+	+	1072	0
+	+	1071	2
+	+	1072	50
+	+	1120	0
+	+	1120	50
+	+	1165	0
+	+	1164	2
+	+	1165	50
+	+	1214	0
+	+	1213	2
+	+	1214	50
+	+	1120	0
+	+	1121	0
+	+	1120	2
+	+	1121	2
+	+	1029	60
+	+	1027	0
+	+	1029	0
+	+	1027	44
+	+	1027	45
+	+	1029	0
+	+	1027	46
+	+	1027	58
+	+	1027	46
+	+	1027	58
+	+	1027	59
+	+	1027	60
+	+	1029	0
+	+	1028	20
+	+	1029	0
+	+	1028	122
+	+	1028	19
+	+	1027	40
+	+	1028	39
+	+	1064	74
+	+	1108	0
+	+	1158	0
+	+	1157	70
+	+	1158	0
+	+	1201	0
+	+	1202	0
+	+	1201	65
+
+> ~\2017-09-08T19-15-07_install_vbs.log
+	*	1504917136	0
+	"	21	24
+
+> ~\2017-09-08T19-10-58_install_vbs.log
+	*	1504916262	0
+	"	20	26
+
+> ~\2017-09-08T19-04-22_install_vbs.log
+	*	1504915867	0
+	"	20	16
+
+> ~\2017-09-08T18-46-59_install_vbs.log
+	*	1504915492	0
+	"	13	68
+
+> ~\2017-09-08T18-43-24_install_vbs.log
+	*	1504914452	0
+	"	12	43
+
+> ~\2017-09-08T18-35-58_install_vbs.log
+	*	1504914249	0
+	"	12	28
+
+> ~\2017-09-08T18-18-35_install_vbs.log
+	*	1504913806	0
+	"	12	28
+
+> ~\2017-09-08T18-09-18_install_vbs.log
+	*	1504912824	0
+	"	9	57
+
+> ~\2017-09-08T16-47-39_install_vbs.log
+	*	1504912241	0
+	"	1	10
+
+> ~\Documents\Downloads\installJDA\CLogger.vbs
+	*	1504912240	0
+	"	299	7
+
+> ~\scoop\apps\vim\current\doc\eval.txt
+	*	1504908367	0
+	"	9611	14
+
+> ~\2017-09-08T14-40-09_Install_vbs.log
+	*	1504907317	0
+	"	2	41
 
 > ~\dotfiles\.spacemacs.d\init.el
-	*	1504218151	0
-	"	210	53
-	^	241	31
-	.	241	30
-	+	619	63
-	+	614	0
-	+	619	0
-	+	619	64
-	+	620	0
-	+	619	64
-	+	241	3
-	+	241	0
-	+	287	31
-	+	241	31
-	+	242	33
-	+	241	3
-	+	242	3
-	+	241	3
-	+	242	3
-	+	241	25
+	*	1504898145	0
+	"	585	52
+	^	173	6
+	.	173	5
+	+	245	31
+	+	246	33
+	+	245	3
+	+	246	3
+	+	245	3
+	+	246	3
+	+	245	25
 	+	85	6
 	+	84	6
 	+	143	6
@@ -801,29 +1394,362 @@ $,
 	+	45	2
 	+	44	2
 	+	43	2
-	+	216	27
-	+	241	30
+	+	220	27
+	+	245	30
+	+	173	5
+	+	172	5
+	+	187	48
+	+	188	46
+	+	188	41
+	+	189	55
+	+	189	48
+	+	188	0
+	+	189	48
+	+	190	0
+	+	172	5
+	+	195	50
+	+	173	5
+
+> ~\.spacemacs-user-init
+	*	1504898140	0
+	"	31	0
+	^	30	11
+	.	30	10
+	+	13	0
+	+	14	0
+	+	10	69
+	+	11	0
+	+	10	41
+	+	25	40
+	+	26	42
+	+	11	22
+	+	11	23
+	+	11	0
+	+	11	45
+	+	25	7
+	+	26	6
+	+	25	7
+	+	26	18
+	+	25	17
+	+	26	18
+	+	27	0
+	+	26	18
+	+	25	17
+	+	11	2
+	+	6	0
+	+	24	0
+	+	20	0
+	+	11	0
+	+	15	0
+	+	16	0
+	+	15	0
+	+	24	0
+	+	23	0
+	+	32	0
+	+	30	2
+	+	29	0
+	+	30	4
+	+	24	4
+	+	21	4
+	+	23	0
+	+	20	0
+	+	15	4
+	+	7	29
+	+	12	17
+	+	15	0
+	+	21	0
+	+	24	0
+	+	30	10
 
 > ~\.spacemacs-user-config
-	*	1504218061	0
-	"	46	42
-	.	124	0
-	+	124	0
-	+	124	10
-	+	124	0
-	+	124	82
-	+	124	50
-	+	124	62
-	+	124	54
-	+	124	66
-	+	124	0
+	*	1504898139	0
+	"	1	0
+	^	49	1
+	.	49	0
+	+	211	0
+	+	142	0
+	+	211	0
+	+	211	25
+	+	212	0
+	+	211	25
+	+	212	6
+	+	8	0
+	+	7	0
+	+	205	0
+	+	212	7
+	+	212	6
+	+	212	2
+	+	212	1
+	+	212	7
+	+	212	23
+	+	212	34
+	+	212	0
+	+	210	0
+	+	205	72
+	+	204	21
+	+	205	0
+	+	212	0
+	+	212	1
+	+	212	0
+	+	8	0
+	+	212	0
+	+	171	0
+	+	155	11
+	+	143	6
+	+	156	0
+	+	171	0
+	+	150	0
+	+	212	0
+	+	172	0
+	+	176	0
+	+	172	3
+	+	212	0
+	+	177	0
+	+	180	0
+	+	212	0
+	+	181	0
+	+	184	0
+	+	203	0
+	+	185	28
+	+	186	0
+	+	185	0
+	+	181	0
+	+	177	0
+	+	185	0
+	+	152	0
+	+	185	0
+	+	212	32
+	+	185	0
+	+	156	0
+	+	157	0
+	+	155	0
+	+	64	0
+	+	51	4
+	+	55	0
+	+	56	4
+	+	64	0
+	+	17	16
+	+	18	0
+	+	19	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	19	0
+	+	15	62
+	+	18	0
+	+	15	0
+	+	20	0
+	+	15	0
+	+	20	0
+	+	2	0
+	+	47	0
+	+	47	32
+	+	47	0
+	+	47	24
+	+	20	0
+	+	2	0
+	+	20	0
+	+	35	25
+	+	36	0
+	+	20	0
+	+	152	0
+	+	153	43
+	+	213	0
+	+	207	0
+	+	48	0
+	+	49	0
+
+> ~\dotfiles\.spacemacs.d\public\local\powershell.el
+	*	1504893628	0
+	"	79	0
+
+> ~\.emacs.d\private\local\README.md
+	*	1504893627	0
+	"	6	0
+
+> ~\dotfiles\.spacemacs.d\public\local\jcl-mode.el
+	*	1504893624	0
+	"	41	0
+
+> ~\dotfiles\.spacemacs.d\public\local\powerline-evil-themes.el
+	*	1504893617	0
+	"	22	14
+
+> ~\dotfiles\.spacemacs.d\public\local\visual-basic-mode.el
+	*	1504892677	0
+	"	48	27
+
+> ~\.emacs.d\elpa\cobol-mode-1.0.0\cobol-mode.el
+	*	1504892650	0
+	"	3064	22
+
+> ~\Documents\Downloads\incident_af4f733d133047845b5bbbc76144b0ad_attachments\Install.vbs
+	*	1504701545	0
+	"	293	19
+	^	247	4
+	.	248	0
+	+	381	37
+	+	372	20
+	+	395	52
+	+	421	35
+	+	444	67
+	+	450	32
+	+	480	28
+	+	494	28
+	+	10	0
+	+	7	0
+	+	8	0
+	+	7	0
+	+	8	27
+	+	9	0
+	+	8	0
+	+	9	16
+	+	10	23
+	+	13	0
+	+	517	0
+	+	10	0
+	+	9	10
+	+	10	4
+	+	13	0
+	+	14	20
+	+	223	25
+	+	229	25
+	+	232	0
+	+	14	0
+	+	517	0
+	+	76	0
+	+	90	0
+	+	104	0
+	+	118	0
+	+	178	0
+	+	176	66
+	+	176	96
+	+	178	0
+	+	279	0
+	+	315	0
+	+	318	39
+	+	318	60
+	+	319	0
+	+	331	0
+	+	334	39
+	+	334	60
+	+	335	0
+	+	346	0
+	+	349	39
+	+	349	61
+	+	362	0
+	+	365	38
+	+	365	60
+	+	398	0
+	+	405	0
+	+	409	0
+	+	430	0
+	+	435	0
+	+	423	66
+	+	423	90
+	+	423	120
+	+	423	148
+	+	424	0
+	+	452	66
+	+	452	90
+	+	452	120
+	+	452	148
+	+	453	0
+	+	456	64
+	+	457	0
+	+	466	64
+	+	467	0
+	+	488	0
+	+	504	0
+	+	509	69
+	+	510	0
+	+	223	0
+	+	303	39
+	+	303	60
+	+	304	0
+	+	350	0
+	+	366	0
+	+	182	0
+	+	509	73
+	+	244	0
+	+	243	0
+	+	244	32
+	+	247	25
+	+	177	0
+	+	176	0
+	+	177	124
+	+	237	0
+	+	240	0
+	+	237	0
+	+	239	0
+	+	240	33
+	+	241	3
+	+	242	7
+	+	246	28
+	+	247	3
+	+	248	0
 
 > C:\Scripts\StartSpacemacs.ps1
-	*	1504217470	0
-	"	5	39
+	*	1504701487	0
+	"	19	17
 	^	5	52
 	.	5	39
 	+	5	39
+
+> ~\gview.bat
+	*	1504650198	0
+	"	21	23
+	^	5	63
+	.	4	0
+	+	4	0
+	+	4	3
+	+	4	51
+	+	5	62
+	+	4	0
+
+> ~\gvimdiff.bat
+	*	1504650037	0
+	"	25	0
+	.	4	0
+	+	4	54
+	+	4	0
+
+> ~\gvim.bat
+	*	1504648675	0
+	"	30	7
+	^	7	0
+	.	4	0
+	+	4	54
+	+	4	0
+	+	7	0
+	+	4	0
+
+> C:\Windows\gview.bat.old
+	*	1504648604	0
+	"	1	0
+
+> C:\Scripts\StopSpacemacs.ps1
+	*	1504642210	0
+	"	2	33
+	^	1	34
+	.	1	33
+	+	4	5
+	+	1	33
+
+> C:\Scripts\RestartSpacemacs.ps1
+	*	1504641872	0
+	"	1	0
+	^	3	6
+	.	3	5
+	+	3	5
+
+> ~\Dropbox\Downloads\task_ci.csv
+	*	1504304672	0
+	"	1	0
+
+> C:\Scripts\Shutdown.bat
+	*	1504272284	0
+	"	1	0
 
 > ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
 	*	1504215576	0
@@ -902,13 +1828,6 @@ $,
 	+	7	0
 	+	31	55
 
-> ~\gview.bat
-	*	1503780174	0
-	"	4	0
-	^	4	55
-	.	4	54
-	+	4	54
-
 > C:\Windows\gvim.bat.old
 	*	1503780172	0
 	"	5	0
@@ -916,12 +1835,6 @@ $,
 	.	5	0
 	+	4	54
 	+	5	0
-
-> ~\gvimdiff.bat
-	*	1503780157	0
-	"	1	0
-	.	2	0
-	+	2	0
 
 > C:\Windows\gvimdiff.bat.old
 	*	1503780155	0
@@ -991,13 +1904,6 @@ $,
 	.	3	5
 	+	3	5
 
-> C:\Scripts\StopSpacemacs.ps1
-	*	1503753060	0
-	"	4	5
-	^	4	6
-	.	4	5
-	+	4	5
-
 > C:\Scripts\StartVIM.ps1
 	*	1503753038	0
 	"	40	5
@@ -1024,13 +1930,6 @@ $,
 	"	3	0
 	.	4	0
 	+	4	0
-
-> C:\Scripts\RestartSpacemacs.ps1
-	*	1503752928	0
-	"	3	5
-	^	3	6
-	.	3	5
-	+	3	5
 
 > C:\Scripts\StartChromeKohls.ps1
 	*	1503749921	0
@@ -1141,17 +2040,6 @@ $,
 	*	1503684147	0
 	"	1	117
 
-> C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
-	*	1503683393	0
-	"	128	12
-	^	27	61
-	.	27	60
-	+	28	0
-	+	27	0
-	+	28	0
-	+	26	0
-	+	27	60
-
 > C:\Program Files (x86)\JDA\Intactix\AutoPopulate\FPAutoPopulate.txt
 	*	1503682281	0
 	"	1	0
@@ -1167,167 +2055,3 @@ $,
 > ~\work\JDA IKB Installation\Install.vbs
 	*	1503677223	0
 	"	122	0
-
-> \\ksms3024\share\Forever\IS\90518 - PD\90517 - Merch Presentation\PG\Upgrade 7.8\SMS Push For JDA 7.8\Intactix Knowledge Base\07.8.0.1420\Install.vbs
-	*	1503677221	0
-	"	19	64
-
-> ~\work\JDA IKB Installation\Updates.vbs
-	*	1503677199	0
-	"	152	0
-
-> \\ksms3024\share\Forever\IS\90518 - PD\90517 - Merch Presentation\PG\Upgrade 7.8\SMS Push For JDA 7.8\Intactix Knowledge Base\07.8.0.1420\Updates.vbs
-	*	1503677196	0
-	"	1	0
-
-> \\ksms3024\share\Forever\IS\90518 - PD\90517 - Merch Presentation\PG\Upgrade 7.8\SMS Push For JDA 7.8\Intactix Knowledge Base\07.8.0.1420\UserSettings.vbs
-	*	1503677154	0
-	"	7	19
-
-> ~\scoop\apps\vim\current\doc\help.txt
-	*	1503675640	0
-	"	1	0
-
-> F:\2017-08-24_pristine_environment-variables.txt
-	*	1503623037	0
-	"	13	27
-	.	23	0
-	+	1	0
-	+	23	0
-
-> ~\My Program Files\Powershell Community Extensions\about_Pscx.help.txt
-	*	1503621588	0
-	"	356	12
-
-> F:\2017-08-24_user-path_new.txt
-	*	1503621332	0
-	"	1	18
-	.	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-	+	1	0
-	+	2	0
-
-> F:\2017-08-24_environment-variables.txt
-	*	1503613553	0
-	"	14	83
-
-> C:\Program Files (x86)\FindAndRunRobot\%1
-	"	1	0
-	.	1	0
-	+	1	0
-	+	1	0
-
-> /c/Users/tkma608/dotfiles/.git/COMMIT_EDITMSG
-	"	1	0
-
-> ~\AppData\Local\Programs\Git\documents\scratch.txt
-	*	1503505618	0
-	"	1	0
-
-> ~/dotfiles/.git/COMMIT_EDITMSG
-	"	1	0
-	^	1	60
-	.	1	59
-	+	1	59
-
-> ~/.gitconfig
-	"	1	0
-	^	5	28
-	.	5	27
-	+	4	0
-	+	5	27
-
-> ~/.vim_local/gvimosconfig.vim
-	"	1	0
-
-> ~/dotfiles/vim/.vimrc
-	"	10	0
-
-> ~/dotfiles/vim/.gvimrc
-	"	5	2
-	^	5	2
-	.	5	0
-	+	5	0
-
-> E:\dev\PG_Planogram\root\source\VB\SPEnforcer\Enforcer.ini
-	*	1503442380	0
-	"	13	35
-
-> \\pgix010p\mdseplan\Prospace\enforcer\Enforcer.ini
-	*	1503442361	0
-	"	13	24
-	.	14	0
-	+	3	32
-	+	14	0
-
-> C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGPrep.INI
-	*	1503442177	0
-	"	6	0
-
-> C:\Program Files (x86)\JDA\Intactix\Intactix Knowledge Base\Data\PGAdmin.INI
-	*	1503442175	0
-	"	111	0
-
-> C:\Program Files (x86)\JDA\Intactix\Space Planning\ProSpace.ini
-	*	1503442166	0
-	"	330	4
-
-> \\pgix010p\Mdseplan\FloorPln\enforcer\FPEnforcer.ini
-	*	1503442017	0
-	"	6	37
-	^	6	38
-	.	6	37
-	+	5	0
-	+	6	29
-	+	2	816
-	+	6	37
-
-> C:\Program Files (x86)\JDA\Intactix\Enforcer\Enforcer.ini
-	*	1503432642	0
-	"	1	0
-
-> c:\temp\VIA235D.tmp
-	*	1503421318	0
-	"	1	0
-
-> c:\temp\VIA8385.tmp
-	*	1503421223	0
-	"	1	0
-
-> ~\dotfiles\vim\.gvimrc
-	*	1503420857	0
-	"	3	16
-
-> ~\work\2017-08-22_list_programs-to-be-added-to-path.txt
-	*	1503416621	0
-	"	13	6
-	^	13	7
-	.	1	0
-	+	1	0
-
-> C:\Scripts\StartAyehuVDI-2.ps1
-	*	1503415607	0
-	"	2	36
-	^	3	0
-	.	3	0
-	+	5	16
-	+	1	7
-	+	4	19
-	+	2	6
-	+	1	8
-	+	2	36
-	+	4	39
-	+	1	7
-	+	4	21
-	+	5	0
-	+	3	0
-
-> ~\Documents\test.1.txt
-	*	1503360508	0
-	"	1	0
-	^	1	2
-	.	1	0
-	+	1	0

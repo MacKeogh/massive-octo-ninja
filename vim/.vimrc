@@ -1,7 +1,7 @@
+set nocompatible "Vundle requires it be first line
 "set viminfo=' . fnamemodify(expand("$MYVIMRC"), ":p:h") . "/.viminfo"
 execute 'set runtimepath^=' . expand('~/dotfiles/vim/.vim')
 execute 'set runtimepath+=' . expand('~/dotfiles/vim')
-set nocompatible "Vundle requires it be first line
 filetype off "required by Vundle
 " set the runtime path to include Vundle
 set runtimepath+=~/dotfiles/vim/.vim/bundle/Vundle.vim
@@ -124,3 +124,6 @@ source ~/.vim_local/vimosconfig.vim
 " set runtimepath^=~/vimfiles/plugin/ctrlp.vim
 
 " :scriptnames
+
+" Enable BClose plugin
+nmap <C-W>! <Plug>Kwbd
