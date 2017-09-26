@@ -30,163 +30,83 @@ values."
    dotspacemacs-configuration-layer-path '()
    ;; List of configuration layers to load.
    dotspacemacs-configuration-layers
-   '(
-     ;; ----------------------------------------------------------------
-     ;; Example of useful layers you may want to use right away.
-     ;; Uncomment some layer names and press <SPC f e R> (Vim style) or
-     ;; <M-m f e R> (Emacs style) to install them.
-     ;; ----------------------------------------------------------------
-      ;agda ;; Programming and markup languages
-      ;ansible ;; Tools
-      ;asciidoc ;; Programming and markup languages
-      ;asm ;; Programming and markup languages
-     auto-completion ;; Completion
-     autohotkey ;; Programming and markup languages
-     better-defaults ;; Emacs
-      ;bibtex ;; Programming and markup languages
-      ;c-c++ ;; Programming and markup languages
-      ;cfengine ;; Tools
-      ;chinese ;; International support
-      ;chrome ;; Tools
-     clojure ;; Programming and markup languages
-     colors ;; Themes
-     (colors :variables colors-colorize-identifiers 'all)
-     command-log ;; Tools
-      ;common-lisp ;; Programming and markup languages
-      ;cscope ;; Tags
-      ;csharp ;; Programming and markup languages
-     csv ;; Programming and markup languages
-      ;d ;; Programming and markup languages
-     dash ;; Tools
-      ;deft ;; Tools
-      ;django ;; Frameworks
-      ;docker ;; Tools
-      ;elfeed ;; Web services
-      ;elixir ;; Programming and markup languages
-      ;elm ;; Programming and markup languages
-      emacs-lisp ;; !mandatory! Programming and markup languages
-      ;emoji ;; Fun
-      ;erc ;; Chat
-      ;erlang ;; Programming and markup languages
-      ;ess ;; Programming and markup languages
-      ;evernote ;; Web services
-      ;evil-cleverparens ;; Vim
-      ;evil-commentary ;; Vim
-      ;evil-snipe ;; !re-enable after gaining experience! Vim
-      ;extra-langs ;; Programming and markup languages
-      ;fasd ;; Tools
-      ;faust ;; Programming and markup languages
-      ;finance ;; Tools
-      ;floobits ;; Pair programming
-      ;fsharp ;; Programming and markup languages
-      ;games ;; Fun
-      ;geolocation ;; Tools
-      git ;; Source control
-      github ;; Source control
-      ;gnus ;; E-mail
-      ;go ;; Programming and markup languages
-      ;graphviz ;; Programming and markup languages
-      ;gtags ;; Tags
-      ;haskell ;; Programming and markup languages
-      ;helm ;; Completion
-      ;html ;; Programming and markup languages
-      ;ibuffer ;; Emacs
-      ;idris ;; Programming and markup languages
-      ;imenu-list ;; Tools
-      ;ipython-notebook ;; Programming and markup languages
-      ;ivy ;; Completion
-      ;jabber ;; Chat
-      ;java ;; Programming and markup languages
-      ;javascript ;; Programming and markup languages
-      ;keyboard-layout ;; International support
-      ;latex ;; Programming and markup languages
-      ;lua ;; Programming and markup languages
-      ;markdown ;; Programming and markup languages
-      ;mu4e ;; E-mail
-      ;nginx ;; Tools
-      ;nim ;; Programming and markup languages
-      ;nixos ;; Operating systems
-      ;nlinum ;; Misc
-      ;ocaml ;; Programming and markup languages
-      ;octave ;; Programming and markup languages
-      ;org ;; Emacs
-      ;osx ;; Operating systems
-      ;pandoc ;; Tools
-      ;pdf-tools ;; Tools
-      ;perforce ;; Source control
-      ;php ;; Programming and markup languages
-      ;plantuml ;; Programming and markup languages
-      ;prodigy ;; Tools
-      ;puppet ;; Tools
-      ;purescript ;; Programming and markup languages
-      ;python ;; Programming and markup languages
-      ;racket ;; Programming and markup languages
-      ;ranger ;; Tools
-      ;rcirc ;; Chat
-      ;react ;; Frameworks
-      ;restclient ;; Tools
-      ;ruby ;; Programming and markup languages
-      ;ruby-on-rails ;; Frameworks
-      ;rust ;; Programming and markup languages
-      ;salt ;; Tools
-      ;scala ;; Programming and markup languages
-      ;scheme ;; Programming and markup languages
-      ;search-engine ;; Web services
-      ;selectric ;; Fun
-      ;semantic ;; Emacs
-      ;shaders ;; Programming and markup languages
-     shell ;; Tools
-     shell-scripts ;; Programming and markup languages
-      ;slack ;; Chat
-      ;smex ;; Emacs
-      ;sml ;; Programming and markup languages
-      ;spacemacs ;; Distributions
-      ;spacemacs-base ;; Distributions
-      ;spacemacs-bootstrap ;; Distributions
-      ;spacemacs-completion ;; Spacemacs distribution layers
-      ;spacemacs-editing ;; Spacemacs distribution layers
-      ;spacemacs-editing-visual ;; Spacemacs distribution layers
-      ;spacemacs-evil ;; Spacemacs distribution layers
-      ;spacemacs-language ;; Spacemacs distribution layers
-      ;spacemacs-layouts ;; Spacemacs distribution layers
-      ;spacemacs-misc ;; Spacemacs distribution layers
-      ;spacemacs-org ;; Spacemacs distribution layers
-      ;spacemacs-ui ;; Spacemacs distribution layers
-      ;spacemacs-ui-visual ;; Spacemacs distribution layers
-      ;speed-reading ;; Tools
-     spell-checking ;; Checkers
-      ;spotify ;; Web services
-     sql ;; Programming and markup languages
-      ;swift ;; Programming and markup languages
-     syntax-checking ;; Checkers
-      ;systemd ;; Tools
-      ;terraform ;; Tools
-      ;themes-megapack ;; Themes
-     theming ;; Themes
-      ;tmux ;; Tools
-      ;twitter ;; Web services
-      ;typescript ;; Programming and markup languages
-      ;typography ;; Emacs
-      ;vagrant ;; Tools
-      ;version-control ;; Source control
-     ;vim-empty-lines ;; Vim
-     ;vim-powerline ;; Vim
-     vimscript ;; Programming and markup languages
-      ;vinegar ;; Vim
-      ;wakatime ;; Web services
-     windows-scripts ;; Programming and markup languages
-      ;xkcd ;; Fun
-      ;yaml ;; Programming and markup languages
-      ;ycmd ;; Tools
+   (if (eq system-type 'darwin)
+     '(
+        auto-completion ;; Completion
+        autohotkey ;; Programming and markup languages
+        better-defaults ;; Emacs
+        c-c++ ;; Programming and markup languages
+        clojure ;; Programming and markup languages
+        colors ;; Themes
+        (colors :variables colors-colorize-identifiers 'all)
+        command-log ;; Tools
+        common-lisp ;; Programming and markup languages
+        csv ;; Programming and markup languages
+        dash ;; Tools
+        emacs-lisp ;; !mandatory! Programming and markup languages
+        git ;; Source control
+        github ;; Source control
+      ;  ocaml ;; Programming and markup languages
+        org ;; Emacs
+        osx ;; Operating systems
+        pdf-tools ;; Tools
+        python ;; Programming and markup languages
+        racket ;; Programming and markup languages
+        ruby ;; Programming and markup languages
+        rust ;; Programming and markup languages
+        scala ;; Programming and markup languages
+        scheme ;; Programming and markup languages
+        shell ;; Tools
+        shell-scripts ;; Programming and markup languages
+        sml ;; Programming and markup languages
+        speed-reading ;; Tools
+        spell-checking ;; Checkers
+        sql ;; Programming and markup languages
+        swift ;; Programming and markup languages
+        syntax-checking ;; Checkers
+        theming ;; Themes
+        tmux ;; Tools
+        vimscript ;; Programming and markup languages
+        yaml ;; Programming and markup languages
+        )
+     '(
+        auto-completion ;; Completion
+        autohotkey ;; Programming and markup languages
+        better-defaults ;; Emacs
+        clojure ;; Programming and markup languages
+        colors ;; Themes
+        (colors :variables colors-colorize-identifiers 'all)
+        command-log ;; Tools
+        common-lisp ;; Programming and markup languages
+        csv ;; Programming and markup languages
+        dash ;; Tools
+        emacs-lisp ;; !mandatory! Programming and markup languages
+        git ;; Source control
+        github ;; Source control
+        org ;; Emacs
+        shell ;; Tools
+        shell-scripts ;; Programming and markup languages
+        spell-checking ;; Checkers
+        sql ;; Programming and markup languages
+        syntax-checking ;; Checkers
+        theming ;; Themes
+        vimscript ;; Programming and markup languages
+        windows-scripts ;; Programming and markup languages
+        )
      )
+
    ;; List of additional packages that will be installed without being
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
    ;dotspacemacs-additional-packages '(cobol-mode jcl-mode)
-   dotspacemacs-additional-packages '(cobol-mode
-                                      org
-                                      powershell)
+   dotspacemacs-additional-packages (if (eq system-type 'darwin)
+                                      '(org
+                                        powershell)
+                                     '(cobol-mode
+                                        org
+                                        powershell)
+                                     )
 
    ;; A list of packages that cannot be updated.
    dotspacemacs-frozen-packages '()
@@ -541,7 +461,7 @@ values."
    dotspacemacs-highlight-delimiters 'all
    ;; If non nil, advise quit functions to keep server open when quitting.
    ;; (default nil)
-   dotspacemacs-persistent-server t
+   dotspacemacs-persistent-server (if (eq system-type 'darwin) nil t) ;; Programming and markup languages
    ;; List of search tool executable names. Spacemacs uses the first installed
    ;; tool of the list. Supported tools are `ag', `pt', `ack' and `grep'.
    ;; (default '("ag" "pt" "ack" "grep"))
@@ -589,8 +509,9 @@ you should place your code here."
  '(flycheck-display-errors-function (function flycheck-pos-tip-error-messages))
  '(package-selected-packages
    (quote
-    (github-modern-theme github-theme vimrc-mode dactyl-mode cobol-mode insert-shebang fish-mode company-shell fuzzy clojure-snippets madhat2r-theme autothemer darkokai-theme csv-mode winum unfill diminish solarized-theme org powershell uuidgen pug-mode org-projectile org-download mwim livid-mode skewer-mode simple-httpd link-hint hide-comnt github-search flyspell-correct-helm flyspell-correct eyebrowse evil-visual-mark-mode evil-unimpaired evil-ediff eshell-z dumb-jump column-enforce-mode color-identifiers-mode yaml-mode wolfram-mode web-mode web-beautify tagedit stan-mode sql-indent slim-mode scss-mode scad-mode sass-mode ruby-end rainbow-mode rainbow-identifiers qml-mode matlab-mode magit-gh-pulls less-css-mode julia-mode json-mode json-snatcher json-reformat js2-refactor js2-mode js-doc jade-mode helm-css-scss haml-mode github-clone github-browse-file git-link gist gh marshal logito pcache ht flycheck-elm evil-snipe emmet-mode elm-mode f company-web web-completion-data company-tern dash-functional tern coffee-mode arduino-mode alchemist elixir-mode ahk-mode zeal-at-point stickyfunc-enhance srefactor helm-dash undo-tree zonokai-theme zenburn-theme zen-and-art-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme tronesque-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme stekene-theme spacegray-theme soothe-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme pastels-on-dark-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme niflheim-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme firebelly-theme farmhouse-theme espresso-theme emoji-cheat-sheet-plus dracula-theme django-theme darktooth-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme company-emoji colorsarenice-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme clj-refactor inflections edn multiple-cursors paredit peg cider-eval-sexp-fu cider queue clojure-mode ejc-sql xterm-color toc-org shell-pop org-repo-todo org-present org-pomodoro alert log4e gntp org-plus-contrib org-bullets multi-term mmm-mode markdown-toc markdown-mode htmlize helm-flyspell helm-company helm-c-yasnippet gnuplot git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-gutter gh-md flycheck-pos-tip flycheck eshell-prompt-extras esh-help diff-hl company-statistics company-quickhelp pos-tip company auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete smeargle orgit magit-gitflow helm-gitignore request gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger evil-magit magit magit-popup git-commit with-editor ws-butler window-numbering volatile-highlights vi-tilde-fringe spaceline s powerline smooth-scrolling restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox hydra spinner page-break-lines open-junk-file neotree move-text macrostep lorem-ipsum linum-relative leuven-theme info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make projectile pkg-info epl helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery expand-region exec-path-from-shell evil-visualstar evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-args evil-anzu anzu eval-sexp-fu highlight elisp-slime-nav define-word clean-aindent-mode buffer-move bracketed-paste auto-highlight-symbol auto-compile packed dash aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core popup async quelpa package-build use-package which-key bind-key bind-map evil spacemacs-theme)))
- '(powerline-default-separator (quote arrow)))
+    (yapfify utop tuareg caml toml-mode swift-mode spray rvm ruby-tools ruby-test-mode rubocop rspec-mode robe reveal-in-osx-finder rbenv rake racket-mode faceup racer pyvenv pytest pyenv-mode py-isort pip-requirements pdf-tools tablist pbcopy osx-trash osx-dictionary ocp-indent ob-sml sml-mode noflet minitest merlin live-py-mode launchctl hy-mode helm-pydoc geiser flycheck-rust ensime sbt-mode scala-mode disaster cython-mode company-c-headers company-anaconda cmake-mode clang-format chruby cargo rust-mode bundler inf-ruby anaconda-mode pythonic slime-company slime org-category-capture common-lisp-snippets github-modern-theme github-theme vimrc-mode dactyl-mode cobol-mode insert-shebang fish-mode company-shell fuzzy clojure-snippets madhat2r-theme autothemer darkokai-theme csv-mode winum unfill diminish solarized-theme org powershell uuidgen pug-mode org-projectile org-download mwim livid-mode skewer-mode simple-httpd link-hint hide-comnt github-search flyspell-correct-helm flyspell-correct eyebrowse evil-visual-mark-mode evil-unimpaired evil-ediff eshell-z dumb-jump column-enforce-mode color-identifiers-mode yaml-mode wolfram-mode web-mode web-beautify tagedit stan-mode sql-indent slim-mode scss-mode scad-mode sass-mode ruby-end rainbow-mode rainbow-identifiers qml-mode matlab-mode magit-gh-pulls less-css-mode julia-mode json-mode json-snatcher json-reformat js2-refactor js2-mode js-doc jade-mode helm-css-scss haml-mode github-clone github-browse-file git-link gist gh marshal logito pcache ht flycheck-elm evil-snipe emmet-mode elm-mode f company-web web-completion-data company-tern dash-functional tern coffee-mode arduino-mode alchemist elixir-mode ahk-mode zeal-at-point stickyfunc-enhance srefactor helm-dash undo-tree zonokai-theme zenburn-theme zen-and-art-theme underwater-theme ujelly-theme twilight-theme twilight-bright-theme twilight-anti-bright-theme tronesque-theme toxi-theme tao-theme tangotango-theme tango-plus-theme tango-2-theme sunny-day-theme sublime-themes subatomic256-theme subatomic-theme stekene-theme spacegray-theme soothe-theme soft-stone-theme soft-morning-theme soft-charcoal-theme smyx-theme seti-theme reverse-theme railscasts-theme purple-haze-theme professional-theme planet-theme phoenix-dark-pink-theme phoenix-dark-mono-theme pastels-on-dark-theme organic-green-theme omtose-phellack-theme oldlace-theme occidental-theme obsidian-theme noctilux-theme niflheim-theme naquadah-theme mustang-theme monokai-theme monochrome-theme molokai-theme moe-theme minimal-theme material-theme majapahit-theme lush-theme light-soap-theme jbeans-theme jazz-theme ir-black-theme inkpot-theme heroku-theme hemisu-theme hc-zenburn-theme gruvbox-theme gruber-darker-theme grandshell-theme gotham-theme gandalf-theme flatui-theme flatland-theme firebelly-theme farmhouse-theme espresso-theme emoji-cheat-sheet-plus dracula-theme django-theme darktooth-theme darkmine-theme darkburn-theme dakrone-theme cyberpunk-theme company-emoji colorsarenice-theme color-theme-sanityinc-tomorrow color-theme-sanityinc-solarized clues-theme cherry-blossom-theme busybee-theme bubbleberry-theme birds-of-paradise-plus-theme badwolf-theme apropospriate-theme anti-zenburn-theme ample-zen-theme ample-theme alect-themes afternoon-theme clj-refactor inflections edn multiple-cursors paredit peg cider-eval-sexp-fu cider queue clojure-mode ejc-sql xterm-color toc-org shell-pop org-repo-todo org-present org-pomodoro alert log4e gntp org-plus-contrib org-bullets multi-term mmm-mode markdown-toc markdown-mode htmlize helm-flyspell helm-company helm-c-yasnippet gnuplot git-gutter-fringe+ git-gutter-fringe fringe-helper git-gutter+ git-gutter gh-md flycheck-pos-tip flycheck eshell-prompt-extras esh-help diff-hl company-statistics company-quickhelp pos-tip company auto-yasnippet yasnippet auto-dictionary ac-ispell auto-complete smeargle orgit magit-gitflow helm-gitignore request gitignore-mode gitconfig-mode gitattributes-mode git-timemachine git-messenger evil-magit magit magit-popup git-commit with-editor ws-butler window-numbering volatile-highlights vi-tilde-fringe spaceline s powerline smooth-scrolling restart-emacs rainbow-delimiters popwin persp-mode pcre2el paradox hydra spinner page-break-lines open-junk-file neotree move-text macrostep lorem-ipsum linum-relative leuven-theme info+ indent-guide ido-vertical-mode hungry-delete hl-todo highlight-parentheses highlight-numbers parent-mode highlight-indentation help-fns+ helm-themes helm-swoop helm-projectile helm-mode-manager helm-make projectile pkg-info epl helm-flx helm-descbinds helm-ag google-translate golden-ratio flx-ido flx fill-column-indicator fancy-battery expand-region exec-path-from-shell evil-visualstar evil-tutor evil-surround evil-search-highlight-persist evil-numbers evil-nerd-commenter evil-mc evil-matchit evil-lisp-state smartparens evil-indent-plus evil-iedit-state iedit evil-exchange evil-escape evil-args evil-anzu anzu eval-sexp-fu highlight elisp-slime-nav define-word clean-aindent-mode buffer-move bracketed-paste auto-highlight-symbol auto-compile packed dash aggressive-indent adaptive-wrap ace-window ace-link ace-jump-helm-line helm avy helm-core popup async quelpa package-build use-package which-key bind-key bind-map evil spacemacs-theme)))
+ '(powerline-default-separator (quote arrow))
+ '(tramp-syntax (quote default) nil (tramp)))
 ;; (custom-set-faces
 ;;  ;; custom-set-faces was added by Custom.
 ;;  ;; If you edit it by hand, you could mess it up, so be careful.
