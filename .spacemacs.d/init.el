@@ -41,11 +41,13 @@ values."
         (colors :variables colors-colorize-identifiers 'all)
         command-log ;; Tools
         common-lisp ;; Programming and markup languages
+        helm
         csv ;; Programming and markup languages
         dash ;; Tools
         emacs-lisp ;; !mandatory! Programming and markup languages
         git ;; Source control
         github ;; Source control
+	      markdown ;; Tools
       ;  ocaml ;; Programming and markup languages
         org ;; Emacs
         osx ;; Operating systems
@@ -74,16 +76,18 @@ values."
         autohotkey ;; Programming and markup languages
         better-defaults ;; Emacs
         clojure ;; Programming and markup languages
-        colors ;; Themes
-        (colors :variables colors-colorize-identifiers 'all)
+        ;colors ;; Themes
+        ;(colors :variables colors-colorize-identifiers 'all)
         command-log ;; Tools
         common-lisp ;; Programming and markup languages
         csv ;; Programming and markup languages
-        dash ;; Tools
+        ;dash ;; Tools
+        helm
         emacs-lisp ;; !mandatory! Programming and markup languages
         git ;; Source control
         github ;; Source control
-        org ;; Emacs
+        markdown ;; Tools
+        ;org ;; Emacs
         shell ;; Tools
         shell-scripts ;; Programming and markup languages
         spell-checking ;; Checkers
@@ -99,12 +103,12 @@ values."
    ;; wrapped in a layer. If you need some configuration for these
    ;; packages, then consider creating a layer. You can also put the
    ;; configuration in `dotspacemacs/user-config'.
-   ;dotspacemacs-additional-packages '(cobol-mode jcl-mode)
    dotspacemacs-additional-packages (if (eq system-type 'darwin)
                                       '(org
                                         powershell)
-                                     '(cobol-mode
-                                        org
+                                     '( ;cobol-mode
+                                        ;org
+                                        paredit
                                         powershell)
                                      )
 
@@ -150,9 +154,27 @@ values."
    ;; to `emacs-version'.
    dotspacemacs-elpa-subdirectory nil
    ;; One of `vim', `emacs' or `hybrid'.
-   ;; `hybrid' is like `sizes may be nil, in which case
-   ;; `spacemacs-buffer-startup-lists-length' takes effect.
+   ;; `hybrid' is like `vim' except that `insert state' is replaced by the
+   ;; `hybrid state' with `emacs' key bindings. The value can also be a list
+   ;; with `:variables' keyword (similar to layers). Check the editing styles
+   ;; section of the documentation for details on available variables.
+   ;; (default 'vim)
    dotspacemacs-editing-style 'hybrid
+   ;; If non nil output loading progress in `*Messages*' buffer. (default nil)
+   dotspacemacs-verbose-loading t
+   ;; Specify the startup banner. Default value is `official', it displays
+   ;; the official spacemacs logo. An integer value is the index of text
+   ;; banner, `random' chooses a random text banner in `core/banners'
+   ;; directory. A string value must be a path to an image format supported
+   ;; by your Emacs build.
+   ;; If the value is nil then no banner is displayed. (default 'official)
+   dotspacemacs-startup-banner 'official
+   ;; List of items to show in startup buffer or an association list of
+   ;; the form `(list-type . list-size)`. If nil then it is disabled.
+   ;; Possible values for list-type are:
+   ;; `recents' `bookmarks' `projects' `agenda' `todos'."
+   ;; List sizes may be nil, in which case
+   ;; `spacemacs-buffer-startup-lists-length' takes effect.
    dotspacemacs-startup-lists '((recents . 5)
                                 (projects . 7))
    ;; True if the home buffer should respond to resize events.
@@ -162,7 +184,7 @@ values."
    ;; List of themes, the first of the list is loaded when spacemacs starts.
    ;; Press <SPC> T n to cycle to the next theme in the list (works great
    ;; with 2 themes variants, one dark and one light)
-   dotspacemacs-themes '(github)
+   dotspacemacs-themes '(spacemacs-dark github)
    ;dotspacemacs-themes '(default)
    ;                      leuven
    ;                      adwaita
@@ -317,7 +339,8 @@ values."
    dotspacemacs-colorize-cursor-according-to-state t
    ;; Default font, or prioritized list of fonts. `powerline-scale' allows to
    ;; quickly tweak the mode-line size to make separators look not too crappy.
-   dotspacemacs-default-font '("Source Code Pro Semibold-10";"Source Code Pro"
+   ;dotspacemacs-default-font '("Source Code Pro Semibold-10";"Source Code Pro"
+   dotspacemacs-default-font '("Lucida Console-10"
                                :size 13
                                :weight semi-bold
                                :width normal
@@ -461,7 +484,7 @@ values."
    dotspacemacs-highlight-delimiters 'all
    ;; If non nil, advise quit functions to keep server open when quitting.
    ;; (default nil)
-   dotspacemacs-persistent-server (if (eq system-type 'darwin) nil t) ;; Programming and markup languages
+   dotspacemacs-persistent-server (if (eq system-type 'darwin) nil t)
    ;; List of search tool executable names. Spacemacs uses the first installed
    ;; tool of the list. Supported tools are `ag', `pt', `ack' and `grep'.
    ;; (default '("ag" "pt" "ack" "grep"))
@@ -485,7 +508,8 @@ executes.
  This function is mostly useful for variables that need to be set
 before packages are loaded. If you are unsure, you should try in setting them in
 `dotspacemacs/user-config' first."
-  (load-file "~/.spacemacs-user-init"))
+  (load-file "~/spacemacs-user-init.el")
+  )
 
 (defun dotspacemacs/user-config ()
   "Configuration function for user code.
@@ -494,7 +518,8 @@ layers configuration.
 This is the place where most of your configurations should be done. Unless it is
 explicitly specified that a variable should be set before a package is loaded,
 you should place your code here."
-  (load-file "~/.spacemacs-user-config"))
+  (load-file "~/spacemacs-user-config.el")
+  )
 
 ;; Do not write anything past this comment. This is where Emacs will
 ;; auto-generate custom variable definitions.
@@ -546,9 +571,4 @@ you should place your code here."
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
 ; '(default ((t (:foreground "#24292e" :background "#ffffff")))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:foreground "#333333" :background "#ffffff")))))
+ ;'(default ((t (:foreground "#333333" :background "#ffffff"))))

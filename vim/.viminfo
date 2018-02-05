@@ -11,27 +11,613 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/ksms1256
+~MSle0~/0d
 
 # Last Substitute Search Pattern:
-~MSle0& *$
+~MSle0& *)
 
 # Last Substitute String:
-$
+$)
 
 # Command Line History (newest to oldest):
+:bd
+|2,0,1517590286,,"bd"
+:w!
+|2,0,1517590219,,"w!"
+:bp
+|2,0,1517590193,,"bp"
+:vsp
+|2,0,1517590089,,"vsp"
+:bd!
+|2,0,1517531232,,"bd!"
+:set syn=text
+|2,0,1517527579,,"set syn=text"
+:40,171sort u
+|2,0,1512781817,,"40,171sort u"
+:40,171sort
+|2,0,1512781809,,"40,171sort"
+:%s/ *)/)/
+|2,0,1512781661,,"%s/ *)/)/"
+:4,36s/^\(........\) \(.*\)$/\2 (\1)/
+|2,0,1512781654,,"4,36s/^\\(........\\) \\(.*\\)$/\\2 (\\1)/"
+:62,71s/^\(........\) \(.*\)$/\2 (\1)/
+|2,0,1512781218,,"62,71s/^\\(........\\) \\(.*\\)$/\\2 (\\1)/"
+:nohl
+|2,0,1512781196,,"nohl"
+:62,71s/^\(...\) \(.*\)$/\2 (\1)/
+|2,0,1512781184,,"62,71s/^\\(...\\) \\(.*\\)$/\\2 (\\1)/"
+:68,70s/^\(...\) \(.*\)$/\2 (\1)/
+|2,0,1512780856,,"68,70s/^\\(...\\) \\(.*\\)$/\\2 (\\1)/"
+:61,66s/^\(...\) \(.*\)$/\2 (\1)/
+|2,0,1512780816,,"61,66s/^\\(...\\) \\(.*\\)$/\\2 (\\1)/"
+:6,$s/^\(........\) \(.*\)$/\2 (\1\)/
+|2,0,1512780237,,"6,$s/^\\(........\\) \\(.*\\)$/\\2 (\\1\\)/"
+:4,$s/$/ (ALLTWO)/
+|2,0,1512779935,,"4,$s/$/ (ALLTWO)/"
+:enew
+|2,0,1512779241,,"enew"
+:close
+|2,0,1512777468,,"close"
+:0
+|2,0,1512774151,,"0"
+:2,$s/^/         /
+|2,0,1512772043,,"2,$s/^/         /"
+:2,$s/^/  /
+|2,0,1512771942,,"2,$s/^/  /"
+:94,$s/$/          - /
+|2,0,1512771845,,"94,$s/$/          - /"
+:24,54sort
+|2,0,1512771344,,"24,54sort"
+:12,21s/$/          - /
+|2,0,1512771245,,"12,21s/$/          - /"
+:set
+|2,0,1512747662,,"set"
+:set wrap
+|2,0,1512677946,,"set wrap"
+:set guioptions-=T 
+|2,0,1512161330,,"set guioptions-=T "
+:%s/\.  /\. /g
+|2,0,1512081654,,"%s/\\.  /\\. /g"
+:%s/ *$//
+|2,0,1512081640,,"%s/ *$//"
+:%s/\.jcl//
+|2,0,1512079444,,"%s/\\.jcl//"
+:%s/pgk/PGK/
+|2,0,1512079431,,"%s/pgk/PGK/"
+:$
+|2,0,1512079375,,"$"
+:g/pgk...1\.jcl/d
+|2,0,1512079270,,"g/pgk...1\\.jcl/d"
+:g/^[^P]/d
+|2,0,1512076045,,"g/^[^P]/d"
+:g/^PG....U/d
+|2,0,1512075966,,"g/^PG....U/d"
+:v/U$/d
+|2,0,1512075855,,"v/U$/d"
+:g/U$/d
+|2,0,1512075832,,"g/U$/d"
+:g/
+|2,0,1512075823,,"g/"
+:%s/ /, /g
+|2,0,1512073661,,"%s/ /, /g"
 :sort u
-|2,0,1505767412,,"sort u"
+|2,0,1512073651,,"sort u"
+:%s/, /\r/g
+|2,0,1512073646,,"%s/, /\\r/g"
+:g/PGM=/d
+|2,0,1512073471,,"g/PGM=/d"
+:sort
+|2,0,1512073420,,"sort"
+:%s/.*PGM=//
+|2,0,1512073414,,"%s/.*PGM=//"
+:v/PGM=/d
+|2,0,1512073401,,"v/PGM=/d"
+:g/^.*\/\/\*/d
+|2,0,1512073390,,"g/^.*\\/\\/\\*/d"
+:g/FCK024/d
+|2,0,1512073373,,"g/FCK024/d"
+:g/FCK901/d
+|2,0,1512073366,,"g/FCK901/d"
+:g/FCK900/d
+|2,0,1512073360,,"g/FCK900/d"
+:g/FCK300/d
+|2,0,1512073347,,"g/FCK300/d"
+:g/FCK015/d
+|2,0,1512073337,,"g/FCK015/d"
+:g/^\/\/\*/d
+|2,0,1512072989,,"g/^\\/\\/\\*/d"
+:%s/SORT,.*$/SORT/
+|2,0,1512071939,,"%s/SORT,.*$/SORT/"
+:g/^PGK...[1-9]/d
+|2,0,1512071910,,"g/^PGK...[1-9]/d"
+:g/PGK/d
+|2,0,1512071743,,"g/PGK/d"
+:%s/,.*$//
+|2,0,1512071721,,"%s/,.*$//"
+:%s/PGM=//
+|2,0,1512071710,,"%s/PGM=//"
+:v/PGM/d
+|2,0,1512071704,,"v/PGM/d"
+:%s/^.*EXEC //
+|2,0,1512071679,,"%s/^.*EXEC //"
+:%s///g
+|2,0,1512071653,,"%s///g"
+:%s///
+|2,0,1512071649,,"%s///"
+:%s/,$//
+|2,0,1512071140,,"%s/,$//"
+:g/^PGK....$/d
+|2,0,1512071086,,"g/^PGK....$/d"
+:g/^PGK....[,$]/d
+|2,0,1512071074,,"g/^PGK....[,$]/d"
+:%s/
+|2,0,1512071045,,"%s/"
+:g/PGK[RU]/d
+|2,0,1512071002,,"g/PGK[RU]/d"
+:g/^PGK/d
+|2,0,1512070843,,"g/^PGK/d"
+:w! f:\2017-11-30_PG-PGMs.txt
+|2,0,1512070817,,"w! f:\\2017-11-30_PG-PGMs.txt"
+:%s/^.*PGM=//
+|2,0,1512070740,,"%s/^.*PGM=//"
+:%s/^.*PGM+//
+|2,0,1512070733,,"%s/^.*PGM+//"
+:%s/; /;/g
+|2,0,1511997207,,"%s/; /;/g"
+:%s/^c/C/
+|2,0,1511995646,,"%s/^c/C/"
+:%s/;/;\r/g
+|2,0,1511995625,,"%s/;/;\\r/g"
+:set ignorecase
+|2,0,1511993789,,"set ignorecase"
+:browse
+|2,0,1511989233,,"browse"
+:v/\.PB\./d
+|2,0,1510877400,,"v/\\.PB\\./d"
+:1,178082/d
+|2,0,1510877308,,"1,178082/d"
+:%s/^.//
+|2,0,1510877157,,"%s/^.//"
+:9,$s!/\.PB\./####/
+|2,0,1510877131,,"9,$s!/\\.PB\\./####/"
+:9,$s!/\.PB\./^^^^/
+|2,0,1510877111,,"9,$s!/\\.PB\\./^^^^/"
+:v/\.PG\./d
+|2,0,1510877029,,"v/\\.PG\\./d"
+:sort 
+|2,0,1510876658,,"sort "
+:bn
+|2,0,1510875753,,"bn"
+:%s/$/\.proc, /
+|2,0,1510873579,,"%s/$/\\.proc, /"
+:%s/^\(.*\)$/grep \1 \*\.jcl/
+|2,0,1510873443,,"%s/^\\(.*\\)$/grep \\1 \\*\\.jcl/"
+:set syn=c
+|2,0,1510869373,,"set syn=c"
+:%s/ \*/" \*/
+|2,0,1510845756,,"%s/ \\*/\" \\*/"
+:%s/grep /grep "/
+|2,0,1510845742,,"%s/grep /grep \"/"
+:%s/grep /grep PGM=/
+|2,0,1510845692,,"%s/grep /grep PGM=/"
+:%s/$/ \*\.jcl/
+|2,0,1510844422,,"%s/$/ \\*\\.jcl/"
+:%s/^/ grep /
+|2,0,1510844406,,"%s/^/ grep /"
+:%s/$/\.proc,/
+|2,0,1510844202,,"%s/$/\\.proc,/"
+:%s/$/\.proc/
+|2,0,1510844182,,"%s/$/\\.proc/"
+:g/1,178082/d
+|2,0,1510605117,,"g/1,178082/d"
+:py3 print("Hello")
+|2,0,1510355697,,"py3 print(\"Hello\")"
+:version
+|2,0,1510355100,,"version"
+:help help
+|2,0,1510354926,,"help help"
+:help if_python3
+|2,0,1510354922,,"help if_python3"
+:help provider/python
+|2,0,1510354880,,"help provider/python"
+:compiler
+|2,0,1510354788,,"compiler"
+:echo has("python3")
+|2,0,1510354694,,"echo has(\"python3\")"
+:Kwbd
+|2,0,1510353959,,"Kwbd"
+:kwbd!
+|2,0,1510353908,,"kwbd!"
+:kwbd
+|2,0,1510353902,,"kwbd"
+:colo space-vim-dark
+|2,0,1510352971,,"colo space-vim-dark"
+:BClose
+|2,0,1510352760,,"BClose"
+:Bclose
+|2,0,1510352751,,"Bclose"
+:scriptnames
+|2,0,1510352477,,"scriptnames"
+:source
+|2,0,1510352419,,"source"
+:filename
+|2,0,1510352280,,"filename"
+:filenames
+|2,0,1510352278,,"filenames"
+:alias
+|2,0,1510352259,,"alias"
+:source ~\dotfiles\vim\.vimrc
+|2,0,1510352195,,"source ~\\dotfiles\\vim\\.vimrc"
+:color space-vim-dark
+|2,0,1510352135,,"color space-vim-dark"
+:h vundle
+|2,0,1510352033,,"h vundle"
+:PluginList
+|2,0,1510352016,,"PluginList"
+:PluginClean!
+|2,0,1510351956,,"PluginClean!"
+:PluginClean
+|2,0,1510351922,,"PluginClean"
+:colorscheme
+|2,0,1510351598,,"colorscheme"
+:colorscheme space-vim-dark
+|2,0,1510351141,,"colorscheme space-vim-dark"
+:colorscheme spacegray
+|2,0,1510351100,,"colorscheme spacegray"
+:color=spacegrey
+|2,0,1510350956,,"color=spacegrey"
+:color=spacegray
+|2,0,1510350949,,"color=spacegray"
+:set color=spacegray
+|2,0,1510350933,,"set color=spacegray"
+:set notermguicolors
+|2,0,1510350815,,"set notermguicolors"
+:set termguicolors
+|2,0,1510350806,,"set termguicolors"
+:set termcolors
+|2,0,1510350797,,"set termcolors"
+:hi Comment cterm=italic
+|2,0,1510350606,,"hi Comment cterm=italic"
+:color
+|2,0,1510350441,,"color"
+:v/term/d
+|2,0,1510343940,,"v/term/d"
+:g/source/d
+|2,0,1510343885,,"g/source/d"
+:v/code/d
+|2,0,1510343862,,"v/code/d"
+:v/mono/d
+|2,0,1510343279,,"v/mono/d"
+:%s/\//\\/g
+|2,0,1510342958,,"%s/\\//\\\\/g"
+:%s/$/ \/f/
+|2,0,1510342425,,"%s/$/ \\/f/"
+:%s/\.ttf@/ (TrueType)" \/t REG_SZ \/d /
+|2,0,1510342395,,"%s/\\.ttf@/ (TrueType)\" \\/t REG_SZ \\/d /"
+:%s/^/reg add "HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts" \/v "/
+|2,0,1510342340,,"%s/^/reg add \"HKLM\\\\SOFTWARE\\\\Microsoft\\\\Windows NT\\\\CurrentVersion\\\\Fonts\" \\/v \"/"
+:%s/^/reg add "HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts" /v "/
+|2,0,1510342320,,"%s/^/reg add \"HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts\" /v \"/"
+:%s/^\(.*\)$/\1@\1/
+|2,0,1510342292,,"%s/^\\(.*\\)$/\\1@\\1/"
+:%s/^\(.*\)$/\1@\2/
+|2,0,1510342280,,"%s/^\\(.*\\)$/\\1@\\2/"
+:%s/$/" %WINDIR%\\Fonts"
+|2,0,1510342179,,"%s/$/\" %WINDIR%\\\\Fonts\""
+:%s/^/copy "/
+|2,0,1510342146,,"%s/^/copy \"/"
+:%s/^.*\//
+|2,0,1510342131,,"%s/^.*\\//"
+:%s/\*
+|2,0,1510342068,,"%s/\\*"
+:%s/^/copy "//
+|2,0,1510341003,,"%s/^/copy \"//"
+:g/(2)/d
+|2,0,1510340903,,"g/(2)/d"
+:e f:\2017-11-10_list-of-google-fonts.txt
+|2,0,1510340830,,"e f:\\2017-11-10_list-of-google-fonts.txt"
+:v/portable/d
+|2,0,1510338509,,"v/portable/d"
+:g/portable/d
+|2,0,1510338501,,"g/portable/d"
+:%s/ .*$//
+|2,0,1510337413,,"%s/ .*$//"
+:v/font/d
+|2,0,1510337391,,"v/font/d"
+:%s/ *........$//
+|2,0,1510269035,,"%s/ *........$//"
+:e c:\users\tkma608\work\pgk005_remove_cobol\pgsr005.sort
+|2,0,1510269001,,"e c:\\users\\tkma608\\work\\pgk005_remove_cobol\\pgsr005.sort"
+:e work\pg005_remove_cobol\pgsr005.sort
+|2,0,1510268962,,"e work\\pg005_remove_cobol\\pgsr005.sort"
+:%s/^.*, //
+|2,0,1510251749,,"%s/^.*, //"
+:v/,/s/^.*$//
+|2,0,1510251734,,"v/,/s/^.*$//"
+:%s/.$//
+|2,0,1510250952,,"%s/.$//"
+:%s/'$//
+|2,0,1510250934,,"%s/'$//"
+:%s/' AS tknbr, '/, /
+|2,0,1510250920,,"%s/' AS tknbr, '/, /"
+:%s/' AS tknbr, '//
+|2,0,1510250896,,"%s/' AS tknbr, '//"
+:%s/^.*SELECT '//
+|2,0,1510250881,,"%s/^.*SELECT '//"
+:%s/AS username.*$//
+|2,0,1510250863,,"%s/AS username.*$//"
+:help colorscheme
+|2,0,1509998688,,"help colorscheme"
+:help color
+|2,0,1509998622,,"help color"
+:b!
+|2,0,1509997532,,"b!"
+:w
+|2,0,1509497248,,"w"
+:17,23sort
+|2,0,1509496927,,"17,23sort"
+:17,35sort
+|2,0,1509496862,,"17,35sort"
+:17,44sort
+|2,0,1509496581,,"17,44sort"
+:17,57sort
+|2,0,1509495664,,"17,57sort"
+:17,34sort
+|2,0,1509495195,,"17,34sort"
+:17,28sort
+|2,0,1509495166,,"17,28sort"
+:17,59sort
+|2,0,1509495154,,"17,59sort"
+:clsoe
+|2,0,1509495045,,"clsoe"
+:e xmt_bom_sku_attr_description.txt
+|2,0,1509494709,,"e xmt_bom_sku_attr_description.txt"
+:e tmdsear_description.txt
+|2,0,1509494005,,"e tmdsear_description.txt"
+:e tupc_description.txt
+|2,0,1509493973,,"e tupc_description.txt"
+:cd f:\
+|2,0,1509493962,,"cd f:\\"
+:ls
+|2,0,1509492957,,"ls"
+:dir
+|2,0,1509492955,,"dir"
+:cd ..
+|2,0,1509492944,,"cd .."
+:cd pgk005_r*
+|2,0,1509492903,,"cd pgk005_r*"
+:cd pgk005\ re*
+|2,0,1509492876,,"cd pgk005\\ re*"
+:cd pgk005*
+|2,0,1509492857,,"cd pgk005*"
+:cd work
+|2,0,1509492848,,"cd work"
+:cd work/pgk005 remove cobol/
+|2,0,1509492840,,"cd work/pgk005 remove cobol/"
+:cd ~
+|2,0,1509492822,,"cd ~"
+:e ~
+|2,0,1509492796,,"e ~"
+:%s/\*/distinct last_upd_tmst/
+|2,0,1509407665,,"%s/\\*/distinct last_upd_tmst/"
+:%s/\*/distinct to_char(last_upd_tmst)/
+|2,0,1509407590,,"%s/\\*/distinct to_char(last_upd_tmst)/"
+:%s/$/ where last_upd_tmst between TO_DATE('2017-09-01T00:00:00', 'YYYY-MM-DD"T"HH24:MI:SS') AND TO_DATE('2017-09-30T23:59:59', 'YYYY-MM-DD"T"HH24:MI:SS');/
+|2,0,1509407514,,"%s/$/ where last_upd_tmst between TO_DATE('2017-09-01T00:00:00', 'YYYY-MM-DD\"T\"HH24:MI:SS') AND TO_DATE('2017-09-30T23:59:59', 'YYYY-MM-DD\"T\"HH24:MI:SS');/"
+:%s/^/select * from /
+|2,0,1509407468,,"%s/^/select * from /"
+:e spacemacs-user-init.el
+|2,0,1509376491,,"e spacemacs-user-init.el"
+:w! f:\2017-10-27_im008_rec.txt
+|2,0,1509142624,,"w! f:\\2017-10-27_im008_rec.txt"
+:set nowrap
+|2,0,1509133380,,"set nowrap"
+:e db2qry.sql
+|2,0,1509131564,,"e db2qry.sql"
+:cd pgk005_*
+|2,0,1509131514,,"cd pgk005_*"
+:cd
+|2,0,1509131484,,"cd"
+:echo $PWD
+|2,0,1509131436,,"echo $PWD"
+:%PWD
+|2,0,1509131429,,"%PWD"
+:setwrap
+|2,0,1509129949,,"setwrap"
+:set nodiff
+|2,0,1508797421,,"set nodiff"
+:set diff
+|2,0,1508797416,,"set diff"
+:vert diffsplit f:\2017-10-23_impacted_hosts.txt
+|2,0,1508794364,,"vert diffsplit f:\\2017-10-23_impacted_hosts.txt"
+:vert diffsplit 
+|2,0,1508794344,,"vert diffsplit "
+:vert diffsplit
+|2,0,1508794253,,"vert diffsplit"
+:w! f:\2017-10-23_impacted_hosts.txt
+|2,0,1508794205,,"w! f:\\2017-10-23_impacted_hosts.txt"
+:w! f:\ostlinghosts.txt
+|2,0,1508794174,,"w! f:\\ostlinghosts.txt"
+:%s/-.*$//
+|2,0,1508794037,,"%s/-.*$//"
+:wq
+|2,0,1508450026,,"wq"
+:colorscheme base16-ocean-mono
+|2,0,1508449413,,"colorscheme base16-ocean-mono"
+:set syn=sql
+|2,0,1508245935,,"set syn=sql"
+:set syn=ora
+|2,0,1508245930,,"set syn=ora"
+:set syn=oracle
+|2,0,1508245927,,"set syn=oracle"
+:%s/^/,/
+|2,0,1508180230,,"%s/^/,/"
+:%s/u\./U\./g
+|2,0,1508172232,,"%s/u\\./U\\./g"
+:%s/m\./M\./g
+|2,0,1508172223,,"%s/m\\./M\\./g"
+:%s/and/AND/
+|2,0,1508172183,,"%s/and/AND/"
+:%s/where/WHERE/
+|2,0,1508172178,,"%s/where/WHERE/"
+:e c:\scripts\ayehu 3.cmd
+|2,0,1507933485,,"e c:\\scripts\\ayehu 3.cmd"
+:e c:\scripts\ayehu 2.cmd
+|2,0,1507933452,,"e c:\\scripts\\ayehu 2.cmd"
+:e c:\scripts\ayehu 0.cmd
+|2,0,1507933427,,"e c:\\scripts\\ayehu 0.cmd"
+:c:\scripts\ayehu 2.cmd
+|2,0,1507933415,,"c:\\scripts\\ayehu 2.cmd"
+:%s/^.*=//
+|2,0,1507926571,,"%s/^.*=//"
+:v/Q$/d
+|2,0,1507926551,,"v/Q$/d"
+:%s/^.*\=//
+|2,0,1507926205,,"%s/^.*\\=//"
+:g/SYSTEM/d
+|2,0,1507926047,,"g/SYSTEM/d"
+:v/Q/d
+|2,0,1507926029,,"v/Q/d"
+:v/\./d
+|2,0,1507925999,,"v/\\./d"
+:set nohl
+|2,0,1507919093,,"set nohl"
+:u
+|2,0,1507919073,,"u"
+:set scrollbind
+|2,0,1507917134,,"set scrollbind"
+:e f:\2017-10-12_ESP_ORVARS.txt
+|2,0,1507835906,,"e f:\\2017-10-12_ESP_ORVARS.txt"
+:sp
+|2,0,1507835892,,"sp"
+:e f:\2017-10-12_ESP_ESATTAGT.txt
+|2,0,1507835879,,"e f:\\2017-10-12_ESP_ESATTAGT.txt"
+:e F:\2017-10-12_ESP_ALL.txt
+|2,0,1507835690,,"e F:\\2017-10-12_ESP_ALL.txt"
+:e 2017-10-12_ESP_ALL.txt
+|2,0,1507835661,,"e 2017-10-12_ESP_ALL.txt"
+:e c:\scripts\ayehu 3.bat
+|2,0,1507667771,,"e c:\\scripts\\ayehu 3.bat"
+:e c:\scripts\ayehu 2.bat
+|2,0,1507667760,,"e c:\\scripts\\ayehu 2.bat"
+:e c:\scripts\ayehu 1.bat
+|2,0,1507667744,,"e c:\\scripts\\ayehu 1.bat"
+:w! c:\scripts\ayehu 3.bat
+|2,0,1507667703,,"w! c:\\scripts\\ayehu 3.bat"
+:w! c:\scripts\ayehu 2.bat
+|2,0,1507667687,,"w! c:\\scripts\\ayehu 2.bat"
+:w! c:\scripts\ayehu 1.bat
+|2,0,1507667680,,"w! c:\\scripts\\ayehu 1.bat"
+:w! c:\scripts\ayehu 0.bat
+|2,0,1507667671,,"w! c:\\scripts\\ayehu 0.bat"
+:diffupdate
+|2,0,1507661103,,"diffupdate"
+:diff update
+|2,0,1507661092,,"diff update"
+:vert diffsplit ~/work/2017/10/10/2017-10-10_ikb_query.sql
+|2,0,1507660984,,"vert diffsplit ~/work/2017/10/10/2017-10-10_ikb_query.sql"
+:e c:\users\tkma608\work\2017\10\10\2017-10-10_ikb_query.sql
+|2,0,1507660891,,"e c:\\users\\tkma608\\work\\2017\\10\\10\\2017-10-10_ikb_query.sql"
+:e %HOME\downloads\ikb_floorplan5everything (1).sql
+|2,0,1507660750,,"e %HOME\\downloads\\ikb_floorplan5everything (1).sql"
+:g/IntactixFileService/d
+|2,0,1507647232,,"g/IntactixFileService/d"
+:g/IntactixWebService/d
+|2,0,1507647213,,"g/IntactixWebService/d"
+:g/IntaxticWebService/d
+|2,0,1507647201,,"g/IntaxticWebService/d"
+:g/detail: "$/d
+|2,0,1507647178,,"g/detail: \"$/d"
+:g/^$/d
+|2,0,1507647154,,"g/^$/d"
+:g/""$/d
+|2,0,1507647131,,"g/\"\"$/d"
+:set noignorecase
+|2,0,1507646626,,"set noignorecase"
+:e %USERPROFILE%\work\2017\10\10\oraspool.out
+|2,0,1507646549,,"e %USERPROFILE%\\work\\2017\\10\\10\\oraspool.out"
+:e %USERPROFILE%\work\2017\10\10\*.out
+|2,0,1507646487,,"e %USERPROFILE%\\work\\2017\\10\\10\\*.out"
+:e %USERPROFILE%\work\2017\10\10
+|2,0,1507646466,,"e %USERPROFILE%\\work\\2017\\10\\10"
+:showcmd
+|2,0,1507646390,,"showcmd"
+:set syn=foobar
+|2,0,1507562096,,"set syn=foobar"
+:!env
+|2,0,1507561928,,"!env"
+:env
+|2,0,1507561918,,"env"
+:echo $MYVIMRC
+|2,0,1507561914,,"echo $MYVIMRC"
+:echo $VIM
+|2,0,1507561887,,"echo $VIM"
+:echo $HOME
+|2,0,1507561880,,"echo $HOME"
+:echo $VIMFILES
+|2,0,1507561870,,"echo $VIMFILES"
+:$VIMFILES
+|2,0,1507561851,,"$VIMFILES"
+:%s/........$//
+|2,0,1507306169,,"%s/........$//"
+:%s/ / OR /g
+|2,0,1507129810,,"%s/ / OR /g"
+:v/ /s/$/U/
+|2,0,1507129785,,"v/ /s/$/U/"
+:44
+|2,0,1507129392,,"44"
+:43
+|2,0,1507129346,,"43"
+:53
+|2,0,1507128747,,"53"
+:e f:\pg_jcl.txt
+|2,0,1507128210,,"e f:\\pg_jcl.txt"
+:189
+|2,0,1507127524,,"189"
+:369
+|2,0,1507127487,,"369"
+:g/ /s/$/U/
+|2,0,1507127259,,"g/ /s/$/U/"
+:read f:\bp_procs.txt
+|2,0,1507126894,,"read f:\\bp_procs.txt"
+:read f:\bp_procs1.txt
+|2,0,1507126863,,"read f:\\bp_procs1.txt"
+:vert diffsplit f:\bp_procs1.txt
+|2,0,1507126557,,"vert diffsplit f:\\bp_procs1.txt"
+:w! f:\bp_procs1.txt
+|2,0,1507126421,,"w! f:\\bp_procs1.txt"
+:w f:\bp_procs1.txt
+|2,0,1507126398,,"w f:\\bp_procs1.txt"
+:e f:\bp_jobs.txt
+|2,0,1507126354,,"e f:\\bp_jobs.txt"
+:%s/$/U/
+|2,0,1507055646,,"%s/$/U/"
+:q
+|2,0,1507055607,,"q"
+:vn
+|2,0,1507055603,,"vn"
+:e f:\pd_procs.txt
+|2,0,1507055550,,"e f:\\pd_procs.txt"
+:e f:\pd_jobs.txt
+|2,0,1507055533,,"e f:\\pd_jobs.txt"
+:fo f:\pd_jobs.txt
+|2,0,1507055520,,"fo f:\\pd_jobs.txt"
+:fo
+|2,0,1507055504,,"fo"
+:set syn=lisp
+|2,0,1506610732,,"set syn=lisp"
+:bd!~
+|2,0,1506610150,,"bd!~"
+:help --remote
+|2,0,1506610046,,"help --remote"
+:help gvim
+|2,0,1506609763,,"help gvim"
 :%s/ *$//g
 |2,0,1505767407,,"%s/ *$//g"
 :%s/\	*$//
 |2,0,1505767400,,"%s/\\	*$//"
 :sor
 |2,0,1505767393,,"sor"
-:enew
-|2,0,1505767332,,"enew"
-:vsp
-|2,0,1505767217,,"vsp"
 :%s/PG
 |2,0,1505767171,,"%s/PG"
 :set nolist
@@ -50,50 +636,20 @@ $
 |2,0,1505766824,,"%s/PLM/plm/g"
 :%s/10\.2\.28\.16/infaprd/
 |2,0,1505766789,,"%s/10\\.2\\.28\\.16/infaprd/"
-:bd
-|2,0,1505766324,,"bd"
 :%s/\\\\Program Files (x86)\\\\Microsoft VS Code/\\\\Users\\\\tkma608\\\\scoop\\\\apps\\\\vscode\\\\current/
 |2,0,1505766233,,"%s/\\\\\\\\Program Files (x86)\\\\\\\\Microsoft VS Code/\\\\\\\\Users\\\\\\\\tkma608\\\\\\\\scoop\\\\\\\\apps\\\\\\\\vscode\\\\\\\\current/"
-:nohl
-|2,0,1505766209,,"nohl"
 :%s/\\\\Program Files (x86)\\\\Microsoft VS Code/\\\\Users\\tkma608\\scoop\\apps\\vscode\\current/
 |2,0,1505766171,,"%s/\\\\\\\\Program Files (x86)\\\\\\\\Microsoft VS Code/\\\\\\\\Users\\\\tkma608\\\\scoop\\\\apps\\\\vscode\\\\current/"
-:sp
-|2,0,1505765996,,"sp"
-:w!
-|2,0,1505758073,,"w!"
-:w
-|2,0,1505754126,,"w"
-:g/^$/d
-|2,0,1505754050,,"g/^$/d"
-:0
-|2,0,1505754028,,"0"
-:close
-|2,0,1505442470,,"close"
-:Kwbd
-|2,0,1505258817,,"Kwbd"
-:$
-|2,0,1505258779,,"$"
 :edit $MYVIMRC
 |2,0,1505258008,,"edit $MYVIMRC"
 :echo
 |2,0,1505257969,,"echo"
-:set
-|2,0,1505257958,,"set"
-:echo $MYVIMRC
-|2,0,1505257955,,"echo $MYVIMRC"
 :bunload
 |2,0,1505256809,,"bunload"
 :vnew
 |2,0,1505256737,,"vnew"
 :v/JDA/d
 |2,0,1505244827,,"v/JDA/d"
-:%s/ *$//
-|2,0,1505243284,,"%s/ *$//"
-:set wrap
-|2,0,1505241887,,"set wrap"
-:bd!
-|2,0,1505149691,,"bd!"
 :%s/H/h/g
 |2,0,1505148736,,"%s/H/h/g"
 :%s/ //g
@@ -104,16 +660,12 @@ $
 |2,0,1505148706,,"%s/ //"
 :g/^a/d
 |2,0,1505144374,,"g/^a/d"
-:%s/
-|2,0,1505144366,,"%s/"
 :%s/^.*\	//
 |2,0,1505144226,,"%s/^.*\\	//"
 :%s/\	$//
 |2,0,1505144222,,"%s/\\	$//"
 :%s/\	.*$//
 |2,0,1505144036,,"%s/\\	.*$//"
-:set ignorecase
-|2,0,1504912364,,"set ignorecase"
 :Resume
 |2,0,1504912356,,"Resume"
 :163,166s/^/    /
@@ -132,20 +684,12 @@ $
 |2,0,1504907571,,"87,s/^/  /"
 :83
 |2,0,1504907187,,"83"
-:bn
-|2,0,1504898142,,"bn"
 :b n
 |2,0,1504898139,,"b n"
-:set syn=lisp
-|2,0,1504892970,,"set syn=lisp"
 :s
 |2,0,1504892666,,"s"
-:bp
-|2,0,1504891077,,"bp"
 :CLOSE
 |2,0,1504890405,,"CLOSE"
-:set nohl
-|2,0,1504890256,,"set nohl"
 :%s/^  //
 |2,0,1504889576,,"%s/^  //"
 :close!
@@ -188,8 +732,6 @@ $
 |2,0,1504026337,,"!echo %SHELL%"
 :echo $SHELL
 |2,0,1504026284,,"echo $SHELL"
-:env
-|2,0,1504025244,,"env"
 :!echo %VIMRUNTIME%
 |2,0,1504025041,,"!echo %VIMRUNTIME%"
 :echo $VIMRUNTIME
@@ -200,8 +742,6 @@ $
 |2,0,1504024084,,"e f:\\2017-08-29_edit-with-vim-dll.reg"
 :%!xxd
 |2,0,1503955442,,"%!xxd"
-:%s/;/;\r/g
-|2,0,1503787314,,"%s/;/;\\r/g"
 :197
 |2,0,1503784940,,"197"
 :%s/vim74/current/g
@@ -212,12 +752,6 @@ $
 |2,0,1503778354,,"%s/\"//g"
 :133
 |2,0,1503750142,,"133"
-:colorscheme
-|2,0,1503749990,,"colorscheme"
-:%s/; /;/g
-|2,0,0,,"%s/; /;/g"
-:%s/^c/C/
-|2,0,0,,"%s/^c/C/"
 :%s/; //g
 |2,0,0,,"%s/; //g"
 :9,21s/^\(.*\);$/"\1";/
@@ -234,18 +768,10 @@ $
 |2,0,0,,"cd c:\\users"
 :cd c:/users
 |2,0,0,,"cd c:/users"
-:%s/ .*$//
-|2,0,0,,"%s/ .*$//"
 :<S-Down>
 |2,0,0,,"<S-Down>"
 :sort ui
 |2,0,0,,"sort ui"
-:q
-|2,0,0,,"q"
-:sort
-|2,0,0,,"sort"
-:source
-|2,0,0,,"source"
 :cd /f/
 |2,0,0,,"cd /f/"
 :cd f:
@@ -328,6 +854,360 @@ $
 |2,0,0,,"set guifont"
 
 # Search String History (newest to oldest):
+?/0d
+|2,1,1517527472,47,"0d"
+?  *)
+|2,1,1512781661,," *)"
+? ^\(........\) \(.*\)$
+|2,1,1512781654,,"^\\(........\\) \\(.*\\)$"
+? ^\(...\) \(.*\)$
+|2,1,1512781184,,"^\\(...\\) \\(.*\\)$"
+? $
+|2,1,1512779935,,"$"
+?/Letter
+|2,1,1512777120,47,"Letter"
+? ^
+|2,1,1512772043,,"^"
+? \.  
+|2,1,1512081654,,"\\.  "
+?  *$
+|2,1,1512081640,," *$"
+? \.jcl
+|2,1,1512079444,,"\\.jcl"
+? pgk
+|2,1,1512079431,,"pgk"
+?/u\.jcl
+|2,1,1512079315,47,"u\\.jcl"
+? pgk...1\.jcl
+|2,1,1512079270,,"pgk...1\\.jcl"
+?/pgk...1\.jcl
+|2,1,1512079255,47,"pgk...1\\.jcl"
+? ^[^P]
+|2,1,1512076045,,"^[^P]"
+? ^PG....U
+|2,1,1512075966,,"^PG....U"
+? U$
+|2,1,1512075855,,"U$"
+?  
+|2,1,1512073661,," "
+? , 
+|2,1,1512073646,,", "
+? PGM=
+|2,1,1512073471,,"PGM="
+? .*PGM=
+|2,1,1512073414,,".*PGM="
+? ^.*\/\/\*
+|2,1,1512073390,,"^.*\\/\\/\\*"
+? FCK024
+|2,1,1512073373,,"FCK024"
+? FCK901
+|2,1,1512073366,,"FCK901"
+? FCK900
+|2,1,1512073360,,"FCK900"
+? FCK300
+|2,1,1512073347,,"FCK300"
+? FCK015
+|2,1,1512073337,,"FCK015"
+? ^\/\/\*
+|2,1,1512072989,,"^\\/\\/\\*"
+? SORT,.*$
+|2,1,1512071939,,"SORT,.*$"
+? ^PGK...[1-9]
+|2,1,1512071910,,"^PGK...[1-9]"
+? PGK
+|2,1,1512071743,,"PGK"
+? ,.*$
+|2,1,1512071721,,",.*$"
+? PGM
+|2,1,1512071704,,"PGM"
+? ^.*EXEC 
+|2,1,1512071679,,"^.*EXEC "
+? 
+|2,1,1512071653,,""
+?/^.*\/\/\*
+|2,1,1512071529,47,"^.*\\/\\/\\*"
+?/STATE
+|2,1,1512071468,47,"STATE"
+?/STATEM
+|2,1,1512071425,47,"STATEM"
+?/STATEMENTS
+|2,1,1512071331,47,"STATEMENTS"
+? ,$
+|2,1,1512071140,,",$"
+? ^PGK....$
+|2,1,1512071086,,"^PGK....$"
+? ^PGK....[,$]
+|2,1,1512071074,,"^PGK....[,$]"
+? PGK[RU]
+|2,1,1512071002,,"PGK[RU]"
+? ^PGK
+|2,1,1512070843,,"^PGK"
+? ^.*PGM=
+|2,1,1512070740,,"^.*PGM="
+? ^.*PGM+
+|2,1,1512070733,,"^.*PGM+"
+?/Binn
+|2,1,1511997492,47,"Binn"
+?/vim
+|2,1,1511997269,47,"vim"
+? ; 
+|2,1,1511997207,,"; "
+?/shim
+|2,1,1511997196,47,"shim"
+?/[^;]$
+|2,1,1511997011,47,"[^;]$"
+? ^c
+|2,1,1511995646,,"^c"
+? ;
+|2,1,1511995625,,";"
+?/sourcetree
+|2,1,1511995490,47,"sourcetree"
+?/aspell
+|2,1,1511995034,47,"aspell"
+?/My P
+|2,1,1511994979,47,"My P"
+?/my
+|2,1,1511993873,47,"my"
+?/My 
+|2,1,1511993780,47,"My "
+?/; 
+|2,1,1511993773,47,"; "
+? \.PB\.
+|2,1,1510877400,,"\\.PB\\."
+? ^.
+|2,1,1510877157,,"^."
+?/\.PB\.:0
+|2,1,1510877140,47,"\\.PB\\.:0"
+? /\.PB\./####/
+|2,1,1510877131,,"/\\.PB\\./####/"
+? /\.PB\./^^^^/
+|2,1,1510877111,,"/\\.PB\\./^^^^/"
+? \.PG\.
+|2,1,1510876914,,"\\.PG\\."
+?/\.FC\.
+|2,1,1510876880,47,"\\.FC\\."
+?/\.PG\.
+|2,1,1510876838,47,"\\.PG\\."
+?/\.PB\.
+|2,1,1510876814,47,"\\.PB\\."
+?/2007
+|2,1,1510876627,47,"2007"
+?/pgplan
+|2,1,1510875677,47,"pgplan"
+?/PGPLAN
+|2,1,1510875664,47,"PGPLAN"
+? ^\(.*\)$
+|2,1,1510873443,,"^\\(.*\\)$"
+?/QUEUE_REC
+|2,1,1510870764,47,"QUEUE_REC"
+?/QUEUE
+|2,1,1510870645,47,"QUEUE"
+?/queue_rec
+|2,1,1510870601,47,"queue_rec"
+?  \*
+|2,1,1510845756,," \\*"
+? grep 
+|2,1,1510845742,,"grep "
+?/autoitdotfiles\vim\.vim\ftdetect\filetype.vimdotfiles\vim\.vim\ftdetect\filetype.vim
+|2,1,1510608715,47,"autoitdotfiles\\vim\\.vim\\ftdetect\\filetype.vimdotfiles\\vim\\.vim\\ftdetect\\filetype.vim"
+?/au
+|2,1,1510608117,47,"au"
+?/autoit
+|2,1,1510607584,47,"autoit"
+?/user
+|2,1,1510605197,47,"user"
+? d
+|2,1,1510605142,,"d"
+? 1,178082
+|2,1,1510605117,,"1,178082"
+?/F:\\
+|2,1,1510604974,47,"F:\\\\"
+?/>
+|2,1,1510353617,47,">"
+?/if
+|2,1,1510353593,47,"if"
+?/Comment
+|2,1,1510353238,47,"Comment"
+?/^hi 
+|2,1,1510352844,47,"^hi "
+?/source
+|2,1,1510352425,47,"source"
+?/space-vim
+|2,1,1510351196,47,"space-vim"
+?/colorscheme
+|2,1,1510350437,47,"colorscheme"
+?/termi
+|2,1,1510346536,47,"termi"
+?/term
+|2,1,1510344286,47,"term"
+? term
+|2,1,1510343940,,"term"
+? source
+|2,1,1510343885,,"source"
+? code
+|2,1,1510343862,,"code"
+?/code
+|2,1,1510343847,47,"code"
+?/prog
+|2,1,1510343843,47,"prog"
+? mono
+|2,1,1510343279,,"mono"
+?/mono
+|2,1,1510343226,47,"mono"
+? \/
+|2,1,1510342958,,"\\/"
+? \.ttf@
+|2,1,1510342395,,"\\.ttf@"
+? ^.*\/
+|2,1,1510342131,,"^.*\\/"
+?/(1)
+|2,1,1510340906,47,"(1)"
+? (2)
+|2,1,1510340903,,"(2)"
+?/otf$
+|2,1,1510340852,47,"otf$"
+?/\otf$
+|2,1,1510340847,47,"\\otf$"
+? portable
+|2,1,1510338509,,"portable"
+?/view
+|2,1,1510337423,47,"view"
+?  .*$
+|2,1,1510337413,," .*$"
+? font
+|2,1,1510337391,,"font"
+?/font
+|2,1,1510337343,47,"font"
+?/oogle
+|2,1,1510337323,47,"oogle"
+?  *........$
+|2,1,1510269035,," *........$"
+? ^.*, 
+|2,1,1510251749,,"^.*, "
+? ^.*$
+|2,1,1510251734,,"^.*$"
+? .$
+|2,1,1510250952,,".$"
+? '$
+|2,1,1510250934,,"'$"
+? ' AS tknbr, '
+|2,1,1510250920,,"' AS tknbr, '"
+? ^.*SELECT '
+|2,1,1510250881,,"^.*SELECT '"
+? AS username.*$
+|2,1,1510250863,,"AS username.*$"
+?/ant
+|2,1,1510185380,47,"ant"
+?/grid
+|2,1,1510185132,47,"grid"
+?/dina
+|2,1,1510182546,47,"dina"
+?/stack
+|2,1,1510181888,47,"stack"
+?/Win
+|2,1,1510181465,47,"Win"
+?/p
+|2,1,1510163970,47,"p"
+?/color
+|2,1,1509998647,47,"color"
+? \*
+|2,1,1509407665,,"\\*"
+?/let
+|2,1,1509379485,47,"let"
+?/setq
+|2,1,1509378975,47,"setq"
+?/setqnkkkkkkk
+|2,1,1509378969,47,"setqnkkkkkkk"
+?/emacs.d
+|2,1,1509378865,47,"emacs.d"
+?/lehner
+|2,1,1509114507,47,"lehner"
+?/6119082
+|2,1,1509054387,47,"6119082"
+?/829
+|2,1,1509053595,47,"829"
+?/The SORTIN
+|2,1,1508880379,47,"The SORTIN"
+?/The SUM
+|2,1,1508880369,47,"The SUM"
+?/d
+|2,1,1508859836,47,"d"
+?/plm01116
+|2,1,1508794503,47,"plm01116"
+?/plm00911
+|2,1,1508794402,47,"plm00911"
+? -.*$
+|2,1,1508794037,,"-.*$"
+? u\.
+|2,1,1508172232,,"u\\."
+? m\.
+|2,1,1508172223,,"m\\."
+? and
+|2,1,1508172183,,"and"
+? where
+|2,1,1508172178,,"where"
+?/Web Publisher
+|2,1,1507936047,47,"Web Publisher"
+? ^.*=
+|2,1,1507926571,,"^.*="
+? Q$
+|2,1,1507926551,,"Q$"
+? ^.*\=
+|2,1,1507926205,,"^.*\\="
+?/RefAddr\/9\/
+|2,1,1507926178,47,"RefAddr\\/9\\/"
+?/RefAddr\/9
+|2,1,1507926158,47,"RefAddr\\/9"
+?/Mgr
+|2,1,1507926119,47,"Mgr"
+? SYSTEM
+|2,1,1507926047,,"SYSTEM"
+? Q
+|2,1,1507926029,,"Q"
+? \.
+|2,1,1507925999,,"\\."
+?/HIERARCHY
+|2,1,1507919282,47,"HIERARCHY"
+?/PG\.
+|2,1,1507919078,47,"PG\\."
+?/JOB ALL
+|2,1,1507835956,47,"JOB ALL"
+?/ALL
+|2,1,1507835913,47,"ALL"
+?/SEK016
+|2,1,1507835602,47,"SEK016"
+?/^--
+|2,1,1507647413,47,"^--"
+?/[^"]$
+|2,1,1507647354,47,"[^\"]$"
+? IntactixFileService
+|2,1,1507647232,,"IntactixFileService"
+? IntactixWebService
+|2,1,1507647213,,"IntactixWebService"
+? IntaxticWebService
+|2,1,1507647201,,"IntaxticWebService"
+? detail: "$
+|2,1,1507647178,,"detail: \"$"
+? ^$
+|2,1,1507647154,,"^$"
+? ""$
+|2,1,1507647131,,"\"\"$"
+?/detail: "[^ "]
+|2,1,1507646652,47,"detail: \"[^ \"]"
+?/detail
+|2,1,1507646619,47,"detail"
+? ........$
+|2,1,1507306169,,"........$"
+?/^[0-9]
+|2,1,1507306132,47,"^[0-9]"
+?/.......
+|2,1,1507129751,47,"......."
+?/Flex
+|2,1,1507064995,47,"Flex"
+?/PBK010
+|2,1,1507055659,47,"PBK010"
+?/server
+|2,1,1506609859,47,"server"
 ?/ksms1256
 |2,1,1505768103,47,"ksms1256"
 ?/200b
@@ -336,8 +1216,6 @@ $
 |2,1,1505767768,47,"0105"
 ?/910
 |2,1,1505767668,47,"910"
-?  *$
-|2,1,1505767407,," *$"
 ? \	*$
 |2,1,1505767400,,"\\	*$"
 ? KSMS
@@ -348,8 +1226,6 @@ $
 |2,1,1505766789,,"10\\.2\\.28\\.16"
 ? \\\\Program Files (x86)\\\\Microsoft VS Code
 |2,1,1505766233,,"\\\\\\\\Program Files (x86)\\\\\\\\Microsoft VS Code"
-? ^$
-|2,1,1505754050,,"^$"
 ?/Verbose logging stopped
 |2,1,1505258984,47,"Verbose logging stopped"
 ?/Error
@@ -386,8 +1262,6 @@ $
 |2,1,1505243229,47,"JDA"
 ? H
 |2,1,1505148736,,"H"
-?  
-|2,1,1505148731,," "
 ?/Pricing\|Planning\|Product
 |2,1,1505144884,47,"Pricing\\|Planning\\|Product"
 ?/(Pricing\|Planning\|Product)
@@ -454,12 +1328,8 @@ $
 |2,1,1504909447,47,"^\\nIf Err"
 ?/^ *'.*\nIf Err
 |2,1,1504909322,47,"^ *'.*\\nIf Err"
-? ^
-|2,1,1504908353,,"^"
 ? @@
 |2,1,1504908075,,"@@"
-? ^\(.*\)$
-|2,1,1504908048,,"^\\(.*\\)$"
 ?/LogError
 |2,1,1504907861,47,"LogError"
 ?/@@
@@ -556,8 +1426,6 @@ $
 |2,1,1504365585,," *"
 ? \^
 |2,1,1504304669,,"\\^"
-? ;
-|2,1,1504304669,,";"
 ?/https
 |2,1,1504218066,47,"https"
 ?/elpa
@@ -578,8 +1446,6 @@ $
 |2,1,1504191267,47,"customize-"
 ?/keyword
 |2,1,1504189837,47,"keyword"
-?/vim
-|2,1,1503956074,47,"vim"
 ?/lcl
 |2,1,1503948409,47,"lcl"
 ?/local
@@ -606,18 +1472,12 @@ $
 |2,1,1503756136,47,"\\\\\\"
 ?/RemoteFolder
 |2,1,1503756118,47,"RemoteFolder"
-? ; 
-|2,1,0,,"; "
-? ^c
-|2,1,0,,"^c"
 ?/;;
 |2,1,0,47,";;"
 ? ^\(.*\);$
 |2,1,0,,"^\\(.*\\);$"
 ? \\$
 |2,1,0,,"\\\\$"
-?  .*$
-|2,1,0,," .*$"
 ?/path
 |2,1,0,47,"path"
 ?/paths
@@ -651,1407 +1511,1537 @@ $
 
 # Registers:
 "0	LINE	0
-	xm01-uprm07p
-	xm01-uprm08p
-	xm01-uprm07p
-	xm01-uprm08p
-|3,0,0,1,4,0,1505862964,"xm01-uprm07p","xm01-uprm08p","xm01-uprm07p","xm01-uprm08p"
-"1	LINE	0
+	Start-Process -FilePath firefox.exe -ArgumentList $argsN
+|3,0,0,1,1,0,1512747730,"Start-Process -FilePath firefox.exe -ArgumentList $argsN"
+""1	LINE	0
 	
-|3,0,1,1,1,0,1505863695,""
+|3,1,1,1,1,0,1517590214,""
 "2	LINE	0
-	plm00912  - PG *Nix Batch Processing Server
-|3,0,2,1,1,0,1505768404,"plm00912  - PG *Nix Batch Processing Server"
+	Restart-Computer -Force
+|3,0,2,1,1,0,1517590200,"Restart-Computer -Force"
 "3	LINE	0
-	pam00105 - Infomatica Power Server 
-|3,0,3,1,1,0,1505768066,"pam00105 - Infomatica Power Server "
+	
+|3,0,3,1,1,0,1517590200,""
 "4	LINE	0
-	ksms200b
-|3,0,4,1,1,0,1505768065,"ksms200b"
+	Set-ExecutionPolicy Unrestricted
+|3,0,4,1,1,0,1517590200,"Set-ExecutionPolicy Unrestricted"
 "5	LINE	0
-	plm00910 - FC Fixture Management Application Server
-	plm00912  - PG *Nix Batch Processing Server
-|3,0,5,1,2,0,1505767891,"plm00910 - FC Fixture Management Application Server","plm00912  - PG *Nix Batch Processing Server"
-"6	LINE	0
-	pam00105 
-|3,0,6,1,1,0,1505767877,"pam00105 "
+	Nb
+|3,0,5,1,1,0,1512781822,"Nb"
+"6	BLOCK	17
+	TEK027          - 
+	TEK029          - 
+	TEK031          - 
+	TEK032          - 
+	TEK033          - 
+	TEK034          - 
+	TEK036          - 
+	TEK037          - 
+	TEK038          - 
+	TEK039          - 
+	TEK042          - 
+	TEK043          - 
+	TEK045          - 
+	TEK047          - 
+	TEK048          - 
+	TEK056          - 
+	TEK057          - 
+	TEK058          - 
+	TEK060          - 
+	TEK062          - 
+	TEK065          - 
+	TEK068          - 
+	TEK071          - 
+	TEK073          - 
+	TEK074          - 
+	TEK075          - 
+	TEK076          - 
+	TEK077          - 
+	TEK123          - 
+	TEK124          - 
+	TEK510          - 
+	TEK800          - 
+	TEK805          - 
+|3,0,6,2,33,17,1512781640,"TEK027          - ","TEK029          - ","TEK031          - ","TEK032          - ","TEK033          - ","TEK034          - ","TEK036          - ","TEK037          - ","TEK038          - ","TEK039          - ","TEK042          - ","TEK043          - ","TEK045          - ","TEK047          - ","TEK048          - ","TEK056          - ","TEK057          - ","TEK058          - ","TEK060          - ","TEK062          - ",>20
+|<"TEK065          - ","TEK068          - ","TEK071          - ","TEK073          - ","TEK074          - ","TEK075          - ","TEK076          - ","TEK077          - ","TEK123          - ","TEK124          - ","TEK510          - ","TEK800          - ","TEK805          - "
 "7	LINE	0
-	plm00912	AIX Batch Processing Server
-|3,0,7,1,1,0,1505767617,"plm00912	AIX Batch Processing Server"
-"8	LINE	0
-	ksms1257	Windows File Server
-|3,0,8,1,1,0,1505767599,"ksms1257	Windows File Server"
-"9	LINE	0
-	ksms1256	Windows Batch Print Server
-|3,0,9,1,1,0,1505767590,"ksms1256	Windows Batch Print Server"
+	                   - Load PLX
+	                   - Download files from PLX
+	                   - Deleted Styles Alert
+	                   - Purge Item Creation reports
+	                   - Approaching PO Due Dates alerts
+	                   - Auto-Finalized Styles alerts
+	                   - Reload cache
+	                   - Accepted and Finalized Styles alerts
+	                   - Calculate ELC
+	                   - Calculate due-dates
+	                   - Stop app server
+	                   - Start app server
+	                   - Stop transit service
+	                   - Start transit service
+|3,0,7,1,14,0,1512781578,"                   - Load PLX","                   - Download files from PLX","                   - Deleted Styles Alert","                   - Purge Item Creation reports","                   - Approaching PO Due Dates alerts","                   - Auto-Finalized Styles alerts","                   - Reload cache","                   - Accepted and Finalized Styles alerts","                   - Calculate ELC",>42
+|<"                   - Calculate due-dates","                   - Stop app server","                   - Start app server","                   - Stop transit service","                   - Start transit service"
+"8	CHAR	0
+	                   - Load PLX
+	                   - Download files from PLX
+	                   - Deleted Styles Alert
+	                   - Purge Item Creation reports
+	                   - Approaching PO Due Dates alerts
+	                   - Auto-Finalized Styles alerts
+	                   - Reload cache
+	                   - Accepted and Finalized Styles alerts
+	                   - Calculate ELC
+	                   - Calculate due-dates
+	                   - Stop app server
+	                   - Start app server
+	                   - Stop transit service
+	                   - Start transit service
+|3,0,8,0,14,0,1512781573,"                   - Load PLX","                   - Download files from PLX","                   - Deleted Styles Alert","                   - Purge Item Creation reports","                   - Approaching PO Due Dates alerts","                   - Auto-Finalized Styles alerts","                   - Reload cache","                   - Accepted and Finalized Styles alerts","                   - Calculate ELC",>42
+|<"                   - Calculate due-dates","                   - Stop app server","                   - Start app server","                   - Stop transit service","                   - Start transit service"
+"9	CHAR	0
+	Sceduled Nbr of jobs, Nbr procs - Desc
+	         CK 6, 0
+	ALLTWO   CKK005          - Purge Cumulus web server temp directory
+	ALLTWO   CKK100          - Start Cumulus app server
+	ALLTWO   CKK101          - Stop Cumulus app server
+	ALLTWO   CKK102          - Start Cumulus web server
+	ALLTWO   CKK103          - Stop Cumulus web server
+	ALLTWO   CKK104          - Email to Necool the size of collections.xml
+	         
+	         FP 29, 0
+	ALLTWO   FPK001          - Clear MOAlock table 
+	ALL      FPK005          - Colorway extract in Informatica 
+	ALL      FPK006          - Product extract in Informatica, archive extracts
+	ALL      FPK007          - Supplier extract in Informatica
+	ALL      FPK008          - Transfer Daily files from Informatica to PLM server
+	ALL      FPK010          - SKU_PO extract
+	ALL      FPK011          - DC_DATE extract
+	ALL      FPK012          - Upload the extract data
+	ALL      FPK013          - Agent extract
+	ALL      FPK014          - Brand extract
+	ALL      FPK015          - Department extract
+	ALL      FPK016          - Factory extract
+	REQUEST2 FPK017          - PM extract
+	ALL      FPK018          - Season extract
+	ALL      FPK026          - Create Product, Colorway and SKU_PO files
+	ALL      FPK027          - Transfer files from FP batch server to WindChill server
+	ALL      FPK028          - Create DC_DATE file
+	ALL      FPK029          - Transfer files from FP batch server to WindChill server
+	ALL      FPK030          - Transfer files from TE batch server to FP batch server
+	ALL      FPK031          - Transfer files from the RMS batch server to the FP batch server
+	ALLTWO   FPK106          - Start web server
+	ALLTWO   FPK107          - Start WindChill directory server
+	ALLTWO   FPK108          - Start WindChill server manager and Method servers
+	ALLTWO   FPK109          - Stop WindChill server manager and Method servers 
+	ALLTWO   FPK110          - Stop WindChill directory server
+	ALLTWO   FPK111          - Stop web server
+	ALLTWO   FPK112          - Stop Apache process
+	ALLTWO   FPK113          - Start Apache process
+	ALLTWO   FPK505          - FP extract for Vendor Scorecard
+	         
+	         PB 17, 3
+	         PBK010 PBK0101  - Li and Fung Exttract
+	         PBK020 PBK0201  - Product Development Load
+	         PBK035 PBK0351  - Item Creation report
+	         PBK005          - Load PLX
+	         PBK025          - Download files from PLX
+	         PBK030          - Deleted Styles Alert
+	         PBK031          - Purge Item Creation reports
+	         PBK040          - Approaching PO Due Dates alerts
+	         PBK041          - Auto-Finalized Styles alerts
+|3,0,9,0,50,0,1512781331,"Sceduled Nbr of jobs, Nbr procs - Desc","         CK 6, 0","ALLTWO   CKK005          - Purge Cumulus web server temp directory","ALLTWO   CKK100          - Start Cumulus app server","ALLTWO   CKK101          - Stop Cumulus app server","ALLTWO   CKK102          - Start Cumulus web server","ALLTWO   CKK103          - Stop Cumulus web server","ALLTWO   CKK104          - Email to Necool the size of collections.xml","         ",>19
+|<"         FP 29, 0","ALLTWO   FPK001          - Clear MOAlock table ","ALL      FPK005          - Colorway extract in Informatica ","ALL      FPK006          - Product extract in Informatica, archive extracts","ALL      FPK007          - Supplier extract in Informatica","ALL      FPK008          - Transfer Daily files from Informatica to PLM server","ALL      FPK010          - SKU_PO extract","ALL      FPK011          - DC_DATE extract",>52
+|<"ALL      FPK012          - Upload the extract data","ALL      FPK013          - Agent extract","ALL      FPK014          - Brand extract","ALL      FPK015          - Department extract","ALL      FPK016          - Factory extract","REQUEST2 FPK017          - PM extract","ALL      FPK018          - Season extract","ALL      FPK026          - Create Product, Colorway and SKU_PO files","ALL      FPK027          - Transfer files from FP batch server to WindChill server",>48
+|<"ALL      FPK028          - Create DC_DATE file","ALL      FPK029          - Transfer files from FP batch server to WindChill server","ALL      FPK030          - Transfer files from TE batch server to FP batch server","ALL      FPK031          - Transfer files from the RMS batch server to the FP batch server","ALLTWO   FPK106          - Start web server","ALLTWO   FPK107          - Start WindChill directory server",>78
+|<"ALLTWO   FPK108          - Start WindChill server manager and Method servers","ALLTWO   FPK109          - Stop WindChill server manager and Method servers ","ALLTWO   FPK110          - Stop WindChill directory server","ALLTWO   FPK111          - Stop web server","ALLTWO   FPK112          - Stop Apache process","ALLTWO   FPK113          - Start Apache process","ALLTWO   FPK505          - FP extract for Vendor Scorecard","         ","         PB 17, 3",>49
+|<"         PBK010 PBK0101  - Li and Fung Exttract","         PBK020 PBK0201  - Product Development Load","         PBK035 PBK0351  - Item Creation report","         PBK005          - Load PLX","         PBK025          - Download files from PLX","         PBK030          - Deleted Styles Alert","         PBK031          - Purge Item Creation reports","         PBK040          - Approaching PO Due Dates alerts","         PBK041          - Auto-Finalized Styles alerts"
 "-	CHAR	0
-	.kohls.com
-|3,0,36,0,1,0,1505863745,".kohls.com"
+	s
+|3,0,36,0,1,0,1517590209,"s"
 
 # File marks:
-'0  36  12  ~\documents\scratch.txt
-|4,48,36,12,1505915649,"~\\documents\\scratch.txt"
-'1  28  20  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
-|4,49,28,20,1505760139,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
-'2  73  0  ~\scoop\apps\sysinternals\current\readme.txt
-|4,50,73,0,1505755470,"~\\scoop\\apps\\sysinternals\\current\\readme.txt"
-'3  1  0  ~\documents\scratch.txt
-|4,51,1,0,1505752327,"~\\documents\\scratch.txt"
-'4  1  0  ~\documents\scratch.txt
-|4,52,1,0,1505752327,"~\\documents\\scratch.txt"
-'5  1  0  ~\documents\scratch.txt
-|4,53,1,0,1505752327,"~\\documents\\scratch.txt"
-'6  1  0  ~\documents\scratch.txt
-|4,54,1,0,1505752327,"~\\documents\\scratch.txt"
-'7  11  70  F:\2017-09-12_product-guids.txt
-|4,55,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
-'8  1  0  ~\documents\scratch.txt
-|4,56,1,0,1505429598,"~\\documents\\scratch.txt"
-'9  1  0  ~\documents\scratch.txt
-|4,57,1,0,1505429598,"~\\documents\\scratch.txt"
+'0  1  0  ~\documents\scratch.txt
+|4,48,1,0,1517613180,"~\\documents\\scratch.txt"
+'1  1  0  C:\Temp\7zO5818.tmp\MANIFEST.MF
+|4,49,1,0,1512748445,"C:\\Temp\\7zO5818.tmp\\MANIFEST.MF"
+'2  1  1  C:\Scripts\StartFirefox.ps1
+|4,50,1,1,1512747975,"C:\\Scripts\\StartFirefox.ps1"
+'3  490  25  C:\Temp\production.pac
+|4,51,490,25,1512597999,"C:\\Temp\\production.pac"
+'4  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,52,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+'5  1  0  F:\2017-08-24_environment-variables.txt
+|4,53,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+'6  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,54,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+'7  1  0  F:\2017-12-04_PGK0051-sample-output_1.sql
+|4,55,1,0,1512415366,"F:\\2017-12-04_PGK0051-sample-output_1.sql"
+'8  13  1  ~\Downloads\proposed production code (untested) PGKRX001 (1).rexx
+|4,56,13,1,1512174215,"~\\Downloads\\proposed production code (untested) PGKRX001 (1).rexx"
+'9  58  0  ~\Downloads\proposed production code (untested) PGK0051.jcl
+|4,57,58,0,1512174192,"~\\Downloads\\proposed production code (untested) PGK0051.jcl"
 
 # Jumplist (newest first):
--'  36  12  ~\documents\scratch.txt
-|4,39,36,12,1505915649,"~\\documents\\scratch.txt"
--'  35  0  ~\documents\scratch.txt
-|4,39,35,0,1505863692,"~\\documents\\scratch.txt"
--'  30  0  ~\documents\scratch.txt
-|4,39,30,0,1505863511,"~\\documents\\scratch.txt"
--'  31  0  ~\documents\scratch.txt
-|4,39,31,0,1505863499,"~\\documents\\scratch.txt"
--'  26  0  ~\documents\scratch.txt
-|4,39,26,0,1505862960,"~\\documents\\scratch.txt"
--'  25  0  ~\documents\scratch.txt
-|4,39,25,0,1505862949,"~\\documents\\scratch.txt"
--'  24  0  ~\documents\scratch.txt
-|4,39,24,0,1505862931,"~\\documents\\scratch.txt"
--'  23  0  ~\documents\scratch.txt
-|4,39,23,0,1505862921,"~\\documents\\scratch.txt"
--'  41  0  ~\documents\scratch.txt
-|4,39,41,0,1505832131,"~\\documents\\scratch.txt"
--'  40  0  ~\documents\scratch.txt
-|4,39,40,0,1505832122,"~\\documents\\scratch.txt"
--'  10  33  ~\documents\scratch.txt
-|4,39,10,33,1505768103,"~\\documents\\scratch.txt"
--'  18  0  ~\documents\scratch.txt
-|4,39,18,0,1505767326,"~\\documents\\scratch.txt"
--'  2  73  ~\documents\scratch.txt
-|4,39,2,73,1505767322,"~\\documents\\scratch.txt"
--'  21  0  ~\documents\scratch.txt
-|4,39,21,0,1505767313,"~\\documents\\scratch.txt"
 -'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505767313,"~\\documents\\scratch.txt"
--'  28  20  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
-|4,39,28,20,1505760139,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
--'  1  0  C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
-|4,39,1,0,1505757797,"C:\\Program Files (x86)\\JDA\\Intactix\\Space Automation\\autopilot.ini"
--'  169  12  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,169,12,1505757796,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  73  0  ~\scoop\apps\sysinternals\current\readme.txt
-|4,39,73,0,1505755470,"~\\scoop\\apps\\sysinternals\\current\\readme.txt"
--'  1  0  ~\scoop\apps\sysinternals\current\readme.txt
-|4,39,1,0,1505755447,"~\\scoop\\apps\\sysinternals\\current\\readme.txt"
+|4,39,1,0,1517613180,"~\\documents\\scratch.txt"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  1  0  C:\Scripts\RestartSpark.ps1
+|4,39,1,0,1517590242,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpacemacs.ps1
+|4,39,3,5,1517590230,"C:\\Scripts\\RestartSpacemacs.ps1"
+-'  3  0  C:\Scripts\Restart.ps1
+|4,39,3,0,1517590223,"C:\\Scripts\\Restart.ps1"
+-'  4  0  C:\Scripts\Restart.ps1
+|4,39,4,0,1517590198,"C:\\Scripts\\Restart.ps1"
+-'  1  0  C:\Scripts\RestartSpacemacs.ps1
+|4,39,1,0,1517590190,"C:\\Scripts\\RestartSpacemacs.ps1"
+-'  1  18  C:\Scripts\Restart.ps1
+|4,39,1,18,1517590151,"C:\\Scripts\\Restart.ps1"
+-'  3  0  C:\Scripts\RestartComputer.ps1
+|4,39,3,0,1517590085,"C:\\Scripts\\RestartComputer.ps1"
+-'  1  0  ~\Downloads\TS@W.csv
+|4,39,1,0,1517531232,"~\\Downloads\\TS@W.csv"
+-'  7  0  ~\Downloads\TS@W.csv
+|4,39,7,0,1517528530,"~\\Downloads\\TS@W.csv"
+-'  1  0  C:\Temp\7zO5818.tmp\MANIFEST.MF
+|4,39,1,0,1512748445,"C:\\Temp\\7zO5818.tmp\\MANIFEST.MF"
+-'  1  0  C:\Temp\7zO5818.tmp\MANIFEST.MF
+|4,39,1,0,1512748445,"C:\\Temp\\7zO5818.tmp\\MANIFEST.MF"
+-'  1  1  C:\Scripts\StartFirefox.ps1
+|4,39,1,1,1512747975,"C:\\Scripts\\StartFirefox.ps1"
+-'  1  1  C:\Scripts\StartFirefox.ps1
+|4,39,1,1,1512747975,"C:\\Scripts\\StartFirefox.ps1"
+-'  3  24  C:\Scripts\StartFirefox.ps1
+|4,39,3,24,1512747725,"C:\\Scripts\\StartFirefox.ps1"
+-'  3  24  C:\Scripts\StartFirefox.ps1
+|4,39,3,24,1512747725,"C:\\Scripts\\StartFirefox.ps1"
+-'  2  0  C:\Scripts\StartFirefox.ps1
+|4,39,2,0,1512747699,"C:\\Scripts\\StartFirefox.ps1"
+-'  2  0  C:\Scripts\StartFirefox.ps1
+|4,39,2,0,1512747699,"C:\\Scripts\\StartFirefox.ps1"
+-'  4  0  C:\Scripts\restartfirefox.ps1
+|4,39,4,0,1512747621,"C:\\Scripts\\restartfirefox.ps1"
+-'  4  0  C:\Scripts\restartfirefox.ps1
+|4,39,4,0,1512747621,"C:\\Scripts\\restartfirefox.ps1"
+-'  9  17  ~\dotfiles\vim\.gvimrc
+|4,39,9,17,1512747600,"~\\dotfiles\\vim\\.gvimrc"
+-'  9  17  ~\dotfiles\vim\.gvimrc
+|4,39,9,17,1512747600,"~\\dotfiles\\vim\\.gvimrc"
+-'  3  5  C:\Scripts\stopfirefox.ps1
+|4,39,3,5,1512747290,"C:\\Scripts\\stopfirefox.ps1"
+-'  3  5  C:\Scripts\stopfirefox.ps1
+|4,39,3,5,1512747290,"C:\\Scripts\\stopfirefox.ps1"
+-'  1  0  C:\Scripts\stopfirefox.ps1
+|4,39,1,0,1512746961,"C:\\Scripts\\stopfirefox.ps1"
+-'  1  0  C:\Scripts\stopfirefox.ps1
+|4,39,1,0,1512746961,"C:\\Scripts\\stopfirefox.ps1"
+-'  1  0  C:\Scripts\restartfirefox.ps1
+|4,39,1,0,1512746904,"C:\\Scripts\\restartfirefox.ps1"
+-'  1  0  C:\Scripts\restartfirefox.ps1
+|4,39,1,0,1512746904,"C:\\Scripts\\restartfirefox.ps1"
+-'  1  27  ~\documents\scratch.txt
+|4,39,1,27,1512746901,"~\\documents\\scratch.txt"
+-'  490  25  C:\Temp\production.pac
+|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
+-'  490  25  C:\Temp\production.pac
+|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
+-'  490  25  C:\Temp\production.pac
+|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
+-'  490  25  C:\Temp\production.pac
+|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
+-'  490  25  C:\Temp\production.pac
+|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
+-'  490  25  C:\Temp\production.pac
+|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
+-'  1  0  C:\Temp\production.pac
+|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
+-'  1  0  C:\Temp\production.pac
+|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
+-'  1  0  C:\Temp\production.pac
+|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
+-'  1  0  C:\Temp\production.pac
+|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
+-'  1  0  C:\Temp\production.pac
+|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
+-'  1  0  C:\Temp\production.pac
+|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
 -'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1505754119,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505753943,"~\\documents\\scratch.txt"
--'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505752327,"~\\documents\\scratch.txt"
--'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505752327,"~\\documents\\scratch.txt"
--'  11  70  F:\2017-09-12_product-guids.txt
-|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
--'  11  70  F:\2017-09-12_product-guids.txt
-|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
--'  11  70  F:\2017-09-12_product-guids.txt
-|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
--'  11  70  F:\2017-09-12_product-guids.txt
-|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
--'  11  70  F:\2017-09-12_product-guids.txt
-|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
--'  11  70  F:\2017-09-12_product-guids.txt
-|4,39,11,70,1505513581,"F:\\2017-09-12_product-guids.txt"
--'  1  0  F:\2017-09-12_product-guids.txt
-|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
--'  1  0  F:\2017-09-12_product-guids.txt
-|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
--'  1  0  F:\2017-09-12_product-guids.txt
-|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
--'  1  0  F:\2017-09-12_product-guids.txt
-|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
--'  1  0  F:\2017-09-12_product-guids.txt
-|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
--'  1  0  F:\2017-09-12_product-guids.txt
-|4,39,1,0,1505490994,"F:\\2017-09-12_product-guids.txt"
--'  3  25  ~\documents\scratch.txt
-|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
--'  3  25  ~\documents\scratch.txt
-|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
--'  3  25  ~\documents\scratch.txt
-|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
--'  3  25  ~\documents\scratch.txt
-|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
--'  3  25  ~\documents\scratch.txt
-|4,39,3,25,1505490993,"~\\documents\\scratch.txt"
--'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505442478,"~\\documents\\scratch.txt"
--'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505442478,"~\\documents\\scratch.txt"
--'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505429598,"~\\documents\\scratch.txt"
--'  1  0  ~\documents\scratch.txt
-|4,39,1,0,1505429598,"~\\documents\\scratch.txt"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  57461  0  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,57461,0,1505260524,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  56662  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,56662,4,1505258993,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
--'  55066  4  ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-|4,39,55066,4,1505258992,"~\\AppData\\Local\\Temp\\MSI2017-09-12T18-18-52.log"
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
+|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_environment-variables.txt
+|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  1  0  F:\2017-08-24_system_path-environment-variable.txt
+|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
 
 # History of marks within files (newest to oldest):
 
 > ~\documents\scratch.txt
-	*	1505864022	0
-	"	36	12
-	^	36	21
-	.	36	11
-	+	1	970
-	+	1	1002
-	+	1	1053
-	+	1	1124
-	+	1	1178
-	+	1	1213
-	+	1	1269
-	+	1	1314
-	+	1	355
-	+	1	46
-	+	1	121
-	+	1	0
-	+	1	120
-	+	1	0
-	+	1	119
-	+	1	0
-	+	1	45
-	+	1	0
-	+	1	53
-	+	1	0
-	+	1	46
-	+	1	13
-	+	1	25
-	+	1	38
-	+	1	50
-	+	1	27
-	+	1	80
-	+	1	26
-	+	1	47
-	+	1	73
-	+	1	101
-	+	1	128
-	+	1	0
-	+	1	1
-	+	1	0
-	+	2	0
+	*	1517601627	0
+	"	1	0
+	^	1	495
+	.	2	0
+	+	1	60
+	+	1	57
 	+	1	14
-	+	2	17
-	+	2	113
-	+	4	32
-	+	1	0
-	+	5	0
-	+	4	64
-	+	5	0
-	+	16	66
-	+	16	87
-	+	16	88
-	+	18	0
-	+	2	0
-	+	4	64
-	+	1	0
-	+	6	0
-	+	17	0
-	+	16	76
-	+	17	56
-	+	3	0
-	+	2	72
-	+	3	74
-	+	16	75
-	+	17	56
-	+	16	65
-	+	17	65
-	+	16	64
-	+	17	65
-	+	16	64
-	+	17	65
-	+	16	64
-	+	3	73
-	+	2	72
-	+	4	63
-	+	2	73
-	+	18	66
-	+	18	75
-	+	21	0
-	+	2	9
-	+	21	0
-	+	1	0
-	+	18	0
-	+	34	0
-	+	40	0
-	+	41	0
-	+	42	0
-	+	19	0
-	+	22	0
-	+	23	0
-	+	24	0
-	+	25	12
-	+	26	0
-	+	30	0
-	+	31	0
-	+	30	0
-	+	29	31
-	+	34	6
-	+	38	0
-	+	35	0
-	+	36	11
-
-> C:\Program Files (x86)\JDA\Intactix\Space Automation\autopilot.ini
-	*	1505758180	0
-	"	28	20
-	^	27	61
-	.	65	14
-	+	28	0
-	+	27	0
-	+	28	0
-	+	26	0
-	+	27	60
-	+	65	14
-
-> F:\2017-09-18_Processes_only_after-Build9-error.txt
-	*	1505757795	0
-	"	169	12
-	.	1	0
-	+	1	0
-	+	184	0
-	+	1	0
-
-> ~\scoop\apps\sysinternals\current\readme.txt
-	*	1505755447	0
-	"	73	0
-
-> F:\2017-09-18_Processes_only_during-Build9-error.txt
-	*	1505754126	0
-	"	185	0
-	.	1	0
-	+	1	0
-	+	186	0
-	+	1	0
-
-> F:\2017-09-12_product-guids.txt
-	*	1505513478	0
-	"	11	70
-	.	6	0
-	+	1	0
-	+	5	0
-	+	6	0
-
-> ~\scoop\apps\vim\current\doc\help.txt
-	*	1505442468	0
-	"	1	0
-
-> ~\AppData\Local\Temp\MSI2017-09-12T18-18-52.log
-	*	1505259762	0
-	"	57461	0
-
-> ~\AppData\Local\Temp\2017-09-12T18-18-52_Install_vbs.log
-	*	1505259759	0
-	"	23	37
-
-> ~\AppData\Local\Temp\MSI2017-09-12T17-49-00.log
-	*	1505258395	0
-	"	65102	0
-
-> ~\AppData\Local\Temp\2017-09-12T17-49-00_Install_vbs.log
-	*	1505258363	0
-	"	45	45
-
-> ~\AppData\Local\Temp\MSI2017-09-12T17-38-50.log
-	*	1505258021	0
-	"	19	153
-	^	8	50
-	.	8	49
-	+	8	49
-
-> ~\$MYVIMRC
-	*	1505258008	0
-	"	1	0
-
-> ~\AppData\Local\Temp\2017-09-12T17-38-50_Install_vbs.log
-	*	1505256807	0
-	"	23	46
-
-> ~\AppData\Local\Temp\MSI2017-09-12T14-42-03.log
-	*	1505256009	0
-	"	4806	38
-
-> ~\AppData\Local\Temp\2017-09-12T14-42-03_Install_vbs.log
-	*	1505255964	0
-	"	30	47
-
-> ~\AppData\Local\Temp\MSI2017-09-12T13-05-04.log
-	*	1505247788	0
-	"	13212	0
-	^	13212	0
-
-> ~\AppData\Local\Temp\2017-09-12T13-05-04_Install_vbs.log
-	*	1505243213	0
-	"	26	9
-
-> ~\AppData\Local\Temp\2017-09-12T10-48-52_Install_vbs.log
-	*	1505232400	0
-	"	10	68
-
-> ~\AppData\Local\Temp\MSI2017-09-12T10-48-52.log
-	*	1505232380	0
-	"	52451	62
-
-> ~\AppData\Local\Temp\MSI000001.Log
-	*	1505231457	0
-	"	82577	0
-
-> ~\AppData\Local\Temp\2017-09-12T10-24-43_Install_vbs.log
-	*	1505230537	0
-	"	3	0
-
-> ~\AppData\Local\Temp\2017-09-12T10-21-26_Install_vbs.log
-	*	1505229941	0
-	"	5	0
-
-> ~\AppData\Local\Temp\2017-09-12T10-16-31_Install_vbs.log
-	*	1505229705	0
-	"	21	52
-
-> ~\AppData\Local\Temp\2017-09-12T10-15-04_Install_vbs.log
-	*	1505229407	0
-	"	12	0
-
-> ~\AppData\Local\Temp\2017-09-12T10-10-45_Install_vbs.log
-	*	1505229326	0
-	"	21	52
-
-> ~\AppData\Local\Temp\2017-09-12T09-46-42_Install_vbs.log
-	*	1505229063	0
-	"	18	62
-
-> ~\2017-09-08T19-34-18_install_vbs_Space-Planning.log
-	*	1504917383	0
-	"	15	0
-
-> ~\2017-09-08T19-30-27_install_vbs_Space-Planning.log
-	*	1504917265	0
-	"	3	0
-
-> ~\Documents\Downloads\installJDA\Install.vbs
-	*	1504917265	0
-	"	72	7
-	^	1201	65
-	.	1201	65
-	+	61	0
-	+	887	0
-	+	918	16
-	+	1013	0
-	+	1012	13
-	+	989	80
-	+	990	20
-	+	989	82
-	+	990	0
-	+	989	22
-	+	990	0
-	+	989	0
-	+	990	34
-	+	1108	0
-	+	1107	0
-	+	1108	34
-	+	1156	0
-	+	1158	0
-	+	1158	34
-	+	1202	0
-	+	1200	0
-	+	1202	34
-	+	1064	0
-	+	1063	0
-	+	1064	34
-	+	886	45
-	+	961	44
-	+	1025	22
-	+	961	44
-	+	964	0
-	+	962	0
-	+	963	54
-	+	969	51
-	+	963	36
-	+	969	36
-	+	982	0
-	+	975	0
-	+	976	46
-	+	988	0
-	+	988	81
-	+	995	0
-	+	996	0
-	+	995	0
-	+	997	0
-	+	998	0
-	+	999	0
-	+	1000	0
-	+	1011	57
-	+	982	63
-	+	1017	71
-	+	1027	0
-	+	1025	2
-	+	1027	51
-	+	1029	0
-	+	1026	0
-	+	1029	50
-	+	1072	0
-	+	1071	2
-	+	1072	50
-	+	1120	0
-	+	1120	50
-	+	1165	0
-	+	1164	2
-	+	1165	50
-	+	1214	0
-	+	1213	2
-	+	1214	50
-	+	1120	0
-	+	1121	0
-	+	1120	2
-	+	1121	2
-	+	1029	60
-	+	1027	0
-	+	1029	0
-	+	1027	44
-	+	1027	45
-	+	1029	0
-	+	1027	46
-	+	1027	58
-	+	1027	46
-	+	1027	58
-	+	1027	59
-	+	1027	60
-	+	1029	0
-	+	1028	20
-	+	1029	0
-	+	1028	122
-	+	1028	19
-	+	1027	40
-	+	1028	39
-	+	1064	74
-	+	1108	0
-	+	1158	0
-	+	1157	70
-	+	1158	0
-	+	1201	0
-	+	1202	0
-	+	1201	65
-
-> ~\2017-09-08T19-15-07_install_vbs.log
-	*	1504917136	0
-	"	21	24
-
-> ~\2017-09-08T19-10-58_install_vbs.log
-	*	1504916262	0
-	"	20	26
-
-> ~\2017-09-08T19-04-22_install_vbs.log
-	*	1504915867	0
-	"	20	16
-
-> ~\2017-09-08T18-46-59_install_vbs.log
-	*	1504915492	0
-	"	13	68
-
-> ~\2017-09-08T18-43-24_install_vbs.log
-	*	1504914452	0
-	"	12	43
-
-> ~\2017-09-08T18-35-58_install_vbs.log
-	*	1504914249	0
-	"	12	28
-
-> ~\2017-09-08T18-18-35_install_vbs.log
-	*	1504913806	0
-	"	12	28
-
-> ~\2017-09-08T18-09-18_install_vbs.log
-	*	1504912824	0
-	"	9	57
-
-> ~\2017-09-08T16-47-39_install_vbs.log
-	*	1504912241	0
-	"	1	10
-
-> ~\Documents\Downloads\installJDA\CLogger.vbs
-	*	1504912240	0
-	"	299	7
-
-> ~\scoop\apps\vim\current\doc\eval.txt
-	*	1504908367	0
-	"	9611	14
-
-> ~\2017-09-08T14-40-09_Install_vbs.log
-	*	1504907317	0
-	"	2	41
-
-> ~\dotfiles\.spacemacs.d\init.el
-	*	1504898145	0
-	"	585	52
-	^	173	6
-	.	173	5
-	+	245	31
-	+	246	33
-	+	245	3
-	+	246	3
-	+	245	3
-	+	246	3
-	+	245	25
-	+	85	6
-	+	84	6
-	+	143	6
-	+	144	6
-	+	145	6
-	+	146	6
-	+	147	6
-	+	148	6
-	+	149	6
-	+	150	6
-	+	151	6
-	+	152	6
-	+	153	6
-	+	154	6
-	+	155	6
-	+	165	6
-	+	53	6
-	+	54	6
-	+	56	6
-	+	112	6
-	+	55	6
-	+	112	6
-	+	55	6
-	+	84	6
-	+	85	6
-	+	112	6
-	+	84	6
-	+	85	6
-	+	84	6
-	+	85	6
-	+	143	6
-	+	144	6
-	+	145	6
-	+	146	6
-	+	147	6
-	+	148	6
-	+	149	6
-	+	150	6
-	+	151	6
-	+	152	6
-	+	153	6
-	+	154	6
-	+	155	6
-	+	84	6
-	+	43	2
-	+	44	2
-	+	45	2
-	+	51	2
-	+	52	2
-	+	53	2
-	+	54	2
-	+	58	2
-	+	60	2
-	+	138	2
-	+	139	2
-	+	157	2
-	+	159	2
-	+	161	2
-	+	165	2
-	+	174	2
-	+	177	2
-	+	174	2
-	+	165	2
-	+	161	2
-	+	159	2
-	+	157	2
-	+	139	2
-	+	138	2
-	+	85	6
-	+	60	2
-	+	58	2
-	+	54	2
-	+	53	2
-	+	52	2
-	+	51	2
-	+	45	2
-	+	44	2
-	+	43	2
-	+	220	27
-	+	245	30
-	+	173	5
-	+	172	5
-	+	187	48
-	+	188	46
-	+	188	41
-	+	189	55
-	+	189	48
-	+	188	0
-	+	189	48
-	+	190	0
-	+	172	5
-	+	195	50
-	+	173	5
-
-> ~\.spacemacs-user-init
-	*	1504898140	0
-	"	31	0
-	^	30	11
-	.	30	10
-	+	13	0
-	+	14	0
-	+	10	69
-	+	11	0
-	+	10	41
-	+	25	40
-	+	26	42
-	+	11	22
-	+	11	23
-	+	11	0
-	+	11	45
-	+	25	7
-	+	26	6
-	+	25	7
-	+	26	18
-	+	25	17
-	+	26	18
-	+	27	0
-	+	26	18
-	+	25	17
-	+	11	2
-	+	6	0
-	+	24	0
-	+	20	0
-	+	11	0
-	+	15	0
-	+	16	0
-	+	15	0
-	+	24	0
-	+	23	0
-	+	32	0
-	+	30	2
-	+	29	0
-	+	30	4
-	+	24	4
-	+	21	4
-	+	23	0
-	+	20	0
-	+	15	4
-	+	7	29
-	+	12	17
-	+	15	0
-	+	21	0
-	+	24	0
-	+	30	10
-
-> ~\.spacemacs-user-config
-	*	1504898139	0
-	"	1	0
-	^	49	1
-	.	49	0
-	+	211	0
-	+	142	0
-	+	211	0
-	+	211	25
-	+	212	0
-	+	211	25
-	+	212	6
-	+	8	0
-	+	7	0
-	+	205	0
-	+	212	7
-	+	212	6
-	+	212	2
-	+	212	1
-	+	212	7
-	+	212	23
-	+	212	34
-	+	212	0
-	+	210	0
-	+	205	72
-	+	204	21
-	+	205	0
-	+	212	0
-	+	212	1
-	+	212	0
-	+	8	0
-	+	212	0
-	+	171	0
-	+	155	11
-	+	143	6
-	+	156	0
-	+	171	0
-	+	150	0
-	+	212	0
-	+	172	0
-	+	176	0
-	+	172	3
-	+	212	0
-	+	177	0
-	+	180	0
-	+	212	0
-	+	181	0
-	+	184	0
-	+	203	0
-	+	185	28
-	+	186	0
-	+	185	0
-	+	181	0
-	+	177	0
-	+	185	0
-	+	152	0
-	+	185	0
-	+	212	32
-	+	185	0
-	+	156	0
-	+	157	0
-	+	155	0
-	+	64	0
-	+	51	4
-	+	55	0
-	+	56	4
-	+	64	0
-	+	17	16
-	+	18	0
-	+	19	0
-	+	20	0
-	+	19	0
-	+	18	0
-	+	19	0
-	+	15	62
-	+	18	0
-	+	15	0
-	+	20	0
-	+	15	0
-	+	20	0
-	+	2	0
-	+	47	0
-	+	47	32
-	+	47	0
-	+	47	24
-	+	20	0
-	+	2	0
-	+	20	0
-	+	35	25
-	+	36	0
-	+	20	0
-	+	152	0
-	+	153	43
-	+	213	0
-	+	207	0
-	+	48	0
-	+	49	0
-
-> ~\dotfiles\.spacemacs.d\public\local\powershell.el
-	*	1504893628	0
-	"	79	0
-
-> ~\.emacs.d\private\local\README.md
-	*	1504893627	0
-	"	6	0
-
-> ~\dotfiles\.spacemacs.d\public\local\jcl-mode.el
-	*	1504893624	0
-	"	41	0
-
-> ~\dotfiles\.spacemacs.d\public\local\powerline-evil-themes.el
-	*	1504893617	0
-	"	22	14
-
-> ~\dotfiles\.spacemacs.d\public\local\visual-basic-mode.el
-	*	1504892677	0
-	"	48	27
-
-> ~\.emacs.d\elpa\cobol-mode-1.0.0\cobol-mode.el
-	*	1504892650	0
-	"	3064	22
-
-> ~\Documents\Downloads\incident_af4f733d133047845b5bbbc76144b0ad_attachments\Install.vbs
-	*	1504701545	0
-	"	293	19
-	^	247	4
-	.	248	0
-	+	381	37
-	+	372	20
-	+	395	52
-	+	421	35
-	+	444	67
-	+	450	32
-	+	480	28
-	+	494	28
-	+	10	0
-	+	7	0
-	+	8	0
-	+	7	0
-	+	8	27
-	+	9	0
-	+	8	0
-	+	9	16
-	+	10	23
-	+	13	0
-	+	517	0
-	+	10	0
-	+	9	10
-	+	10	4
-	+	13	0
-	+	14	20
-	+	223	25
-	+	229	25
-	+	232	0
-	+	14	0
-	+	517	0
-	+	76	0
-	+	90	0
-	+	104	0
-	+	118	0
-	+	178	0
-	+	176	66
-	+	176	96
-	+	178	0
-	+	279	0
-	+	315	0
-	+	318	39
-	+	318	60
-	+	319	0
-	+	331	0
-	+	334	39
-	+	334	60
-	+	335	0
-	+	346	0
-	+	349	39
-	+	349	61
-	+	362	0
-	+	365	38
-	+	365	60
-	+	398	0
-	+	405	0
-	+	409	0
-	+	430	0
-	+	435	0
-	+	423	66
-	+	423	90
-	+	423	120
-	+	423	148
-	+	424	0
-	+	452	66
-	+	452	90
-	+	452	120
-	+	452	148
-	+	453	0
-	+	456	64
-	+	457	0
-	+	466	64
-	+	467	0
-	+	488	0
-	+	504	0
-	+	509	69
-	+	510	0
-	+	223	0
-	+	303	39
-	+	303	60
-	+	304	0
-	+	350	0
-	+	366	0
-	+	182	0
-	+	509	73
-	+	244	0
-	+	243	0
-	+	244	32
-	+	247	25
-	+	177	0
-	+	176	0
-	+	177	124
-	+	237	0
-	+	240	0
-	+	237	0
-	+	239	0
-	+	240	33
-	+	241	3
-	+	242	7
-	+	246	28
-	+	247	3
-	+	248	0
-
-> C:\Scripts\StartSpacemacs.ps1
-	*	1504701487	0
-	"	19	17
-	^	5	52
-	.	5	39
-	+	5	39
-
-> ~\gview.bat
-	*	1504650198	0
-	"	21	23
-	^	5	63
-	.	4	0
-	+	4	0
-	+	4	3
-	+	4	51
-	+	5	62
-	+	4	0
-
-> ~\gvimdiff.bat
-	*	1504650037	0
-	"	25	0
-	.	4	0
-	+	4	54
-	+	4	0
-
-> ~\gvim.bat
-	*	1504648675	0
-	"	30	7
-	^	7	0
-	.	4	0
-	+	4	54
-	+	4	0
-	+	7	0
-	+	4	0
-
-> C:\Windows\gview.bat.old
-	*	1504648604	0
-	"	1	0
-
-> C:\Scripts\StopSpacemacs.ps1
-	*	1504642210	0
-	"	2	33
-	^	1	34
-	.	1	33
-	+	4	5
+	+	1	59
+	+	1	14
+	+	1	59
+	+	1	14
+	+	1	30
+	+	1	36
 	+	1	33
+	+	1	35
+	+	1	31
+	+	1	32
+	+	1	35
+	+	1	36
+	+	1	47
+	+	1	43
+	+	1	49
+	+	1	36
+	+	1	40
+	+	1	36
+	+	1	40
+	+	1	14
+	+	1	50
+	+	1	54
+	+	1	14
+	+	1	54
+	+	1	14
+	+	1	50
+	+	1	54
+	+	1	14
+	+	1	17
+	+	1	18
+	+	1	17
+	+	1	37
+	+	1	14
+	+	1	37
+	+	1	87
+	+	1	14
+	+	1	23
+	+	1	153
+	+	1	14
+	+	1	118
+	+	1	14
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	13
+	+	1	27
+	+	1	41
+	+	1	55
+	+	1	0
+	+	1	67
+	+	1	0
+	+	1	14
+	+	1	28
+	+	1	42
+	+	1	56
+	+	1	70
+	+	1	0
+	+	1	5
+	+	1	0
+	+	1	9
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	42
+	+	1	154
+	+	1	14
+	+	1	28
+	+	1	42
+	+	1	56
+	+	1	70
+	+	1	84
+	+	1	98
+	+	1	112
+	+	1	126
+	+	1	140
+	+	1	154
+	+	1	168
+	+	1	182
+	+	1	196
+	+	1	210
+	+	1	224
+	+	1	0
+	+	1	240
+	+	1	0
+	+	1	14
+	+	2	0
+	+	1	0
+	+	2	0
+	a	1	0
+
+> C:\Scripts\RestartSpark.ps1
+	*	1517590284	0
+	"	3	5
 
 > C:\Scripts\RestartSpacemacs.ps1
-	*	1504641872	0
-	"	1	0
-	^	3	6
-	.	3	5
-	+	3	5
-
-> ~\Dropbox\Downloads\task_ci.csv
-	*	1504304672	0
-	"	1	0
-
-> C:\Scripts\Shutdown.bat
-	*	1504272284	0
-	"	1	0
-
-> ~\.emacs.d\elpa\github-modern-theme-20170628.2332\github-modern-theme.el
-	*	1504215576	0
-	"	62	0
-	^	53	16
-
-> ~\.vim_local\vimosconfig.vim
-	*	1504026242	0
-	"	3	14
-	^	3	41
-	.	3	14
-	+	1	0
-	+	3	14
-
-> f:\2017-08-29_edit-with-vim-dll.reg
-	*	1504025584	0
-	"	1	0
-	^	2	70
-	.	2	69
-	+	1	0
-	+	3	0
-	+	2	69
-
-> F:\domains.txt
-	*	1503955976	0
-	"	18	38
-	.	7328	0
-	+	1	0
-	+	7328	0
-
-> ~\My Program Files\aspell\autogen
-	*	1503789127	0
-	"	5	0
-	.	5	0
-	+	6	13
-	+	7	13
-	+	8	13
-	+	6	35
-	+	7	19
-	+	7	35
-	+	8	0
-	+	7	0
-	+	8	0
-	+	6	42
-	+	7	42
-	+	6	85
-	+	7	85
-	+	5	0
-
-> C:\Tools\07.8.0.1420 New\UserSettings.vbs
-	*	1503787077	0
-	"	7	0
-	^	7	1
-	.	7	0
-	+	20	0
-	+	19	0
-	+	22	0
-	+	7	0
-
-> C:\Tools\07.8.0.1420 New\Updates.vbs
-	*	1503785157	0
-	"	65	0
-	^	197	1
-	.	197	0
-	+	66	0
-	+	65	0
-	+	69	0
-	+	7	0
-	+	197	0
-
-> C:\Tools\07.8.0.1420 New\Install.vbs
-	*	1503784891	0
-	"	31	0
-	^	31	56
-	.	31	55
-	+	7	0
-	+	31	55
-
-> C:\Windows\gvim.bat.old
-	*	1503780172	0
-	"	5	0
-	^	4	55
-	.	5	0
-	+	4	54
-	+	5	0
-
-> C:\Windows\gvimdiff.bat.old
-	*	1503780155	0
-	"	12	1
-	^	4	55
-	.	5	0
-	+	4	54
-	+	5	0
-
-> C:\Windows\gview.bat
-	*	1503779745	0
-	"	10	0
-	^	4	55
-	.	5	0
-	+	4	54
-	+	5	0
-
-> C:\Tools\07.8.0.1420 New\XCACLS.vbs
-	*	1503768560	0
-	"	4300	0
-
-> C:\Tools\install_pg-cp\Install_PG.bat
-	*	1503755805	0
-	"	1	0
-
-> ~\work\Updates.vbs
-	*	1503754340	0
-	"	171	0
-	^	134	44
-	.	132	18
-	+	7	0
-	+	133	24
-	+	132	18
-
-> C:\Scripts\GetUserPathEnvironmentVariable.ps1
-	*	1503753254	0
+	*	1517590227	0
 	"	3	5
-	^	3	6
-	.	3	5
-	+	3	5
-
-> C:\Scripts\GetUserEnvironmentVariables.ps1
-	*	1503753241	0
-	"	3	5
-	^	3	6
-	.	3	5
-	+	3	5
-
-> C:\Scripts\GetSystemPathEnvironmentVariable.ps1
-	*	1503753222	0
-	"	3	5
-	^	3	6
-	.	3	5
-	+	3	5
-
-> C:\Scripts\GetSystemEnvironmentVariables.ps1
-	*	1503753205	0
-	"	3	5
-	^	3	6
-	.	3	5
-	+	3	5
-
-> C:\Scripts\GetProcessEnvironmentVariables.ps1
-	*	1503753190	0
-	"	3	5
-	^	3	6
-	.	3	5
-	+	3	5
-
-> C:\Scripts\StartVIM.ps1
-	*	1503753038	0
-	"	40	5
-	^	40	6
-	.	40	5
-	+	40	5
-
-> C:\Scripts\StartFirefox.ps1
-	*	1503753009	0
-	"	11	5
-	^	11	6
-	.	11	5
-	+	11	5
-
-> C:\Scripts\StartChromeCK.ps1
-	*	1503752981	0
-	"	18	5
-	^	18	6
-	.	18	5
-	+	18	5
 
 > C:\Scripts\Restart.ps1
-	*	1503752930	0
+	*	1517590219	0
 	"	3	0
+	^	2	21
 	.	4	0
 	+	4	0
-
-> C:\Scripts\StartChromeKohls.ps1
-	*	1503749921	0
-	"	25	0
-
-> C:\Scripts\RestartChrome.ps1
-	*	1503747599	0
-	"	5	5
-	^	5	6
-	.	5	5
-	+	5	5
-
-> C:\Scripts\StartMyApps.ps1
-	*	1503747558	0
-	"	1	0
-
-> C:\Scripts\StartGVIM.ps1
-	*	1503698268	0
-	"	18	0
-	^	14	71
-	.	14	70
+	+	1	0
+	+	1	19
+	+	2	20
 	+	4	0
-	+	5	0
-	+	14	70
 
-> C:\Scripts\StartAyehuVDI-1.ps1
-	*	1503698158	0
-	"	6	5
-	^	6	6
-	.	6	5
+> C:\Scripts\RestartComputer.ps1
+	*	1517590126	0
+	"	3	22
+	^	1	31
+	.	1	0
+	+	4	0
 	+	1	0
-	+	5	0
-	+	2	19
-	+	3	0
-	+	6	5
 
-> F:\2017-08-25_system_environment-variables.txt
-	"	8	59
-	.	19	0
-	+	2	0
-	+	1	0
-	+	1	0
-	+	19	0
-
-> F:\2017-08-25_user_environment-variables.txt
-	"	32	36
+> ~\Downloads\TS@W.csv
+	*	1517531230	0
+	"	1	0
+	^	8	5
 	.	1	0
 	+	1	0
+	+	6	0
+	+	7	0
 	+	1	0
+
+> ~\scoop\apps\vim\8.0.0995\doc\help.txt
+	*	1512777467	0
+	"	21	0
+
+> ~\.bashrc
+	*	1512753550	0
+	"	1	15
+	^	1	16
+	.	1	0
+	+	1	60
+	+	1	57
+	+	1	14
+	+	1	59
+	+	1	14
+	+	1	59
+	+	1	14
+	+	1	30
+	+	1	36
+	+	1	33
+	+	1	35
+	+	1	31
+	+	1	32
+	+	1	35
+	+	1	36
+	+	1	47
+	+	1	43
+	+	1	49
+	+	1	36
+	+	1	40
+	+	1	36
+	+	1	40
+	+	1	14
+	+	1	50
+	+	1	54
+	+	1	14
+	+	1	54
+	+	1	14
+	+	1	50
+	+	1	54
+	+	1	14
+	+	1	17
+	+	1	18
+	+	1	17
+	+	1	37
+	+	1	14
+	+	1	37
+	+	1	87
+	+	1	14
+	+	1	23
+	+	1	153
+	+	1	14
+	+	1	118
+	+	1	14
 	+	1	0
+	+	1	14
+	+	1	0
+	+	1	13
+	+	1	27
+	+	1	41
+	+	1	55
+	+	1	0
+	+	1	67
+	+	1	0
+	+	1	14
+	+	1	28
+	+	1	42
+	+	1	56
+	+	1	70
+	+	1	0
+	+	1	5
+	+	1	0
+	+	1	9
+	+	1	0
+	+	1	14
+	+	1	0
+	+	1	42
+	+	1	154
+	+	1	14
+	+	1	28
+	+	1	42
+	+	1	56
+	+	1	70
+	+	1	84
+	+	1	98
+	+	1	112
+	+	1	126
+	+	1	140
+	+	1	154
+	+	1	168
+	+	1	182
+	+	1	196
+	+	1	210
+	+	1	224
+	+	1	0
+	+	1	240
+	+	1	0
+	+	1	14
+	+	2	0
+	+	1	0
+	+	2	0
+	+	1	0
+
+> C:\Temp\7zO5818.tmp\MANIFEST.MF
+	*	1512748425	0
+	"	1	0
+
+> C:\Scripts\StartFirefox.ps1
+	*	1512747756	0
+	"	1	1
+	^	4	2
+	.	4	1
+	+	3	0
+	+	1	0
+	+	3	31
+	+	4	0
+	+	3	34
+	+	4	1
+
+> C:\Scripts\restartfirefox.ps1
+	*	1512747621	0
+	"	4	0
+	^	2	23
+	.	2	22
+	+	1	21
+	+	3	0
+	+	2	22
+
+> ~\dotfiles\vim\.gvimrc
+	*	1512747600	0
+	"	9	17
+	^	4	41
+	.	4	40
+	+	8	0
+	+	6	0
+	+	7	0
+	+	4	0
+	+	6	0
+	+	3	0
+	+	6	53
+	+	3	51
+	+	4	40
+
+> C:\Scripts\stopfirefox.ps1
+	*	1512747283	0
+	"	3	5
+	^	1	40
+	.	1	39
+	+	1	39
+
+> C:\Temp\production.pac
+	*	1512597890	0
+	"	490	25
+
+> F:\2017-09-18_Processes_only_after-Build9-error.txt
+	*	1512428174	0
+	"	1	0
 
 > F:\2017-08-24_system_path-environment-variable.txt
-	"	1	2
+	*	1512427769	0
+	"	1	0
+
+> F:\2017-08-24_environment-variables.txt
+	*	1512427760	0
+	"	1	0
+
+> F:\2017-12-04_PGK0051-sample-output_1.sql
+	*	1512415359	0
+	"	1	0
+
+> ~\Downloads\proposed production code (untested) PGKRX001 (1).rexx
+	*	1512174208	0
+	"	13	1
+
+> F:\2017-10-25_pkmo-pg-pgk005-style-messages-g4413v00.txt
+	*	1512172116	0
+	"	12	42
+
+> ~\Downloads\proposed production code (untested) PGKRX001.rexx
+	*	1512171722	0
+	"	51	45
+
+> ~\Downloads\proposed production code (untested) PGK0051.jcl
+	*	1512171608	0
+	"	58	0
+
+> F:\work\PG on cpua\jcl\pgk0051.jcl
+	*	1512171448	0
+	"	20	34
+
+> f:\2017-11-30_PG-dir.txt
+	*	1512080428	0
+	"	99	5
+	^	107	6
 	.	1	0
-	+	1	1588
+	+	107	0
+	+	77	0
+	+	78	0
+	+	88	0
+	+	24	0
+	+	1	0
+	+	4	0
+	+	15	0
+	+	24	0
+	+	29	0
+	+	36	0
+	+	46	0
+	+	74	0
+	+	89	0
+	+	108	0
+	+	1	0
+	+	107	5
+	+	1	0
+
+> F:\work\PA\jcl\PAK110
+	*	1512079170	0
+	"	7	27
+
+> f:\2017-11-30_PA-dir.txt
+	*	1512078958	0
+	"	1	0
+	.	52	0
+	+	11	0
+	+	16	0
+	+	17	0
+	+	18	0
+	+	22	0
+	+	24	0
+	+	27	0
+	+	28	0
+	+	29	0
+	+	30	0
+	+	32	0
+	+	33	0
+	+	35	0
+	+	41	0
+	+	42	0
+	+	43	0
+	+	49	0
+	+	50	0
+	+	51	0
+	+	52	0
+
+> F:\work\FC on cpua\jobdoc\FCK904.txt
+	*	1512078866	0
+	"	24	27
+
+> F:\work\FC on cpua\jobdoc\FCK904
+	*	1512078506	0
+	"	1	0
+
+> F:\work\FC on cpua\job\FCK907.jcl
+	*	1512078494	0
+	"	1	0
+
+> F:\work\FC on cpua\proc\fck9071.jcl
+	*	1512077173	0
+	"	1	0
+
+> F:\work\FC on cpua\proc\FCK0171.jcl
+	*	1512077148	0
+	"	69	0
+
+> F:\work\FC on cpua\proc\FCK0221.jcl
+	*	1512076626	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> F:\work\FC on cpua\proc\FCK9021.jcl
+	*	1512076600	0
+	"	26	0
+
+> F:\work\FC on cpua\proc\FCK9021.proc
+	*	1512076465	0
+	"	1	0
+	^	1	0
+	.	1	0
+	+	1	0
+
+> f:\2017-11-30_FC-PGMs.txt
+	*	1512076445	0
+	"	10	22
+	^	10	23
+	.	1	13
+	+	2	0
+	+	2	4
+	+	2	42
+	+	2	36
+	+	2	38
+	+	2	0
+	+	2	4
+	+	2	36
+	+	2	43
+	+	2	0
+	+	2	36
+	+	2	45
+	+	2	7
+	+	2	38
+	+	2	0
+	+	2	45
+	+	2	3
+	+	2	12
+	+	2	19
+	+	2	28
+	+	2	36
+	+	2	44
+	+	2	0
+	+	2	3
+	+	2	10
+	+	2	18
+	+	2	27
+	+	2	34
+	+	2	42
+	+	2	51
+	+	2	60
+	+	2	69
+	+	2	74
+	+	2	0
+	+	11	0
+	+	2	0
+	+	3	0
+	+	6	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	3	0
+	+	8	0
+	+	10	0
+	+	11	0
+	+	1	13
+
+> f:\2017-11-30_PG-PGMs-1.txt
+	*	1512072948	0
+	"	1	21
+	^	1	87
+	.	1	0
+	+	1	0
+	+	1	36
+	+	1	0
+	+	1	12
+	+	1	0
+	+	1	6
+	+	1	0
+	+	1	3
 	+	1	11
-	+	1	37
-	+	1	81
-	+	1	102
-	+	1	139
-	+	1	218
-	+	1	291
-	+	1	360
-	+	1	423
-	+	1	472
-	+	1	541
-	+	1	593
-	+	1	626
-	+	1	680
-	+	1	723
-	+	1	749
-	+	1	764
-	+	1	791
-	+	1	816
-	+	1	848
-	+	1	878
-	+	1	905
-	+	1	946
-	+	1	983
-	+	1	1030
-	+	1	1074
-	+	1	1118
-	+	1	1178
-	+	1	1232
-	+	1	1269
-	+	1	1308
-	+	1	1357
-	+	1	1416
-	+	1	1488
-	+	1	1542
-	+	1	1587
+	+	1	18
+	+	1	0
+	+	1	9
+	+	1	0
+	+	1	9
+	+	1	8
+	+	1	12
+	+	1	20
+	+	1	27
+	+	1	33
+	+	1	42
+	+	1	50
+	+	1	59
+	+	1	68
+	+	1	75
+	+	1	83
+	+	1	92
+	+	1	101
+	+	1	106
+	+	1	114
+	+	2	0
+	+	1	0
+	+	1	65
+	+	1	7
+	+	1	15
+	+	1	22
+	+	1	31
+	+	1	39
+	+	1	46
+	+	1	55
+	+	1	64
+	+	1	73
 	+	2	0
 	+	1	0
 
-> ~\work\JDA IKB Installation\UserSettings.vbs
-	*	1503686301	0
-	"	17	59
+> f:\2017-11-30_PG-PGMs.txt
+	*	1512071428	0
+	"	13	13
+	.	41	0
+	+	1	0
+	+	37	0
+	+	1	0
+	+	27	0
+	+	31	0
+	+	34	0
+	+	26	7
+	+	27	6
+	+	28	6
+	+	36	11
+	+	37	11
+	+	39	7
+	+	40	3
+	+	41	0
+	+	27	0
+	+	39	0
+	+	41	0
 
-> ~\work\JDA IKB Installation\Setup.ini
-	*	1503684287	0
-	"	150	0
-
-> C:\Program Files (x86)\JDA\Intactix\Floor Planning\ProFloor.ini
-	*	1503684283	0
-	"	434	31
-
-> F:\2017-08-25_user_path-environment-variable.txt
-	*	1503684147	0
-	"	1	117
-
-> C:\Program Files (x86)\JDA\Intactix\AutoPopulate\FPAutoPopulate.txt
-	*	1503682281	0
+> \\ksms3024\share\Forever\IS\90518 - PD\90517 - Merch Presentation\PG\Mike L\PG.txt
+	*	1512000921	0
 	"	1	0
 
-> C:\Program Files (x86)\JDA\Intactix\AutoPopulate\FPAutoPopulate.ini
-	*	1503682201	0
+> \\ksms3024\share\Forever\IS\90518 - PD\90517 - Merch Presentation\PG\Mike L\PG Transition\pg accounts.txt
+	*	1512000589	0
 	"	1	0
 
-> \\ksms3024\share\Forever\IS\90518 - PD\90517 - Merch Presentation\PG\Upgrade 7.8\SMS Push For JDA 7.8\Intactix Knowledge Base\07.8.0.1420\Setup.ini
-	*	1503677243	0
+> ~\My Program Files\cmder\vendor\New Text Document.txt
+	*	1511998933	0
+	"	168	0
+	^	190	0
+	.	1	0
+	+	1	0
+
+> F:\2017-11-29_path.txt
+	*	1511995573	0
+	"	62	0
+	^	33	46
+	.	1	0
+	+	1	0
+	+	103	1
+	+	104	45
+	+	104	0
+	+	105	0
+	+	104	40
+	+	106	0
+	+	105	0
+	+	104	0
+	+	106	52
+	+	107	0
+	+	1	0
+	+	62	0
+	+	1	0
+	+	28	39
+	+	29	52
+	+	1	0
+	+	26	44
+	+	1	0
+	+	33	45
+	+	1	0
+	+	50	3
+	+	57	0
+	+	58	0
+	+	59	0
+	+	60	0
+	+	61	0
+	+	62	11
+	+	1	0
+
+> ~\Downloads\Mainframe Tape Dataset Listing D171110 - Files Over10 years old\Mainframe Tape Dataset Listing D171110 - Files Over10 years old.txt
+	*	1510878502	0
+	"	6	65
+	^	1	83
+	.	1	53
+	+	7	0
+	+	4	127
+	+	4	253
+	+	7	0
+	+	4	253
+	+	4	127
+	+	5	0
+	+	1	53
+
+> C:\dev\wf\source\include\wfcf301.h
+	*	1510875749	0
+	"	242	0
+
+> C:\dev\wf\source\include\wfcf300.h
+	*	1510875747	0
+	"	301	0
+
+> C:\dev\wf\source\proc\wfcf300.pc
+	*	1510870750	0
+	"	9	5
+
+> C:\dev\wf\source\proc\wfup003.pc
+	*	1510870637	0
+	"	24	0
+	^	10	27
+
+> ~\My Program Files (x86)\FindAndRunRobot\AliasGroups\Installed\Core_Aliases\Core-Linguistics.alias
+	*	1510682336	0
+	"	11	31
+	.	20	0
+	+	27	0
+	+	15	0
+	+	27	0
+	+	17	0
+	+	25	0
+	+	21	0
+	+	15	0
+	+	11	0
+	+	14	0
+	+	25	0
+	+	14	0
+	+	26	0
+	+	12	0
+	+	26	0
+	+	13	0
+	+	27	0
+	+	16	0
+	+	25	0
+	+	18	0
+	+	15	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	26	0
+	+	22	0
+	+	20	0
+
+> ~\dotfiles\vim\.vim\ftdetect\filetype.vim
+	*	1510608757	0
+	"	10	10
+	^	9	51
+	.	9	50
+	+	11	0
+	+	11	40
+	+	8	46
+	+	11	0
+	+	9	50
+
+> F:\2017-11-08_all-choco-packages.txt
+	*	1510608734	0
+	"	18	58
+	.	1	0
+	+	2825	0
+	+	2825	218
+	+	5280	0
+	+	2825	0
+	+	2825	106
+	+	5280	0
+	+	2825	25
+	+	2825	37
+	+	2825	48
+	+	2825	61
+	+	2825	79
+	+	2825	105
+	+	2825	128
+	+	2825	137
+	+	2825	147
+	+	2825	157
+	+	2825	175
+	+	2825	194
+	+	2825	205
+	+	2825	217
+	+	2825	226
+	+	2825	241
+	+	5280	0
+	+	2825	255
+	+	2825	0
+	+	1	0
+
+> ~\dotfiles\vim\.vim\syntax\autoit.vim
+	*	1510608197	0
+	"	88	0
+
+> ~\dotfiles\vim\.vimrc
+	*	1510608187	0
+	"	55	0
+	^	123	64
+	.	128	0
+	+	89	51
+	+	89	0
+	+	89	28
+	+	89	1
+	+	89	0
+	+	89	1
+	+	89	0
+	+	19	0
+	+	89	1
+	+	89	22
+	+	89	0
+	+	89	1
+	+	89	0
+	+	127	0
+	+	125	0
+	+	126	21
+	+	15	0
+	+	22	0
+	+	23	0
+	+	5	0
+	+	7	0
+	+	8	0
+	+	9	0
+	+	10	0
+	+	11	0
+	+	12	0
+	+	130	0
+	+	121	0
+	+	122	44
+	+	130	0
+	+	123	2
+	+	36	0
+	+	128	0
+
+> ~\scoop\apps\vim\8.0.0995\doc\helphelp.txt
+	*	1510354934	0
+	"	16	3
+
+> ~\scoop\apps\cmder\current\vendor\clink.lua
+	*	1510353956	0
+	"	44	20
+	.	47	0
+	+	44	8
+	+	45	0
+	+	46	8
+	+	47	0
+
+> ~\dotfiles\vim\.vim\colors\space-vim-dark.vim
+	*	1510353247	0
+	"	411	0
+	.	411	0
+	+	1	0
+	+	415	0
+	+	414	0
+	+	415	0
+	+	411	0
+	+	410	0
+	+	411	0
+
+> ~\dotfiles\vim\_viminfo
+	*	1510353175	0
+	"	24	0
+
+> ~\[Vundle] list
+	*	1510352033	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> ~\[Vundle] clean
+	*	1510351956	0
+	"	2	0
+	.	1	0
+	+	1	0
+
+> ~\.vim_local\vimosconfig.vim
+	*	1510351333	0
 	"	1	0
 
-> ~\work\JDA IKB Installation\Install.vbs
-	*	1503677223	0
-	"	122	0
+> ~\.vim_local\gvimosconfig.vim
+	*	1510351302	0
+	"	1	27
+
+> ~\dotfiles\vim\.vim\colors\spacegray.vim
+	*	1510351110	0
+	"	17	29
+
+> C:\Scripts\StopPLSQLDeveloper.ps1
+	*	1510350152	0
+	"	3	5
+	^	1	41
+	.	1	41
+	+	1	41
+
+> ~\Downloads\fonts-master\fonts-master\install_google_fonts_1.cmd
+	*	1510346538	0
+	"	2460	57
+	.	1	0
+	+	1	0
+
+> ~\Downloads\fonts-master\fonts-master\install_google_fonts_2.cmd
+	*	1510344279	0
+	"	1	0
+	.	1	0
+	+	2469	0
+	+	2294	0
+	+	1	0
+
+> ~\Downloads\fonts-master\fonts-master\install_google_fonts_2_mono_only.cmd
+	*	1510343509	0
+	"	29	132
+	.	29	0
+	+	29	0
+
+> F:\install_google_fonts_1.cmd
+	*	1510342914	0
+	"	2458	37
+	.	1	0
+	+	1	0
+	+	1248	0
+	+	1	0
+
+> ~\work\MVP-TC Splunk Alert.txt
+	*	1510337291	0
+	"	11	82
+
+> ~\work\pgk005_remove_cobol\pgsr005.sort
+	*	1510271141	0
+	"	6	17
+	.	7	0
+	+	1	0
+	+	7	0
+
+> ~\work\pg005_remove_cobol\pgsr005.sort
+	*	1510268972	0
+	"	1	0
+
+> F:\GitHub\cb2java\project.clj
+	*	1510265174	0
+	"	8	31
+	^	3	34
+	.	3	33
+	+	1	0
+	+	2	22
+	+	8	2
+	+	7	16
+	+	6	45
+	+	7	47
+	+	8	0
+	+	3	33
+
+> F:\users.txt
+	*	1510260824	0
+	"	199	0
+	.	5	0
+	+	211	0
+	+	210	0
+	+	5	0
+
+> F:\pg_user_names.txt
+	*	1510251417	0
+	"	95	0
+	.	97	0
+	+	182	0
+	+	178	0
+	+	153	0
+	+	153	46
+	+	153	43
+	+	153	0
+	+	153	45
+	+	153	0
+	+	153	45
+	+	153	0
+	+	153	16
+	+	153	22
+	+	153	19
+	+	153	21
+	+	153	17
+	+	153	18
+	+	153	21
+	+	153	22
+	+	153	33
+	+	153	29
+	+	153	35
+	+	153	22
+	+	153	26
+	+	153	22
+	+	153	26
+	+	153	0
+	+	153	36
+	+	153	40
+	+	153	0
+	+	153	40
+	+	153	0
+	+	153	36
+	+	153	40
+	+	153	0
+	+	152	0
+	+	153	0
+	+	152	0
+	+	153	0
+	+	152	0
+	+	1	0
+	+	1	11
+	+	1	4
+	+	1	11
+	+	1	3
+	+	1	23
+	+	1	0
+	+	1	23
+	+	1	73
+	+	1	8
+	+	1	0
+	+	1	9
+	+	1	139
+	+	1	0
+	+	1	104
+	+	1	0
+	+	97	0
+	+	1	8
+	+	97	0
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	1	7
+	+	1	0
+	+	97	0
+
+> F:\2017-11-08_choco-packages-with-win-in-name.txt
+	*	1510181855	0
+	"	35	38
+	.	1	0
+	+	1	0
+
+> ~\spacemacs-user-init.el
+	*	1510164444	0
+	"	28	0
+	^	36	1
+	.	28	0
+	+	16	51
+	+	16	21
+	+	16	22
+	+	16	47
+	+	16	50
+	+	16	47
+	+	16	68
+	+	16	50
+	+	19	81
+	+	19	99
+	+	20	67
+	+	24	2
+	+	16	55
+	+	19	78
+	+	16	47
+	+	17	13
+	+	16	47
+	+	18	28
+	+	16	50
+	+	17	13
+	+	17	16
+	+	18	23
+	+	17	16
+	+	19	78
+	+	19	83
+	+	20	62
+	+	19	83
+	+	24	0
+	+	23	0
+	+	24	0
+	+	19	38
+	+	20	47
+	+	20	50
+	+	23	0
+	+	20	50
+	+	22	4
+	+	20	32
+	+	17	9
+	+	33	0
+	+	34	0
+	+	29	0
+	+	30	0
+	+	31	0
+	+	32	0
+	+	34	0
+	+	35	0
+	+	36	0
+	+	32	0
+	+	31	0
+	+	30	0
+	+	29	0
+	+	28	0
+
+> ~\scoop\apps\vim\8.0.0995\doc\syntax.txt
+	*	1509998781	0
+	"	4660	0
+
+> ~\dotfiles\vim\.vim\autoload\airline\themes\violet.vim
+	*	1509997536	0
+	"	52	41
+
+> F:\xst_upc.txt
+	*	1509497546	0
+	"	37	47
+	^	33	84
+	.	33	0
+	+	1	0
+	+	17	0
+	+	33	0
+
+> F:\xst_sku_description.txt
+	*	1509497428	0
+	"	37	63
+	.	17	0
+	+	1	0
+	+	17	0
+
+> F:\xst_vnd_styl.txt
+	*	1509497376	0
+	"	43	14
+	.	1	0
+	+	17	0
+	+	1	0
+
+> F:\tmdarvs_description.txt
+	*	1509497366	0
+	"	14	0
+	.	1	0
+	+	17	0
+	+	1	0
+
+> F:\tupc_description.txt
+	*	1509497170	0
+	"	4	23
+	.	1	0
+	+	1	0
+	+	17	0
+	+	1	0
+
+> F:\tmdsear_description.txt
+	*	1509496551	0
+	"	1	0
+	.	1	0
+	+	17	0
+	+	1	0
+
+> F:\xmt_bom_sku_attr_description.txt
+	*	1509496332	0
+	"	35	0
+	.	1	0
+	+	19	0
+	+	1	0
+	+	17	0
+	+	1	0
+
+> ~\work\scriptdb2.sql
+	*	1509493962	0
+	"	342	32
+
+> ~\~
+	*	1509492804	0
+	"	1	0
+
+> ~\work\pgk005_remove_cobol\db2qry.sql
+	*	1509133265	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~\spacemacs-user-config.el
+	*	1509129885	0
+	"	97	0
+	.	97	0
+	+	177	0
+	+	97	0
+
+> ~\Downloads\rexx-mode-master\rexx-mode-master\rexx-mode.doc
+	*	1509123211	0
+	"	91	24
+
+> ~\scoop\apps\vim\current\GvimExt64\README.txt
+	*	1509117066	0
+	"	8	0
+
+> ~\Documents\Downloads\contacts.vcf
+	*	1509114672	0
+	"	1097	12
+
+> ~\Downloads\gnupg-2.2.1.tar.bz2.sig
+	*	1508943738	0
+	"	1	0
+
+> ~\Downloads\emacs-25.3_1.readme.sig
+	*	1508943437	0
+	"	1	0
+
+> ~\scoop\shims\zip.shim
+	*	1508942916	0
+	"	1	0
+
+> ~\scoop\shims\gpg.shim
+	*	1508942909	0
+	"	1	46
+	^	1	47
+	.	1	46
+	+	1	46
+
+> f:\2017-10-23_impacted_hosts.txt
+	*	1508797482	0
+	"	79	7
+
+> C:\Scripts\ayehu 0.cmd
+	*	1508449154	0
+	"	2	33
+	^	2	33
+	.	2	32
+	+	2	32
+
+> F:\Vim-master\Vim-master\README
+	*	1508246484	0
+	"	4	5
+
+> c:\scripts\ayehu 3.cmd
+	*	1507936024	0
+	"	2	32
+	^	2	33
+	.	2	32
+	+	2	32
+
+> F:\HO_bindings.txt
+	*	1507936023	0
+	"	80	0
+	.	1	0
+	+	22	0
+	+	626	0
+	+	22	0
+	+	1	0
+
+> F:\sesi006.txt
+	*	1507936021	0
+	"	3	8
+
+> c:\scripts\ayehu 2.cmd
+	*	1507933462	0
+	"	2	32
+	^	2	33
+	.	2	32
+	+	2	32

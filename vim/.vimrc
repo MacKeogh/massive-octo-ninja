@@ -2,25 +2,25 @@ set nocompatible "Vundle requires it be first line
 "set viminfo=' . fnamemodify(expand("$MYVIMRC"), ":p:h") . "/.viminfo"
 execute 'set runtimepath^=' . expand('~/dotfiles/vim/.vim')
 execute 'set runtimepath+=' . expand('~/dotfiles/vim')
-filetype off "required by Vundle
+"filetype off "required by Vundle
 " set the runtime path to include Vundle
-set runtimepath+=~/dotfiles/vim/.vim/bundle/Vundle.vim
-if has('win64') || has('win32')
-  call vundle#begin('~/vimfiles/bundle')
-else
-  call vundle#begin('~/.vim/bundle')
-endif
+"set runtimepath+=~/dotfiles/vim/.vim/bundle/Vundle.vim
+"if has('win64') || has('win32')
+"  call vundle#begin('~/vimfiles/bundle')
+"else
+"  call vundle#begin('~/.vim/bundle')
+"endif
 " Keep Plugin commands between vundle#begin/end.
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 
 " The following are examples of different formats supported.
 " plugin on GitHub repo
-Plugin 'endel/vim-github-colorscheme'
+"Plugin 'endel/vim-github-colorscheme'
 
 " All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on "required by Vundle
+"call vundle#end()            " required
+"filetype plugin indent on "required by Vundle
 " To ignore plugin indent changes, instead use:
 "filetype plugin on
 "
@@ -33,7 +33,6 @@ filetype plugin indent on "required by Vundle
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line
 set autoindent    " always set autoindenting on
-set background=dark
 set backspace=indent,eol,start " allow backspacing over everything in insert mode
 set backup "yes, I want to do backups!
 set backupdir-=. " removes the current directory from the backup directory list
@@ -87,12 +86,7 @@ if !exists("autocommands_loaded")
     augroup END
   endif
 endif
-colorscheme github
-" colorscheme emacs
-" colorscheme MickeySoft
-" colorscheme buttercream
-" colorscheme eclipse
-" colorscheme borland
+"let g:base16_shell_path=base16-builder/output/shell/
 
 " CUSTOM FUNCTIONS
 " Pad : string integer -> string
@@ -126,4 +120,21 @@ source ~/.vim_local/vimosconfig.vim
 " :scriptnames
 
 " Enable BClose plugin
+" Do :Kwbd to delete the current buffer but not close the window
 nmap <C-W>! <Plug>Kwbd
+
+" Set the color scheme
+colorscheme space-vim-dark
+hi Comment cterm=italic
+
+"   Range:   233 (darkest) ~ 238 (lightest)
+"   Default: 235
+" let g:space_vim_dark_background = 234
+"
+" colorscheme github
+" colorscheme base16-ocean-mono
+" colorscheme emacs
+" colorscheme MickeySoft
+" colorscheme buttercream
+" colorscheme eclipse
+" colorscheme borland
