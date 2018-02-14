@@ -20,12 +20,18 @@
 $)
 
 # Command Line History (newest to oldest):
+:bp
+|2,0,1518124759,,"bp"
+:sp
+|2,0,1518124693,,"sp"
+:scriptnames
+|2,0,1517860144,,"scriptnames"
+:scripts
+|2,0,1517860120,,"scripts"
 :bd
 |2,0,1517590286,,"bd"
 :w!
 |2,0,1517590219,,"w!"
-:bp
-|2,0,1517590193,,"bp"
 :vsp
 |2,0,1517590089,,"vsp"
 :bd!
@@ -236,8 +242,6 @@ $)
 |2,0,1510352760,,"BClose"
 :Bclose
 |2,0,1510352751,,"Bclose"
-:scriptnames
-|2,0,1510352477,,"scriptnames"
 :source
 |2,0,1510352419,,"source"
 :filename
@@ -488,8 +492,6 @@ $)
 |2,0,1507917134,,"set scrollbind"
 :e f:\2017-10-12_ESP_ORVARS.txt
 |2,0,1507835906,,"e f:\\2017-10-12_ESP_ORVARS.txt"
-:sp
-|2,0,1507835892,,"sp"
 :e f:\2017-10-12_ESP_ESATTAGT.txt
 |2,0,1507835879,,"e f:\\2017-10-12_ESP_ESATTAGT.txt"
 :e F:\2017-10-12_ESP_ALL.txt
@@ -1511,380 +1513,270 @@ $)
 
 # Registers:
 "0	LINE	0
-	Start-Process -FilePath firefox.exe -ArgumentList $argsN
-|3,0,0,1,1,0,1512747730,"Start-Process -FilePath firefox.exe -ArgumentList $argsN"
+	[HKEY_CLASSES_ROOT\CLSID\{51EEE242-AD87-11d3-9C1E-0090278BBD99}]
+	@="Vim Shell Extension"
+|3,0,0,1,2,0,1518124743,"[HKEY_CLASSES_ROOT\\CLSID\\{51EEE242-AD87-11d3-9C1E-0090278BBD99}]","@=\"Vim Shell Extension\""
 ""1	LINE	0
 	
-|3,1,1,1,1,0,1517590214,""
+|3,1,1,1,1,0,1518124817,""
 "2	LINE	0
-	Restart-Computer -Force
-|3,0,2,1,1,0,1517590200,"Restart-Computer -Force"
-"3	LINE	0
 	
-|3,0,3,1,1,0,1517590200,""
+|3,0,2,1,1,0,1518124787,""
+"3	LINE	0
+	"CLSID"="{09a28848-0e97-4cef-b950-cea037161155}"
+|3,0,3,1,1,0,1518124785,"\"CLSID\"=\"{09a28848-0e97-4cef-b950-cea037161155}\""
 "4	LINE	0
-	Set-ExecutionPolicy Unrestricted
-|3,0,4,1,1,0,1517590200,"Set-ExecutionPolicy Unrestricted"
+	[HKEY_CLASSES_ROOT\*\shell\removeproperties\DropTarget]
+|3,0,4,1,1,0,1518124784,"[HKEY_CLASSES_ROOT\\*\\shell\\removeproperties\\DropTarget]"
 "5	LINE	0
-	Nb
-|3,0,5,1,1,0,1512781822,"Nb"
-"6	BLOCK	17
-	TEK027          - 
-	TEK029          - 
-	TEK031          - 
-	TEK032          - 
-	TEK033          - 
-	TEK034          - 
-	TEK036          - 
-	TEK037          - 
-	TEK038          - 
-	TEK039          - 
-	TEK042          - 
-	TEK043          - 
-	TEK045          - 
-	TEK047          - 
-	TEK048          - 
-	TEK056          - 
-	TEK057          - 
-	TEK058          - 
-	TEK060          - 
-	TEK062          - 
-	TEK065          - 
-	TEK068          - 
-	TEK071          - 
-	TEK073          - 
-	TEK074          - 
-	TEK075          - 
-	TEK076          - 
-	TEK077          - 
-	TEK123          - 
-	TEK124          - 
-	TEK510          - 
-	TEK800          - 
-	TEK805          - 
-|3,0,6,2,33,17,1512781640,"TEK027          - ","TEK029          - ","TEK031          - ","TEK032          - ","TEK033          - ","TEK034          - ","TEK036          - ","TEK037          - ","TEK038          - ","TEK039          - ","TEK042          - ","TEK043          - ","TEK045          - ","TEK047          - ","TEK048          - ","TEK056          - ","TEK057          - ","TEK058          - ","TEK060          - ","TEK062          - ",>20
-|<"TEK065          - ","TEK068          - ","TEK071          - ","TEK073          - ","TEK074          - ","TEK075          - ","TEK076          - ","TEK077          - ","TEK123          - ","TEK124          - ","TEK510          - ","TEK800          - ","TEK805          - "
+	
+|3,0,5,1,1,0,1518124784,""
+"6	LINE	0
+	"ProgrammaticAccessOnly"="Apartment"
+|3,0,6,1,1,0,1518124783,"\"ProgrammaticAccessOnly\"=\"Apartment\""
 "7	LINE	0
-	                   - Load PLX
-	                   - Download files from PLX
-	                   - Deleted Styles Alert
-	                   - Purge Item Creation reports
-	                   - Approaching PO Due Dates alerts
-	                   - Auto-Finalized Styles alerts
-	                   - Reload cache
-	                   - Accepted and Finalized Styles alerts
-	                   - Calculate ELC
-	                   - Calculate due-dates
-	                   - Stop app server
-	                   - Start app server
-	                   - Stop transit service
-	                   - Start transit service
-|3,0,7,1,14,0,1512781578,"                   - Load PLX","                   - Download files from PLX","                   - Deleted Styles Alert","                   - Purge Item Creation reports","                   - Approaching PO Due Dates alerts","                   - Auto-Finalized Styles alerts","                   - Reload cache","                   - Accepted and Finalized Styles alerts","                   - Calculate ELC",>42
-|<"                   - Calculate due-dates","                   - Stop app server","                   - Start app server","                   - Stop transit service","                   - Start transit service"
-"8	CHAR	0
-	                   - Load PLX
-	                   - Download files from PLX
-	                   - Deleted Styles Alert
-	                   - Purge Item Creation reports
-	                   - Approaching PO Due Dates alerts
-	                   - Auto-Finalized Styles alerts
-	                   - Reload cache
-	                   - Accepted and Finalized Styles alerts
-	                   - Calculate ELC
-	                   - Calculate due-dates
-	                   - Stop app server
-	                   - Start app server
-	                   - Stop transit service
-	                   - Start transit service
-|3,0,8,0,14,0,1512781573,"                   - Load PLX","                   - Download files from PLX","                   - Deleted Styles Alert","                   - Purge Item Creation reports","                   - Approaching PO Due Dates alerts","                   - Auto-Finalized Styles alerts","                   - Reload cache","                   - Accepted and Finalized Styles alerts","                   - Calculate ELC",>42
-|<"                   - Calculate due-dates","                   - Stop app server","                   - Start app server","                   - Stop transit service","                   - Start transit service"
-"9	CHAR	0
-	Sceduled Nbr of jobs, Nbr procs - Desc
-	         CK 6, 0
-	ALLTWO   CKK005          - Purge Cumulus web server temp directory
-	ALLTWO   CKK100          - Start Cumulus app server
-	ALLTWO   CKK101          - Stop Cumulus app server
-	ALLTWO   CKK102          - Start Cumulus web server
-	ALLTWO   CKK103          - Stop Cumulus web server
-	ALLTWO   CKK104          - Email to Necool the size of collections.xml
-	         
-	         FP 29, 0
-	ALLTWO   FPK001          - Clear MOAlock table 
-	ALL      FPK005          - Colorway extract in Informatica 
-	ALL      FPK006          - Product extract in Informatica, archive extracts
-	ALL      FPK007          - Supplier extract in Informatica
-	ALL      FPK008          - Transfer Daily files from Informatica to PLM server
-	ALL      FPK010          - SKU_PO extract
-	ALL      FPK011          - DC_DATE extract
-	ALL      FPK012          - Upload the extract data
-	ALL      FPK013          - Agent extract
-	ALL      FPK014          - Brand extract
-	ALL      FPK015          - Department extract
-	ALL      FPK016          - Factory extract
-	REQUEST2 FPK017          - PM extract
-	ALL      FPK018          - Season extract
-	ALL      FPK026          - Create Product, Colorway and SKU_PO files
-	ALL      FPK027          - Transfer files from FP batch server to WindChill server
-	ALL      FPK028          - Create DC_DATE file
-	ALL      FPK029          - Transfer files from FP batch server to WindChill server
-	ALL      FPK030          - Transfer files from TE batch server to FP batch server
-	ALL      FPK031          - Transfer files from the RMS batch server to the FP batch server
-	ALLTWO   FPK106          - Start web server
-	ALLTWO   FPK107          - Start WindChill directory server
-	ALLTWO   FPK108          - Start WindChill server manager and Method servers
-	ALLTWO   FPK109          - Stop WindChill server manager and Method servers 
-	ALLTWO   FPK110          - Stop WindChill directory server
-	ALLTWO   FPK111          - Stop web server
-	ALLTWO   FPK112          - Stop Apache process
-	ALLTWO   FPK113          - Start Apache process
-	ALLTWO   FPK505          - FP extract for Vendor Scorecard
-	         
-	         PB 17, 3
-	         PBK010 PBK0101  - Li and Fung Exttract
-	         PBK020 PBK0201  - Product Development Load
-	         PBK035 PBK0351  - Item Creation report
-	         PBK005          - Load PLX
-	         PBK025          - Download files from PLX
-	         PBK030          - Deleted Styles Alert
-	         PBK031          - Purge Item Creation reports
-	         PBK040          - Approaching PO Due Dates alerts
-	         PBK041          - Auto-Finalized Styles alerts
-|3,0,9,0,50,0,1512781331,"Sceduled Nbr of jobs, Nbr procs - Desc","         CK 6, 0","ALLTWO   CKK005          - Purge Cumulus web server temp directory","ALLTWO   CKK100          - Start Cumulus app server","ALLTWO   CKK101          - Stop Cumulus app server","ALLTWO   CKK102          - Start Cumulus web server","ALLTWO   CKK103          - Stop Cumulus web server","ALLTWO   CKK104          - Email to Necool the size of collections.xml","         ",>19
-|<"         FP 29, 0","ALLTWO   FPK001          - Clear MOAlock table ","ALL      FPK005          - Colorway extract in Informatica ","ALL      FPK006          - Product extract in Informatica, archive extracts","ALL      FPK007          - Supplier extract in Informatica","ALL      FPK008          - Transfer Daily files from Informatica to PLM server","ALL      FPK010          - SKU_PO extract","ALL      FPK011          - DC_DATE extract",>52
-|<"ALL      FPK012          - Upload the extract data","ALL      FPK013          - Agent extract","ALL      FPK014          - Brand extract","ALL      FPK015          - Department extract","ALL      FPK016          - Factory extract","REQUEST2 FPK017          - PM extract","ALL      FPK018          - Season extract","ALL      FPK026          - Create Product, Colorway and SKU_PO files","ALL      FPK027          - Transfer files from FP batch server to WindChill server",>48
-|<"ALL      FPK028          - Create DC_DATE file","ALL      FPK029          - Transfer files from FP batch server to WindChill server","ALL      FPK030          - Transfer files from TE batch server to FP batch server","ALL      FPK031          - Transfer files from the RMS batch server to the FP batch server","ALLTWO   FPK106          - Start web server","ALLTWO   FPK107          - Start WindChill directory server",>78
-|<"ALLTWO   FPK108          - Start WindChill server manager and Method servers","ALLTWO   FPK109          - Stop WindChill server manager and Method servers ","ALLTWO   FPK110          - Stop WindChill directory server","ALLTWO   FPK111          - Stop web server","ALLTWO   FPK112          - Stop Apache process","ALLTWO   FPK113          - Start Apache process","ALLTWO   FPK505          - FP extract for Vendor Scorecard","         ","         PB 17, 3",>49
-|<"         PBK010 PBK0101  - Li and Fung Exttract","         PBK020 PBK0201  - Product Development Load","         PBK035 PBK0351  - Item Creation report","         PBK005          - Load PLX","         PBK025          - Download files from PLX","         PBK030          - Deleted Styles Alert","         PBK031          - Purge Item Creation reports","         PBK040          - Approaching PO Due Dates alerts","         PBK041          - Auto-Finalized Styles alerts"
+	[HKEY_CLASSES_ROOT\*\shell\removeproperties]
+|3,0,7,1,1,0,1518124779,"[HKEY_CLASSES_ROOT\\*\\shell\\removeproperties]"
+"8	LINE	0
+	
+|3,0,8,1,1,0,1518124778,""
+"9	LINE	0
+	@="C:\\Users\\tkma608\\scoop\\apps\\emacs\\current\\bin\\emacsclientw.exe -n \"%1\""
+|3,0,9,1,1,0,1518124778,"@=\"C:\\\\Users\\\\tkma608\\\\scoop\\\\apps\\\\emacs\\\\current\\\\bin\\\\emacsclientw.exe -n \\\"%1\\\"\""
 "-	CHAR	0
-	s
-|3,0,36,0,1,0,1517590209,"s"
+	\
+|3,0,36,0,1,0,1518124799,"\\"
 
 # File marks:
-'0  1  0  ~\documents\scratch.txt
-|4,48,1,0,1517613180,"~\\documents\\scratch.txt"
-'1  1  0  C:\Temp\7zO5818.tmp\MANIFEST.MF
-|4,49,1,0,1512748445,"C:\\Temp\\7zO5818.tmp\\MANIFEST.MF"
-'2  1  1  C:\Scripts\StartFirefox.ps1
-|4,50,1,1,1512747975,"C:\\Scripts\\StartFirefox.ps1"
-'3  490  25  C:\Temp\production.pac
-|4,51,490,25,1512597999,"C:\\Temp\\production.pac"
-'4  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,52,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
-'5  1  0  F:\2017-08-24_environment-variables.txt
-|4,53,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
-'6  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,54,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
-'7  1  0  F:\2017-12-04_PGK0051-sample-output_1.sql
-|4,55,1,0,1512415366,"F:\\2017-12-04_PGK0051-sample-output_1.sql"
-'8  13  1  ~\Downloads\proposed production code (untested) PGKRX001 (1).rexx
-|4,56,13,1,1512174215,"~\\Downloads\\proposed production code (untested) PGKRX001 (1).rexx"
-'9  58  0  ~\Downloads\proposed production code (untested) PGK0051.jcl
-|4,57,58,0,1512174192,"~\\Downloads\\proposed production code (untested) PGK0051.jcl"
+'0  1  0  ~\scoop\apps\scoop\current\bin\scoop.ps1
+|4,48,1,0,1518642348,"~\\scoop\\apps\\scoop\\current\\bin\\scoop.ps1"
+'1  1  0  ~\documents\scratch.txt
+|4,49,1,0,1518640719,"~\\documents\\scratch.txt"
+'2  1  0  ~\documents\scratch.txt
+|4,50,1,0,1518640719,"~\\documents\\scratch.txt"
+'3  1  0  ~\documents\scratch.txt
+|4,51,1,0,1518626347,"~\\documents\\scratch.txt"
+'4  1  0  ~\documents\scratch.txt
+|4,52,1,0,1518626347,"~\\documents\\scratch.txt"
+'5  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,53,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+'6  1  0  ~\documents\scratch.txt
+|4,54,1,0,1518032641,"~\\documents\\scratch.txt"
+'7  1  0  ~\documents\scratch.txt
+|4,55,1,0,1518032641,"~\\documents\\scratch.txt"
+'8  1  0  ~\documents\scratch.txt
+|4,56,1,0,1518032641,"~\\documents\\scratch.txt"
+'9  1  0  ~\documents\scratch.txt
+|4,57,1,0,1518032641,"~\\documents\\scratch.txt"
 
 # Jumplist (newest first):
+-'  1  0  ~\scoop\apps\scoop\current\bin\scoop.ps1
+|4,39,1,0,1518642348,"~\\scoop\\apps\\scoop\\current\\bin\\scoop.ps1"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1518642156,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1518640719,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1518626347,"~\\documents\\scratch.txt"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  17  27  F:\2018-02-08_open-with-gvim.reg
+|4,39,17,27,1518190358,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  16  3  F:\2018-02-08_open-with-gvim.reg
+|4,39,16,3,1518124815,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\2018-02-08_open-with-gvim.reg
+|4,39,1,0,1518124685,"F:\\2018-02-08_open-with-gvim.reg"
+-'  1  0  F:\vim5.reg
+|4,39,1,0,1518124685,"F:\\vim5.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim4.reg
+|4,39,1,0,1518124677,"F:\\vim4.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  1  0  F:\vim3.reg
+|4,39,1,0,1518124673,"F:\\vim3.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  5  0  F:\vim2.reg
+|4,39,5,0,1518124670,"F:\\vim2.reg"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\vim2.reg
+|4,39,1,0,1518124644,"F:\\vim2.reg"
+-'  146  22  F:\2018-02-05_envars.txt
+|4,39,146,22,1518124644,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  F:\2018-02-05_envars.txt
+|4,39,1,0,1518124052,"F:\\2018-02-05_envars.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1518032641,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1518032641,"~\\documents\\scratch.txt"
+-'  1  0  ~\documents\scratch.txt
+|4,39,1,0,1517613180,"~\\documents\\scratch.txt"
 -'  1  0  ~\documents\scratch.txt
 |4,39,1,0,1517613180,"~\\documents\\scratch.txt"
 -'  3  5  C:\Scripts\RestartSpark.ps1
 |4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
--'  1  0  C:\Scripts\RestartSpark.ps1
-|4,39,1,0,1517590242,"C:\\Scripts\\RestartSpark.ps1"
--'  3  5  C:\Scripts\RestartSpacemacs.ps1
-|4,39,3,5,1517590230,"C:\\Scripts\\RestartSpacemacs.ps1"
--'  3  0  C:\Scripts\Restart.ps1
-|4,39,3,0,1517590223,"C:\\Scripts\\Restart.ps1"
--'  4  0  C:\Scripts\Restart.ps1
-|4,39,4,0,1517590198,"C:\\Scripts\\Restart.ps1"
--'  1  0  C:\Scripts\RestartSpacemacs.ps1
-|4,39,1,0,1517590190,"C:\\Scripts\\RestartSpacemacs.ps1"
--'  1  18  C:\Scripts\Restart.ps1
-|4,39,1,18,1517590151,"C:\\Scripts\\Restart.ps1"
--'  3  0  C:\Scripts\RestartComputer.ps1
-|4,39,3,0,1517590085,"C:\\Scripts\\RestartComputer.ps1"
--'  1  0  ~\Downloads\TS@W.csv
-|4,39,1,0,1517531232,"~\\Downloads\\TS@W.csv"
--'  7  0  ~\Downloads\TS@W.csv
-|4,39,7,0,1517528530,"~\\Downloads\\TS@W.csv"
--'  1  0  C:\Temp\7zO5818.tmp\MANIFEST.MF
-|4,39,1,0,1512748445,"C:\\Temp\\7zO5818.tmp\\MANIFEST.MF"
--'  1  0  C:\Temp\7zO5818.tmp\MANIFEST.MF
-|4,39,1,0,1512748445,"C:\\Temp\\7zO5818.tmp\\MANIFEST.MF"
--'  1  1  C:\Scripts\StartFirefox.ps1
-|4,39,1,1,1512747975,"C:\\Scripts\\StartFirefox.ps1"
--'  1  1  C:\Scripts\StartFirefox.ps1
-|4,39,1,1,1512747975,"C:\\Scripts\\StartFirefox.ps1"
--'  3  24  C:\Scripts\StartFirefox.ps1
-|4,39,3,24,1512747725,"C:\\Scripts\\StartFirefox.ps1"
--'  3  24  C:\Scripts\StartFirefox.ps1
-|4,39,3,24,1512747725,"C:\\Scripts\\StartFirefox.ps1"
--'  2  0  C:\Scripts\StartFirefox.ps1
-|4,39,2,0,1512747699,"C:\\Scripts\\StartFirefox.ps1"
--'  2  0  C:\Scripts\StartFirefox.ps1
-|4,39,2,0,1512747699,"C:\\Scripts\\StartFirefox.ps1"
--'  4  0  C:\Scripts\restartfirefox.ps1
-|4,39,4,0,1512747621,"C:\\Scripts\\restartfirefox.ps1"
--'  4  0  C:\Scripts\restartfirefox.ps1
-|4,39,4,0,1512747621,"C:\\Scripts\\restartfirefox.ps1"
--'  9  17  ~\dotfiles\vim\.gvimrc
-|4,39,9,17,1512747600,"~\\dotfiles\\vim\\.gvimrc"
--'  9  17  ~\dotfiles\vim\.gvimrc
-|4,39,9,17,1512747600,"~\\dotfiles\\vim\\.gvimrc"
--'  3  5  C:\Scripts\stopfirefox.ps1
-|4,39,3,5,1512747290,"C:\\Scripts\\stopfirefox.ps1"
--'  3  5  C:\Scripts\stopfirefox.ps1
-|4,39,3,5,1512747290,"C:\\Scripts\\stopfirefox.ps1"
--'  1  0  C:\Scripts\stopfirefox.ps1
-|4,39,1,0,1512746961,"C:\\Scripts\\stopfirefox.ps1"
--'  1  0  C:\Scripts\stopfirefox.ps1
-|4,39,1,0,1512746961,"C:\\Scripts\\stopfirefox.ps1"
--'  1  0  C:\Scripts\restartfirefox.ps1
-|4,39,1,0,1512746904,"C:\\Scripts\\restartfirefox.ps1"
--'  1  0  C:\Scripts\restartfirefox.ps1
-|4,39,1,0,1512746904,"C:\\Scripts\\restartfirefox.ps1"
--'  1  27  ~\documents\scratch.txt
-|4,39,1,27,1512746901,"~\\documents\\scratch.txt"
--'  490  25  C:\Temp\production.pac
-|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
--'  490  25  C:\Temp\production.pac
-|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
--'  490  25  C:\Temp\production.pac
-|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
--'  490  25  C:\Temp\production.pac
-|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
--'  490  25  C:\Temp\production.pac
-|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
--'  490  25  C:\Temp\production.pac
-|4,39,490,25,1512597999,"C:\\Temp\\production.pac"
--'  1  0  C:\Temp\production.pac
-|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
--'  1  0  C:\Temp\production.pac
-|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
--'  1  0  C:\Temp\production.pac
-|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
--'  1  0  C:\Temp\production.pac
-|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
--'  1  0  C:\Temp\production.pac
-|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
--'  1  0  C:\Temp\production.pac
-|4,39,1,0,1512597890,"C:\\Temp\\production.pac"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-09-18_Processes_only_after-Build9-error.txt
-|4,39,1,0,1512428175,"F:\\2017-09-18_Processes_only_after-Build9-error.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_environment-variables.txt
-|4,39,1,0,1512427779,"F:\\2017-08-24_environment-variables.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
--'  1  0  F:\2017-08-24_system_path-environment-variable.txt
-|4,39,1,0,1512427777,"F:\\2017-08-24_system_path-environment-variable.txt"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
+-'  3  5  C:\Scripts\RestartSpark.ps1
+|4,39,3,5,1517590286,"C:\\Scripts\\RestartSpark.ps1"
 
 # History of marks within files (newest to oldest):
 
+> ~\scoop\apps\scoop\current\bin\scoop.ps1
+	*	1518642337	0
+	"	1	0
+
 > ~\documents\scratch.txt
-	*	1517601627	0
+	*	1518642149	0
 	"	1	0
 	^	1	495
 	.	2	0
@@ -1980,6 +1872,41 @@ $)
 	+	1	0
 	+	2	0
 	a	1	0
+
+> F:\2018-02-08_open-with-gvim.reg
+	*	1518190353	0
+	"	17	27
+	^	16	4
+	.	10	5
+	+	15	0
+	+	11	0
+	+	12	0
+	+	11	0
+	+	16	0
+	+	11	0
+	+	10	5
+
+> F:\vim3.reg
+	*	1518124759	0
+	"	1	0
+
+> F:\vim4.reg
+	*	1518124756	0
+	"	9	0
+
+> F:\vim5.reg
+	*	1518124733	0
+	"	3	0
+	.	3	0
+	+	3	0
+
+> F:\vim2.reg
+	*	1518124670	0
+	"	5	0
+
+> F:\2018-02-05_envars.txt
+	*	1518124644	0
+	"	146	22
 
 > C:\Scripts\RestartSpark.ps1
 	*	1517590284	0
@@ -3003,45 +2930,3 @@ $)
 	^	1	47
 	.	1	46
 	+	1	46
-
-> f:\2017-10-23_impacted_hosts.txt
-	*	1508797482	0
-	"	79	7
-
-> C:\Scripts\ayehu 0.cmd
-	*	1508449154	0
-	"	2	33
-	^	2	33
-	.	2	32
-	+	2	32
-
-> F:\Vim-master\Vim-master\README
-	*	1508246484	0
-	"	4	5
-
-> c:\scripts\ayehu 3.cmd
-	*	1507936024	0
-	"	2	32
-	^	2	33
-	.	2	32
-	+	2	32
-
-> F:\HO_bindings.txt
-	*	1507936023	0
-	"	80	0
-	.	1	0
-	+	22	0
-	+	626	0
-	+	22	0
-	+	1	0
-
-> F:\sesi006.txt
-	*	1507936021	0
-	"	3	8
-
-> c:\scripts\ayehu 2.cmd
-	*	1507933462	0
-	"	2	32
-	^	2	33
-	.	2	32
-	+	2	32
